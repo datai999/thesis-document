@@ -1,0 +1,9 @@
+- Phương thức làm việc: Drive
+- Tài liệu nhận:
+	+ File đề tài (Sakai)
+	+ File sheet kiểu gantt chart mô tả lịch trình làm việc
+	+ File tiêu chí chấm điểm
+- Công việc sắp tới: 
+	+ Tìm hiểu nghiệp vụ
+	+ Soạn mô tả chi tiết nghiệp vụ
+	+ Thiết kế ERD + UseCase

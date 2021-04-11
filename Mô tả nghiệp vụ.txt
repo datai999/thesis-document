@@ -1,0 +1,31 @@
+
+Hệ thống đánh giá luận văn tốt nghiệp.
+
+Gồm hai giai đoạn:
+	- Đề cương luận văn (tập trung phần này trước)
+	- Luận văn tốt nghiệp
+
+Đối tượng sử dụng: Giáo vụ, Giáo viên, (Sinh viên)
+
+Giáo vụ:
+	- Tạo đề tài (thông tin lấy từ giáo viên và sinh viên)
+	- Gán nhóm sinh viên thực hiện đề tài (1 hoặc nhiều)
+	- Gán giáo viên hướng dẫn (1 hoặc nhiều)
+	- Gán giáo viên phản biện (1)
+	- Tạo hội đồng
+	- Gán hội đồng
+
+Giáo viên:
+	- Đăng ký đề tài
+	- Chấm điểm giữa kỳ từng SV (tạm thời bỏ qua)
+	- Chấm điểm cuối kỳ từng SV
+
+Giáo viên phản biện:
+	- Chấm điểm từng SV
+
+Hội đồng: là 1 nhóm các giáo viên
+
+Tiêu chí:
+	- Dùng để chấm điểm
+	- Đi theo nhóm và thang điểm khác nhau
+	- Có bình luận khi cho điểm
