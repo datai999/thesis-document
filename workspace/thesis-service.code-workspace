@@ -12,7 +12,18 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     },
-    "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
-    "terminal.integrated.cwd": "..\\..\\thesis-service"
+    "terminal.integrated.cwd": "..\\..\\thesis-service",
+    "java.format.settings.url": "file:/eclipse-google-style-2021.xml"
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+      }
+    ]
   }
 }
