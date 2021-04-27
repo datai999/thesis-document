@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\..\\thesis-service"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
+    "terminal.integrated.cwd": "..\\..\\thesis-service"
+  }
+}
