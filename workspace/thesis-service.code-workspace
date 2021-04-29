@@ -14,7 +14,16 @@
     },
     "terminal.integrated.cwd": "..\\..\\thesis-service",
     "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "rest-client.environmentVariables": {
+      "$shared": {},
+      "local": {
+        "host": "localhost",
+        "http": "http",
+        "base-url": "/api",
+        "port": ":8080"
+      }
+    }
   },
   "launch": {
     "version": "0.2.0",
