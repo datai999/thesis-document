@@ -23,7 +23,12 @@
         "base-url": "/api",
         "port": ":8080"
       }
-    }
+    },
+    "cSpell.words": [
+      "Autowired",
+      "configurer",
+      "servlet"
+    ]
   },
   "launch": {
     "version": "0.2.0",
