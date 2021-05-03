@@ -21,7 +21,7 @@
         "host": "localhost",
         "http": "http",
         "base-url": "/api",
-        "port": ":8080"
+        "port": "8080"
       }
     },
     "cSpell.words": [
