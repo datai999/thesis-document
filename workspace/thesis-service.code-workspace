@@ -4,7 +4,7 @@
       "path": "."
     },
     {
-      "path": "..\\..\\thesis-service"
+      "path": "../../thesis-service"
     }
   ],
   "settings": {
@@ -12,7 +12,10 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     },
-    "terminal.integrated.cwd": "..\\..\\thesis-service",
+    "files.autoSave": "onWindowChange",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "terminal.integrated.cwd": "D:/lv/code/thesis-service",
     "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
     "java.configuration.updateBuildConfiguration": "automatic",
     "rest-client.environmentVariables": {
@@ -24,12 +27,7 @@
         "port": "8080"
       }
     },
-    "cSpell.words": [
-      "Autowired",
-      "configurer",
-      "ilike",
-      "servlet"
-    ]
+    "cSpell.words": ["Autowired", "configurer", "ilike", "servlet"]
   },
   "launch": {
     "version": "0.2.0",

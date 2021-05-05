@@ -12,6 +12,9 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     },
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
     "terminal.integrated.cwd": "D:/lv/code/thesis",
     "cSpell.words": ["hcmut", "predeploy"]
   }
