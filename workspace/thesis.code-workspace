@@ -5,6 +5,9 @@
     },
     {
       "path": "../../thesis"
+    },
+    {
+      "path": "../../thesis/src"
     }
   ],
   "settings": {
