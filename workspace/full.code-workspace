@@ -36,7 +36,14 @@
         "port": "8080"
       }
     },
-    "cSpell.words": ["autowired", "configurer", "hcmut", "predeploy", "servlet"]
+    "cSpell.words": [
+      "autowired",
+      "configurer",
+      "hcmut",
+      "ilike",
+      "predeploy",
+      "servlet"
+    ]
   },
   "launch": {
     "version": "0.2.0",
