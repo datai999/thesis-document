@@ -4,7 +4,16 @@
       "path": "."
     },
     {
-      "path": "..\\.."
+      "path": "../../thesis"
+    },
+    {
+      "path": "../../thesis-service"
+    },
+    {
+      "path": "../../thesis/src"
+    },
+    {
+      "path": "../../thesis-service/src/main/java/com/thesis/service"
     }
   ],
   "settings": {
@@ -12,8 +21,32 @@
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     },
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "terminal.integrated.cwd": "D:/lv/code/thesis",
     "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
-    "terminal.integrated.cwd": "..\\..\\",
-    "cSpell.words": ["hcmut", "predeploy"]
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "rest-client.environmentVariables": {
+      "$shared": {},
+      "local": {
+        "host": "localhost",
+        "http": "http",
+        "base-url": "/api",
+        "port": "8080"
+      }
+    },
+    "cSpell.words": ["autowired", "hcmut", "predeploy"]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+      }
+    ]
   }
 }
