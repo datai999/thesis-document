@@ -24,6 +24,9 @@
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "terminal.integrated.cwd": "D:/lv/code/thesis",
     "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
     "java.configuration.updateBuildConfiguration": "automatic",
@@ -39,6 +42,7 @@
     "cSpell.words": [
       "autowired",
       "configurer",
+      "esbenp",
       "hcmut",
       "ilike",
       "predeploy",
