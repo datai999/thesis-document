@@ -54,9 +54,10 @@
     "configurations": [
       {
         "type": "java",
-        "name": "Debug (Launch) - Current File",
+        "name": "Launch ThesisApplication",
         "request": "launch",
-        "mainClass": "${file}"
+        "mainClass": "com.thesis.service.ThesisApplication",
+        "projectName": "thesis-service"
       }
     ]
   }
