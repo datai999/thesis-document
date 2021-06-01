@@ -27,7 +27,7 @@
     "[json]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "terminal.integrated.cwd": "D:/lv/code/thesis",
+    "terminal.integrated.cwd": "${workspaceFolder}/../../thesis",
     "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
     "java.configuration.updateBuildConfiguration": "automatic",
     "rest-client.environmentVariables": {
