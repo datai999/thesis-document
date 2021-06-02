@@ -24,7 +24,6 @@
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
     "terminal.integrated.cwd": "${workspaceFolder}/../../thesis",
     "java.format.settings.url": "file:/eclipse-google-style-2021.xml",
