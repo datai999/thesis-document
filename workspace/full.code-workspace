@@ -4,6 +4,9 @@
       "path": "."
     },
     {
+      "path": "../../thesis-document"
+    },
+    {
       "path": "../../thesis"
     },
     {
@@ -35,7 +38,7 @@
         "base-url": "/api",
         "port": ":8080"
       },
-      "heroku":{
+      "heroku": {
         "host": "datai-thesis.herokuapp.com/",
         "http": "http://",
         "base-url": "/api",
