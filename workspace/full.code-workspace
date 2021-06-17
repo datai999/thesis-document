@@ -4,19 +4,13 @@
       "path": "."
     },
     {
-      "path": "../../thesis-document"
-    },
-    {
       "path": "../../thesis"
     },
     {
       "path": "../../thesis-service"
     },
     {
-      "path": "../../thesis/src"
-    },
-    {
-      "path": "../../thesis-service/src/main/java/com/thesis/service"
+      "path": "../../thesis-document.wiki"
     }
   ],
   "settings": {
