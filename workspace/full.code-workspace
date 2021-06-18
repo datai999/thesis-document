@@ -14,14 +14,14 @@
     },
     {
       "path": "../../thesis-document.wiki"
-    },
+    }
   ],
   "settings": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
     },
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "terminal.integrated.cwd": "${workspaceFolder}/../../thesis",

@@ -13,12 +13,11 @@ https://datai999.github.io/thesis/
 ## Support
 
 - Email tai.nguyen.cse@hcmut.edu.vn
-- Facebook https://www.facebook.com/datai99
 
 ## Tech Stack
 
-- FE: React, Expo, Kitten-UI
-- BE: Java, Spring-boot, Hibernate, Heroku
+- FE: React, Expo, Kitten-UI, React Native Paper
+- BE: Java, Spring-boot, Hibernate, Firebase, Heroku, PostgreSql
 
 ## Link repository
 
