@@ -19,6 +19,6 @@ https://www.codeinwp.com/blog/angular-vs-vue-vs-react/
 
 https://vn.got-it.ai/blog/top-7-ngon-ngu-lap-trinh-backend-pho-bien-nhat
 
-https://niithanoi.edu.vn/web-frame-work-tot-nhat.html
+https://niithanoi.edu.vn/web-framework-tot-nhat.html
 
 !export[/report/src/export/export.md]

@@ -547,7 +547,7 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 </p>
 
 <center>
-  <img width="100" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
+  <img width="80" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
   <p>Hình 3.5.1.a Logo Java</p>
 </center>
 
@@ -565,9 +565,17 @@ Có thể nói, Spring boot là bản rút gọn của Spring
 </p>
 
 <center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/springboot.png?raw=true">
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/springboot.png?raw=true">
   <p>Hình 3.5.1.b Logo Spring-boot</p>
 </center>
+
+Ưu điểm:
+
+- Tạo các ứng dụng Spring độc lập
+- Khả năng mở rộng cao
+- Tài liệu tuyệt vời
+- Được xây dựng cho các ứng dụng quy mô lớn sử dụng cách tiếp cận đám mây
+- Hệ sinh thái mở rộng
 
 <div style="page-break-after: always;"></div>
 
@@ -590,17 +598,17 @@ ASP.Net được phát hành lần đầu tiên vào năm 2002.
 Các ứng dụng ASP.Net cũng có thể được viết bằng nhiều ngôn ngữ .Net. Chúng bao gồm C#, VB.Net và J#.
 </p>
 
-Tính năng chính:
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dotnet.png?raw=true">
+  <p>Hình 3.5.2.b Logo ASP .NET</p>
+</center>
+
+Ưu điểm:
 
 - Chạy mượt và ổn định cao hơn các ngôn ngữ khác.
 - Tốc độ tải trang được tối ưu.
 - Dễ dàng tùy chỉnh để tương thích với công nghệ mới.
 - Độ bảo mật cao do kế thừa từ Java.
-
-<center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dotnet.png?raw=true">
-  <p>Hình 3.5.2.b Logo ASP .NET</p>
-</center>
 
 <div style="page-break-after: always;"></div>
 
@@ -625,17 +633,17 @@ Do đó, ít phải cài các plugin của bên thứ ba và yên tâm khi mọi
 Vì vậy Django rất phù hợp với các ứng dụng lớn và không nền sử dụng với ứng dụng nhỏ.
 </p>
 
-Tính năng chính:
+<center>
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
+  <p>Hình 3.5.3.b Logo Django</p>
+</center>
+
+Ưu điểm:
 
 - Khả năng tùy biến cao
 - Không cần làm từ đầu, tốc độ phát triển nhanh
 - Có thể mở rộng
 - Cộng đồng lớn và tài liệu nhiều
-
-<center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
-  <p>Hình 3.5.3.b Logo Django</p>
-</center>
 
 <div style="page-break-after: always;"></div>
 
@@ -665,17 +673,54 @@ Nó cung cấp một layer mỏng của các tính năng ứng dụng web cơ b�
 Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ giúp của các phương thức HTTP khác nhau và các phần mềm trung gian có sẵn.
 </p>
 
-Tính năng chính của Express:
+<center>
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
+  <p>Hình 3.5.4.b Logo JavaScript</p>
+</center>
+
+Ưu điểm:
 
 - API định tuyến tốt
 - Tối giản
 - Thiết lập rất dễ dàng và nó đơn giản để học
 - Số lượng lớn các plugin có sẵn để sử dụng
 
-<center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
-  <p>Hình 3.5.4.b Logo JavaScript</p>
-</center>
+<div style="page-break-after: always;"></div>
+
+### **3.5.5 Lựa chọn ngôn ngữ lập trình và frame-work back-end**
+
+<p style='text-align: justify;'>
+&emsp;
+Chúng ta có thể thấy Python là một ngôn ngữ rất dễ học, dễ sử dụng, có cú pháp đơn giản, cộng đồng hỗ trợ lớn, nhiều công cụ và công nghệ hỗ trợ.
+Đây cũng là ngôn ngữ mà được rất nhiều người yêu thích, tuy nhiên Python lại có những hạn chế như tốc độ khá chậm, chạy đơn luồng, 
+vì vậy sẽ không thể đáp ứng được khi ứng dụng càng ngày càng có nhiều kết nối.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+NodeJS có đặc điểm là tốc độ rất nhanh, xử lý nhiều kết nối tốt, dễ dàng mở rộng để phát triển.
+Tuy nhiên NodeJS gây hao tốn tài nguyên và thời gian.
+NodeJS còn non trẻ, giữa các version có sự thay đổi rất lớn.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Không có Visual Studio thì khó có thể viết code.
+ASP.NET có phí sử dụng khá cao, không phù hợp sử dụng cho các doanh nghiệp nhỏ hay các cá nhân.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Java là một ngôn ngữ mạnh, linh hoạt, bảo mật cao, viết một lần thực thi khắp nơi,
+lập trình đa luồng tốt có thể đáp ứng những hệ thống cần tốc độ cao.
+Hệ thống viết bằng Java có kiến trúc thiết kế tốt thì dễ mở rộng, có tính hướng đối tượng đầy đủ phù hợp với các nghiệp vụ phức tạp.
+Lịch sử dày dặn giúp Java có cộng đồng hỗ trợ mạnh mẽ về các tài nguyên có sẵn và tài liệu đầy đủ.
+Lập trình viên Java dễ tìm, dễ dàng kế thừa hệ thống.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;Vậy nhóm quyết chọn Java cùng với Spring-boot frame-work để sử dụng trong dự án này.
+</p>
 
 <div style="page-break-after: always;"></div>
 

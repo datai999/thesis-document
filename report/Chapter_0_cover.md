@@ -117,6 +117,7 @@ qua ba giai đoạn, cụ thể như sau :
     - 3.5.2 [C# và ASP .NET](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#352-c-và-asp-net) [27]
     - 3.5.3 [Python và Django](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#353-python-và-django) [28]
     - 3.5.4 [JavaScript và ExpressJS](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#354-javascript-và-expressjs) [29]
+    - 3.5.5 [Lựa chọn ngôn ngữ lập trình và frame-work](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#355-lựa-chọn-ngôn-ngữ-lập-trình-và-frame-work-back-end) [30]
 
 - 3. Thiết kế hệ thống:
 
