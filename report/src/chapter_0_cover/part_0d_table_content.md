@@ -13,7 +13,7 @@
   - 2.1 [Phân chia người dùng](https://github.com/datai999/thesis-document/blob/main/report/Chapter_2_requirement.md#21-phân-chia-người-dùng) [9]
   - 2.2 [Tính năng của hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_2_requirement.md#22-tính-năng-của-hệ-thống) [9]
 
-- 3 [Cơ sở lý thuyết](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#3-cơ-sở-lý-thuyết) [10]
+- 3 [Lựa chọn công nghệ](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#3-lựa-chọn-công-nghệ) [10]
 
   - 3.1 [Các loại ứng dụng](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#31-các-loại-ứng-dụng) [11]:
     - 3.1.1 [Web App và Web-base App](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#311-web-app-và-web-base-app) [11]

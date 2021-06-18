@@ -1,4 +1,4 @@
-# **3. Cơ sở lý thuyết**
+# **3. Lựa chọn công nghệ**
 
 <div style="page-break-after: always;"></div>
 

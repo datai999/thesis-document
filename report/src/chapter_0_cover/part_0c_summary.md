@@ -22,7 +22,7 @@ qua ba giai đoạn, cụ thể như sau :
 
 - **Chương 1:** Tổng quan giới thiệu đề tài
 - **Chương 2:** Phân tích yêu cầu đề tài
-- **Chương 3:** Cơ sở lý thuyết
+- **Chương 3:** Lựa chọn công nghệ
 - **Chương 4:** So sánh lựa chọn công nghệ
 - **Chương 5:** Thiết kế hệ thống
 - **Chương 6:** Thử nghiệm công nghệ
