@@ -195,7 +195,7 @@ Chúng sẽ được biên dịch sang các phiên bản khác để phù hợp 
 
 Nhược điểm:
 
-- Nhiều vấn đề phát sinh từ framework khi phải biên dịch chuyển đổi giữa các ngôn ngữ.
+- Nhiều vấn đề phát sinh từ frame-work khi phải biên dịch chuyển đổi giữa các ngôn ngữ.
 
 Nên dùng khi:
 
@@ -393,7 +393,7 @@ Dart là một ngôn ngữ lập trình đa mục đích của Google có thể 
 
 Nhược điểm:
 
-- Ít sự lựa chọn framework, library hơn JavaScript.
+- Ít sự lựa chọn frame-work, library hơn JavaScript.
 - Dù đã release 1.0 chính thức, tuy nhiên còn khá mới. Một số plugin rất quan trọng như Google Map vẫn còn đang phát triển.
 - Google đã có thời gian "bỏ con giữa chợ" khi Flutter chưa có sự ảnh hưởng nhất định.
 
@@ -403,7 +403,7 @@ Nhược điểm:
 Nhóm quyết địnnh lựa chọn JavaScript với những lý do sau:
 
 - Đội ngũ phát triển không có kinh nghiệm với TypeScript.
-- JavaScript có framework Expo (React Native) có thể làm Web UI, Cross Platform App giống Flutter.
+- JavaScript có frame-work Expo (React Native) có thể làm Web UI, Cross Platform App giống Flutter.
 - Cộng đồng hỗ trợ lâu đời và mạnh mẽ.
 - Thị trường nhiều lập trình viên JavaScript hơn, dễ kế thừa và phát triển về sau.
 
@@ -427,7 +427,7 @@ React là một thư viện JavaScript, được Facebook ra mắt từ năm 201
 
 - Dễ học, nhờ thiết kế đơn giản, sử dụng JSX (một cú pháp giống như HTML) để tạo khuôn mẫu.Tài liệu hướng dẫn của Facebook rất chi tiết.
 - Tốc độ ứng dụng vô cùng ấn tượng. Tất cả là nhờ kỹ thuật DOM ảo của React và tối ưu hóa rendering.
-- Hỗ trợ render phía máy chủ rất tốt. Điều này làm cho React trở thành một framework mạnh mẽ cho các ứng dụng tập trung vào nội dung.
+- Hỗ trợ render phía máy chủ rất tốt. Điều này làm cho React trở thành một frame-work mạnh mẽ cho các ứng dụng tập trung vào nội dung.
 - Hỗ trợ tạo ứng dụng Progressive Web App (PWA) nhanh chóng. Đơn giản chỉ cần câu lệnh: “creat-react-app”.
 - Data-binding một chiều, có nghĩa là ít side effects không mong muốn.
 - Mô hình Redux: một mô hình quản lý trạng thái ứng dụng cực tốt. Và một điều rất hay là nó rất dễ học.
@@ -446,7 +446,7 @@ Nhược điểm:
 
 <p style='text-align: justify;'>
 &emsp;
-Angular là một JavaScript MVVM framework, được ra mắt từ 2009. Đây là một JS framework nổi đình đám trong giới front-end, giúp xây dựng các ứng dụng web có tính tương tác cao.
+Angular là một JavaScript MVVM frame-work, được ra mắt từ 2009. Đây là một JS frame-work nổi đình đám trong giới front-end, giúp xây dựng các ứng dụng web có tính tương tác cao.
 </p>
 
 <center>
@@ -458,7 +458,7 @@ Angular là một JavaScript MVVM framework, được ra mắt từ 2009. Đây 
 
 - Hỗ trợ trợ TypeScript
 - Data-binding: Nó tự động đồng bộ hóa dữ liệu giữa thành phần model và view.
-- Tài liệu hướng dẫn chi tiết và đầy đủ. Với tài liệu hướng dẫn chi tiết từ chính nhà cung cấp sẽ giúp người mới tìm hiểu Angular nhanh chóng tiếp cận và làm chủ framework này. Nhờ đó mà giảm thời gian training, thảo luận với đồng nghiệp… khi mà trên trang chủ của họ có tất cả.
+- Tài liệu hướng dẫn chi tiết và đầy đủ. Với tài liệu hướng dẫn chi tiết từ chính nhà cung cấp sẽ giúp người mới tìm hiểu Angular nhanh chóng tiếp cận và làm chủ frame-work này. Nhờ đó mà giảm thời gian training, thảo luận với đồng nghiệp… khi mà trên trang chủ của họ có tất cả.
 - MVVM (Model-View-ViewModel): cho phép bạn chia dự án thành nhiều phần độc lập với nhau. Từ đó bạn sẽ dễ dàng chỉnh sửa, thêm tính năng cũng như bảo trì dự án sau này.
 - Dependency Injection: DI là một desgin pattern mà được nhắc đến rất nhiều trong triết lý clean code SOLID. Với DI, nó cho phép bạn làm giảm sự phụ thuộc giữa các Object với nhau. Các object càng độc lập với nhau càng tốt, mục đích để sau này nâng cấp, sửa đổi… sẽ hạn chế ảnh hưởng tới các object khác.
 - Cấu trúc và kiến trúc của Angular được tạo ra đặc biệt cho khả năng mở rộng dự án lớn
@@ -474,7 +474,7 @@ Nhược điểm:
 
 <p style='text-align: justify;'>
 &emsp;
-Vue.js là một framework JavaScript, được ra mắt vào năm 2013, hoàn toàn phù hợp để tạo giao diện người dùng có khả năng thích ứng cao và các ứng dụng trang đơn phức tạp.
+Vue.js là một frame-work JavaScript, được ra mắt vào năm 2013, hoàn toàn phù hợp để tạo giao diện người dùng có khả năng thích ứng cao và các ứng dụng trang đơn phức tạp.
 </p>
 
 <center>
@@ -530,9 +530,9 @@ nên nhóm quyết định sẽ dùng React Native để dựng web.
 
 <div style="page-break-after: always;"></div>
 
-## **3.5 Ngôn ngữ lập trình back-end**
+## **3.5 Ngôn ngữ lập trình và frame-work back-end**
 
-### **3.5.1 Java**
+### **3.5.1 Java và Spring-boot**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -547,13 +547,31 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
-  <p>Hình 3.5.1 Logo Java</p>
+  <img width="100" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
+  <p>Hình 3.5.1.a Logo Java</p>
+</center>
+
+<p style='text-align: justify;'>
+&emsp;
+Spring là một frame-work phát triển các ứng dụng Java được sử dụng bởi hàng triệu lập trình viên. 
+Nó giúp tạo các ứng dụng có hiệu năng cao, dễ kiểm thử, sử dụng lại code…
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Spring Boot là một web frame-work dựa trên Java.
+Nó được tạo ra bởi Spring với mục đích dễ sử dụng và cung cấp một ứng dụng dựa trên Spring ở cấp độ sản xuất mà bạn có thể cần chạy.
+Có thể nói, Spring boot là bản rút gọn của Spring
+</p>
+
+<center>
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/springboot.png?raw=true">
+  <p>Hình 3.5.1.b Logo Spring-boot</p>
 </center>
 
 <div style="page-break-after: always;"></div>
 
-### **3.5.2 C#**
+### **3.5.2 C# và ASP .NET**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -562,12 +580,31 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/csharp.png?raw=true">
-  <p>Hình 3.5.2 Logo C#</p>
+  <p>Hình 3.5.2.a Logo C#</p>
+</center>
+
+<p style='text-align: justify;'>
+&emsp;
+ASP.Net là một nền tảng phát triển web được cung cấp bởi Microsoft và được sử dụng để tạo các ứng dụng dựa trên web. 
+ASP.Net được phát hành lần đầu tiên vào năm 2002.
+Các ứng dụng ASP.Net cũng có thể được viết bằng nhiều ngôn ngữ .Net. Chúng bao gồm C#, VB.Net và J#.
+</p>
+
+Tính năng chính:
+
+- Chạy mượt và ổn định cao hơn các ngôn ngữ khác.
+- Tốc độ tải trang được tối ưu.
+- Dễ dàng tùy chỉnh để tương thích với công nghệ mới.
+- Độ bảo mật cao do kế thừa từ Java.
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dotnet.png?raw=true">
+  <p>Hình 3.5.2.b Logo ASP .NET</p>
 </center>
 
 <div style="page-break-after: always;"></div>
 
-### **3.5.3 Python**
+### **3.5.3 Python và DJango**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -576,23 +613,68 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
-  <p>Hình 3.5.3 Logo Python</p>
+  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
+  <p>Hình 3.5.3.a Logo Python</p>
+</center>
+
+<p style='text-align: justify;'>
+&emsp;
+Django là một frame-work Python cấp cao được xây dựng với ý tưởng kèm theo các "batteries included".
+Có nghĩa là hầu hết mọi thứ mà một lập trình viên muốn có đều có sẵn mặc định.
+Do đó, ít phải cài các plugin của bên thứ ba và yên tâm khi mọi thứ trong Django hoạt động nhịp nhàng cùng nhau.
+Vì vậy Django rất phù hợp với các ứng dụng lớn và không nền sử dụng với ứng dụng nhỏ.
+</p>
+
+Tính năng chính:
+
+- Khả năng tùy biến cao
+- Không cần làm từ đầu, tốc độ phát triển nhanh
+- Có thể mở rộng
+- Cộng đồng lớn và tài liệu nhiều
+
+<center>
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
+  <p>Hình 3.5.3.b Logo Django</p>
 </center>
 
 <div style="page-break-after: always;"></div>
 
-### **3.5.4 JavaScript**
+### **3.5.4 JavaScript và ExpressJS**
 
 <p style='text-align: justify;'>
 &emsp;
 Với NodeJS hỗ trợ để có thể lập trình ngôn ngữ Javascript để chạy trên server.
-Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh mẽ từ các framework thì NodeJS đang là xu thế dẫn đầu hiện nay.
+Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh mẽ từ các frame-work thì NodeJS đang là xu thế dẫn đầu hiện nay.
 </p>
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
-  <p>Hình 3.5.4 Logo JavaScript</p>
+  <p>Hình 3.5.4.a Logo JavaScript</p>
+</center>
+
+<p style='text-align: justify;'>
+&emsp;
+NodeJS là một nền tảng được xây dựng trên V8 JavaScript Engine – trình thông dịch thực thi mã JavaScript, 
+giúp xây dựng các ứng dụng web một cách đơn giản và dễ dàng mở rộng.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Express là một frame-work nhanh, tối giản cho NodeJS.
+Nó cung cấp một layer mỏng của các tính năng ứng dụng web cơ bản, mà không làm mờ đi các tính năng của NodeJS.
+Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ giúp của các phương thức HTTP khác nhau và các phần mềm trung gian có sẵn.
+</p>
+
+Tính năng chính của Express:
+
+- API định tuyến tốt
+- Tối giản
+- Thiết lập rất dễ dàng và nó đơn giản để học
+- Số lượng lớn các plugin có sẵn để sử dụng
+
+<center>
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
+  <p>Hình 3.5.4.b Logo JavaScript</p>
 </center>
 
 <div style="page-break-after: always;"></div>

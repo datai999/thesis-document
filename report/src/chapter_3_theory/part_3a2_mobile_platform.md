@@ -106,7 +106,7 @@ Chúng sẽ được biên dịch sang các phiên bản khác để phù hợp 
 
 Nhược điểm:
 
-- Nhiều vấn đề phát sinh từ framework khi phải biên dịch chuyển đổi giữa các ngôn ngữ.
+- Nhiều vấn đề phát sinh từ frame-work khi phải biên dịch chuyển đổi giữa các ngôn ngữ.
 
 Nên dùng khi:
 

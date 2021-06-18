@@ -94,7 +94,7 @@ Dart là một ngôn ngữ lập trình đa mục đích của Google có thể 
 
 Nhược điểm:
 
-- Ít sự lựa chọn framework, library hơn JavaScript.
+- Ít sự lựa chọn frame-work, library hơn JavaScript.
 - Dù đã release 1.0 chính thức, tuy nhiên còn khá mới. Một số plugin rất quan trọng như Google Map vẫn còn đang phát triển.
 - Google đã có thời gian "bỏ con giữa chợ" khi Flutter chưa có sự ảnh hưởng nhất định.
 
@@ -104,7 +104,7 @@ Nhược điểm:
 Nhóm quyết địnnh lựa chọn JavaScript với những lý do sau:
 
 - Đội ngũ phát triển không có kinh nghiệm với TypeScript.
-- JavaScript có framework Expo (React Native) có thể làm Web UI, Cross Platform App giống Flutter.
+- JavaScript có frame-work Expo (React Native) có thể làm Web UI, Cross Platform App giống Flutter.
 - Cộng đồng hỗ trợ lâu đời và mạnh mẽ.
 - Thị trường nhiều lập trình viên JavaScript hơn, dễ kế thừa và phát triển về sau.
 

@@ -16,7 +16,7 @@ React là một thư viện JavaScript, được Facebook ra mắt từ năm 201
 
 - Dễ học, nhờ thiết kế đơn giản, sử dụng JSX (một cú pháp giống như HTML) để tạo khuôn mẫu.Tài liệu hướng dẫn của Facebook rất chi tiết.
 - Tốc độ ứng dụng vô cùng ấn tượng. Tất cả là nhờ kỹ thuật DOM ảo của React và tối ưu hóa rendering.
-- Hỗ trợ render phía máy chủ rất tốt. Điều này làm cho React trở thành một framework mạnh mẽ cho các ứng dụng tập trung vào nội dung.
+- Hỗ trợ render phía máy chủ rất tốt. Điều này làm cho React trở thành một frame-work mạnh mẽ cho các ứng dụng tập trung vào nội dung.
 - Hỗ trợ tạo ứng dụng Progressive Web App (PWA) nhanh chóng. Đơn giản chỉ cần câu lệnh: “creat-react-app”.
 - Data-binding một chiều, có nghĩa là ít side effects không mong muốn.
 - Mô hình Redux: một mô hình quản lý trạng thái ứng dụng cực tốt. Và một điều rất hay là nó rất dễ học.
@@ -35,7 +35,7 @@ Nhược điểm:
 
 <p style='text-align: justify;'>
 &emsp;
-Angular là một JavaScript MVVM framework, được ra mắt từ 2009. Đây là một JS framework nổi đình đám trong giới front-end, giúp xây dựng các ứng dụng web có tính tương tác cao.
+Angular là một JavaScript MVVM frame-work, được ra mắt từ 2009. Đây là một JS frame-work nổi đình đám trong giới front-end, giúp xây dựng các ứng dụng web có tính tương tác cao.
 </p>
 
 <center>
@@ -47,7 +47,7 @@ Angular là một JavaScript MVVM framework, được ra mắt từ 2009. Đây 
 
 - Hỗ trợ trợ TypeScript
 - Data-binding: Nó tự động đồng bộ hóa dữ liệu giữa thành phần model và view.
-- Tài liệu hướng dẫn chi tiết và đầy đủ. Với tài liệu hướng dẫn chi tiết từ chính nhà cung cấp sẽ giúp người mới tìm hiểu Angular nhanh chóng tiếp cận và làm chủ framework này. Nhờ đó mà giảm thời gian training, thảo luận với đồng nghiệp… khi mà trên trang chủ của họ có tất cả.
+- Tài liệu hướng dẫn chi tiết và đầy đủ. Với tài liệu hướng dẫn chi tiết từ chính nhà cung cấp sẽ giúp người mới tìm hiểu Angular nhanh chóng tiếp cận và làm chủ frame-work này. Nhờ đó mà giảm thời gian training, thảo luận với đồng nghiệp… khi mà trên trang chủ của họ có tất cả.
 - MVVM (Model-View-ViewModel): cho phép bạn chia dự án thành nhiều phần độc lập với nhau. Từ đó bạn sẽ dễ dàng chỉnh sửa, thêm tính năng cũng như bảo trì dự án sau này.
 - Dependency Injection: DI là một desgin pattern mà được nhắc đến rất nhiều trong triết lý clean code SOLID. Với DI, nó cho phép bạn làm giảm sự phụ thuộc giữa các Object với nhau. Các object càng độc lập với nhau càng tốt, mục đích để sau này nâng cấp, sửa đổi… sẽ hạn chế ảnh hưởng tới các object khác.
 - Cấu trúc và kiến trúc của Angular được tạo ra đặc biệt cho khả năng mở rộng dự án lớn
@@ -63,7 +63,7 @@ Nhược điểm:
 
 <p style='text-align: justify;'>
 &emsp;
-Vue.js là một framework JavaScript, được ra mắt vào năm 2013, hoàn toàn phù hợp để tạo giao diện người dùng có khả năng thích ứng cao và các ứng dụng trang đơn phức tạp.
+Vue.js là một frame-work JavaScript, được ra mắt vào năm 2013, hoàn toàn phù hợp để tạo giao diện người dùng có khả năng thích ứng cao và các ứng dụng trang đơn phức tạp.
 </p>
 
 <center>

@@ -1,6 +1,6 @@
-## **3.5 Ngôn ngữ lập trình và framework back-end**
+## **3.5 Ngôn ngữ lập trình và frame-work back-end**
 
-### **3.5.1 Java**
+### **3.5.1 Java và Spring-boot**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -15,31 +15,31 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
+  <img width="100" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
   <p>Hình 3.5.1.a Logo Java</p>
 </center>
 
 <p style='text-align: justify;'>
 &emsp;
-Spring là một Framework phát triển các ứng dụng Java được sử dụng bởi hàng triệu lập trình viên. 
+Spring là một frame-work phát triển các ứng dụng Java được sử dụng bởi hàng triệu lập trình viên. 
 Nó giúp tạo các ứng dụng có hiệu năng cao, dễ kiểm thử, sử dụng lại code…
 </p>
 
 <p style='text-align: justify;'>
 &emsp;
-Spring Boot là một web framework dựa trên Java.
+Spring Boot là một web frame-work dựa trên Java.
 Nó được tạo ra bởi Spring với mục đích dễ sử dụng và cung cấp một ứng dụng dựa trên Spring ở cấp độ sản xuất mà bạn có thể cần chạy.
 Có thể nói, Spring boot là bản rút gọn của Spring
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/springboot.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/springboot.png?raw=true">
   <p>Hình 3.5.1.b Logo Spring-boot</p>
 </center>
 
 <div style="page-break-after: always;"></div>
 
-### **3.5.2 C#**
+### **3.5.2 C# và ASP .NET**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -51,6 +51,20 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
   <p>Hình 3.5.2.a Logo C#</p>
 </center>
 
+<p style='text-align: justify;'>
+&emsp;
+ASP.Net là một nền tảng phát triển web được cung cấp bởi Microsoft và được sử dụng để tạo các ứng dụng dựa trên web. 
+ASP.Net được phát hành lần đầu tiên vào năm 2002.
+Các ứng dụng ASP.Net cũng có thể được viết bằng nhiều ngôn ngữ .Net. Chúng bao gồm C#, VB.Net và J#.
+</p>
+
+Tính năng chính:
+
+- Chạy mượt và ổn định cao hơn các ngôn ngữ khác.
+- Tốc độ tải trang được tối ưu.
+- Dễ dàng tùy chỉnh để tương thích với công nghệ mới.
+- Độ bảo mật cao do kế thừa từ Java.
+
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dotnet.png?raw=true">
   <p>Hình 3.5.2.b Logo ASP .NET</p>
@@ -58,7 +72,7 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 
 <div style="page-break-after: always;"></div>
 
-### **3.5.3 Python**
+### **3.5.3 Python và DJango**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -67,13 +81,13 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
+  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
   <p>Hình 3.5.3.a Logo Python</p>
 </center>
 
 <p style='text-align: justify;'>
 &emsp;
-Django là một Framework Python cấp cao được xây dựng với ý tưởng kèm theo các "batteries included".
+Django là một frame-work Python cấp cao được xây dựng với ý tưởng kèm theo các "batteries included".
 Có nghĩa là hầu hết mọi thứ mà một lập trình viên muốn có đều có sẵn mặc định.
 Do đó, ít phải cài các plugin của bên thứ ba và yên tâm khi mọi thứ trong Django hoạt động nhịp nhàng cùng nhau.
 Vì vậy Django rất phù hợp với các ứng dụng lớn và không nền sử dụng với ứng dụng nhỏ.
@@ -87,18 +101,18 @@ Tính năng chính:
 - Cộng đồng lớn và tài liệu nhiều
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
   <p>Hình 3.5.3.b Logo Django</p>
 </center>
 
 <div style="page-break-after: always;"></div>
 
-### **3.5.4 JavaScript**
+### **3.5.4 JavaScript và ExpressJS**
 
 <p style='text-align: justify;'>
 &emsp;
 Với NodeJS hỗ trợ để có thể lập trình ngôn ngữ Javascript để chạy trên server.
-Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh mẽ từ các framework thì NodeJS đang là xu thế dẫn đầu hiện nay.
+Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh mẽ từ các frame-work thì NodeJS đang là xu thế dẫn đầu hiện nay.
 </p>
 
 <center>
@@ -114,7 +128,7 @@ giúp xây dựng các ứng dụng web một cách đơn giản và dễ dàng 
 
 <p style='text-align: justify;'>
 &emsp;
-Express là một framework nhanh, tối giản cho NodeJS.
+Express là một frame-work nhanh, tối giản cho NodeJS.
 Nó cung cấp một layer mỏng của các tính năng ứng dụng web cơ bản, mà không làm mờ đi các tính năng của NodeJS.
 Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ giúp của các phương thức HTTP khác nhau và các phần mềm trung gian có sẵn.
 </p>
@@ -127,7 +141,7 @@ Tính năng chính của Express:
 - Số lượng lớn các plugin có sẵn để sử dụng
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
   <p>Hình 3.5.4.b Logo JavaScript</p>
 </center>
 
