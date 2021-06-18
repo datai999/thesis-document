@@ -1,4 +1,4 @@
-## **3.5 Ngôn ngữ lập trình back-end**
+## **3.5 Ngôn ngữ lập trình và framework back-end**
 
 ### **3.5.1 Java**
 
@@ -16,7 +16,12 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
-  <p>Hình 3.5.1 Logo Java</p>
+  <p>Hình 3.5.1.a Logo Java</p>
+</center>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/spring.png?raw=true">
+  <p>Hình 3.5.1.b Logo Spring</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -30,7 +35,12 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/csharp.png?raw=true">
-  <p>Hình 3.5.2 Logo C#</p>
+  <p>Hình 3.5.2.a Logo C#</p>
+</center>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dotnet.png?raw=true">
+  <p>Hình 3.5.2.b Logo ASP .NET</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -45,7 +55,12 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
-  <p>Hình 3.5.3 Logo Python</p>
+  <p>Hình 3.5.3.a Logo Python</p>
+</center>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
+  <p>Hình 3.5.3.b Logo Django</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -60,7 +75,12 @@ Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
-  <p>Hình 3.5.4 Logo JavaScript</p>
+  <p>Hình 3.5.4.a Logo JavaScript</p>
+</center>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
+  <p>Hình 3.5.4.b Logo JavaScript</p>
 </center>
 
 <div style="page-break-after: always;"></div>
