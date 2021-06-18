@@ -10,7 +10,9 @@ Thông qua ứng dụng web người dùng có thể thực hiện được nhi�
 Web app có tính tương tác cao hơn website rất nhiều.
 </p>
 
-![1](../chapter_3_theory/img/wa.png)
+<center>
+  <img src="/report/src/chapter_3_theory/img/wa.png">
+</center>
 
 <center> Hình 3.1.1. Web Application </center>
 
@@ -51,7 +53,7 @@ Về cơ bản là website với giao diện giống như app và nội dung đ�
 </p>
 
 <center>
-  <img src="../chapter_3_theory/img/mfb.jpg">
+  <img src="/report/src/chapter_3_theory/img/mfb.jpg">
 </center>
 
 <center> Hình 3.1.2. Web-base app: m.facebook.com </center>

@@ -1,4 +1,4 @@
-<!-- !import[/chapter_0_cover/part_0a_cover.md] -->
+<!-- !import[/report/chapter_0_cover/part_0a_cover.md] -->
 <center> <h2>Lời cam đoan</h1> </center>
 
 <p style='text-align: justify;'>
