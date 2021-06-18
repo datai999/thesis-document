@@ -7,6 +7,11 @@
 React là một thư viện JavaScript, được Facebook ra mắt từ năm 2013. Đây là một thư viện tuyệt vời để xây dựng các ứng dụng web lớn, nơi dữ liệu có thể thay đổi thường xuyên
 </p>
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/react.png?raw=true">
+  <p>Hình 3.4.1. Logo Frame-work React</p>
+</center>
+
 Ưu điểm:
 
 - Dễ học, nhờ thiết kế đơn giản, sử dụng JSX (một cú pháp giống như HTML) để tạo khuôn mẫu.Tài liệu hướng dẫn của Facebook rất chi tiết.
@@ -33,6 +38,11 @@ Nhược điểm:
 Angular là một JavaScript MVVM framework, được ra mắt từ 2009. Đây là một JS framework nổi đình đám trong giới front-end, giúp xây dựng các ứng dụng web có tính tương tác cao.
 </p>
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/angular.png?raw=true">
+  <p>Hình 3.4.2. Logo Frame-work Angular</p>
+</center>
+
 Ưu điểm:
 
 - Hỗ trợ trợ TypeScript
@@ -49,12 +59,17 @@ Nhược điểm:
 
 <div style="page-break-after: always;"></div>
 
-### **3.4.4 Vue**
+### **3.4.3 Vue**
 
 <p style='text-align: justify;'>
 &emsp;
 Vue.js là một framework JavaScript, được ra mắt vào năm 2013, hoàn toàn phù hợp để tạo giao diện người dùng có khả năng thích ứng cao và các ứng dụng trang đơn phức tạp.
 </p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/vue.png?raw=true">
+  <p>Hình 3.4.3. Logo Frame-work Vue</p>
+</center>
 
 Ưu điểm:
 
@@ -69,3 +84,37 @@ Nhược điểm:
 
 - Thiếu tài nguyên: Vuejs vẫn có thị phần khá nhỏ so với React hoặc Angular.
 - Việc chia sẻ kiến ​​thức trong cộng đồng vẫn còn khá ít.
+
+<div style="page-break-after: always;"></div>
+
+### **3.4.4 Lựa chọn frame-work front-end**
+
+<p style='text-align: justify;'>
+&emsp;
+Các front-end frame-work cho phép lập trình viên bắt đầu phát triển một trang web mới dễ dàng và tốt hơn.
+Tuy nhiên việc chọn ra frame-work tốt nhất thực sự là một điều không hề dễ dàng.
+</p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/rav.png?raw=true">
+  <p>Hình 3.4.4.a Frame-work Angular vs Vue vs React</p>
+</center>
+
+<p style='text-align: justify;'>
+&emsp;
+Ở các phần trước nhóm đã chọn Cross Platfrom App cho di động và ngôn ngữ front-end là JavaScript
+nên app di động sẽ được viết bằng React Native. Với sự tương thích giữa các frame-work có thể thấy React có thể là lựa chọn tốt để đồng hành cùng React Native.
+</p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/react-native-web.png?raw=true">
+  <p>Hình 3.4.4.b Frame-work Angular vs Vue vs React</p>
+</center>
+
+<p style='text-align: justify;'>
+&emsp;
+Sau quá trình tìm hiểu nhóm tìm ra Expo, là frame-work React Native có thể render tốt trên web
+nên nhóm quyết định sẽ dùng React Native để dựng web.
+</p>
+
+<div style="page-break-after: always;"></div>
