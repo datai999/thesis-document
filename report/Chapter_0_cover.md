@@ -112,6 +112,11 @@ qua ba giai đoạn, cụ thể như sau :
     - 3.4.2 [Angular](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#342-angular) [23]
     - 3.4.3 [Vue](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#343-vue) [24]
     - 3.4.4 [Lựa chọn frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#344-lựa-chọn-frame-work-front-end) [25]
+  - 3.5 [Ngôn ngữ lập trình và frame-work back-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#35-ngôn-ngữ-lập-trình-và-frame-work-back-end) [26]
+    - 3.5.1 [Java và Spring-boot](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#351-java-và-spring-boot) [26]
+    - 3.5.2 [C# và ASP .NET](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#352-c-và-asp-net) [27]
+    - 3.5.3 [Python và Django](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#353-python-và-django) [28]
+    - 3.5.4 [JavaScript và ExpressJS](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#354-javascript-và-expressjs) [29]
 
 - 3. Thiết kế hệ thống:
 
