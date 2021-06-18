@@ -13,7 +13,7 @@ Web app có tính tương tác cao hơn website rất nhiều.
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/wa.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/wa.png?raw=true">
 </center>
 
 <center> Hình 3.1.1. Web Application </center>
@@ -55,7 +55,7 @@ Về cơ bản là website với giao diện giống như app và nội dung đ�
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/mfb.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/mfb.png?raw=true">
 </center>
 
 <center> Hình 3.1.2. Web-base app: m.facebook.com </center>
@@ -92,7 +92,7 @@ Mỗi công nghệ có những ưu điểm và nhược điểm khác nhau cần
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/na-h-cp.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/na-h-cp.png?raw=true">
   <p>Hình 3.2. Native App, Hybrid App và Cross Platform App</p>
 </center>
 
@@ -107,7 +107,7 @@ Là những ứng dụng được viết riêng cho một loại nền tảng nh
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/na.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/na.png?raw=true">
   <p>Hình 3.2.1. Native App</p>
 </center>
 
@@ -140,7 +140,7 @@ Lập trình viên sẽ tạo một khung rỗng chứa web và được chạy 
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/hebrid.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/hebrid.png?raw=true">
   <p>Hình 3.2.2. Hybrid App</p>
 </center>
 
@@ -179,7 +179,7 @@ Chúng sẽ được biên dịch sang các phiên bản khác để phù hợp 
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/cp.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/cp.png?raw=true">
   <p>Hình 3.2.3. Cross Platform App</p>
 </center>
 
