@@ -1,4 +1,4 @@
-##### 3.1.2 Native App, Hybrid App và Cross Platform App
+### **3.1.2 Native App, Hybrid App và Cross Platform App**
 
 <p style='text-align: justify;'>
 &emsp;

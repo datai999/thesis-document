@@ -2,6 +2,8 @@
 
 <div style="page-break-after: always;"></div>
 
+## **3.1 Các loại ứng dụng**
+
 ### **3.1.1 Web App và Web-base App**
 
 #### 3.1.1.a Web App
@@ -85,7 +87,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-##### 3.1.2 Native App, Hybrid App và Cross Platform App
+### **3.1.2 Native App, Hybrid App và Cross Platform App**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -201,6 +203,32 @@ Nên dùng khi:
 - Ít thời gian và nhân lực cũng như chi phí phát triển.
 
 <div style="page-break-after: always;"></div>
+
+### 3.1.3 **Kết luận và lựa chọn loại ứng dụng**
+
+<p style='text-align: justify;'>
+&emsp;
+Với nhiều sự lựa chọn, nhóm sẽ tạo bảng đánh giá thang điểm 5 dựa trên các tiêu chí như sau
+</p>
+
+| Tiêu chí                          | Web App | Web-base App | Native App | Hybrid App | Cross Platform App |
+| --------------------------------- | ------- | ------------ | ---------- | ---------- | ------------------ |
+| Hiệu năng                         | 5       | 3            | 5          | 3          | 4                  |
+| Trải nghiệm người dùng            | 5       | 3            | 5          | 3          | 5                  |
+| Được hỗ trợ tốt từ cộng đồng      | 5       | 2            | 5          | 3          | 4                  |
+| Chạy được trên web                | 5       | 2            | 0          | 0          | 3                  |
+| Chạy được trên ios, android       | 2       | 4            | 2          | 4          | 5                  |
+| Ít tốn nhân lực                   | 3       | 5            | 1          | 4          | 3                  |
+| Đội ngũ phát triển có kinh nghiệm | 5       | 3            | 2          | 1          | 4                  |
+| Tổng điểm                         | 29      | 22           | 20         | 18         | 28                 |
+
+<p style='text-align: justify;'>
+&emsp;
+Qua bảng đánh nhóm chọn Web App và Cross Platform App.
+</p>
+
+<div style="page-break-after: always;"></div>
+
 
 ## **3.2 Ứng dụng đa trang và Ứng dụng đơn trang**
 

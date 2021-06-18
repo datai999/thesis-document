@@ -98,9 +98,9 @@ qua ba giai đoạn, cụ thể như sau :
     - 3.1.1. [Web App và Web-base App](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#311-web-app-và-web-base-app) [11]:
     - 3.1.2. [Native App, Hybrid App và Cross Platform App](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#312-native-app-hybrid-app-và-cross-platform-app) [13]:
     - 3.1.3. [Kết luận và lựa chọn loại ứng dụng](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#313-kết-luận-và-lựa-chọn-loại-ứng-dụng) [17]
-  - 3.2. [Ứng dụng đa trang và Ứng dụng đơn trang](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#32-ứng-dụng-đa-trang-và-ứng-dụng-đơn-trang) [13]:
-    - 3.2.1. [Ứng dụng đa trang](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#321-ứng-dụng-đa-trang) [13]:
-    - 3.2.2. [Ứng dụng đơn trang](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#322-ứng-dụng-đơn-trang) [14]:
+  - 3.2. [Ứng dụng đa trang và Ứng dụng đơn trang](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#32-ứng-dụng-đa-trang-và-ứng-dụng-đơn-trang) [18]:
+    - 3.2.1. [Ứng dụng đa trang](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#321-ứng-dụng-đa-trang) [18]:
+    - 3.2.2. [Ứng dụng đơn trang](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#322-ứng-dụng-đơn-trang) [18]:
 
 - 3. Thiết kế hệ thống:
 
