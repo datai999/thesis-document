@@ -53,7 +53,7 @@ Về cơ bản là website với giao diện giống như app và nội dung đ�
 </p>
 
 <center>
-  <img src="/report/src/chapter_3_theory/img/mfb.jpg">
+  <img src="/report/src/chapter_3_theory/img/mfb.png">
 </center>
 
 <center> Hình 3.1.2. Web-base app: m.facebook.com </center>
