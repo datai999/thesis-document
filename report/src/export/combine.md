@@ -11,4 +11,10 @@ http://itacenter.vn/cach-phan-biet-giua-native-app-cross-platform-va-hybrid-hieu
 
 https://viblo.asia/p/tim-hieu-ve-native-app-va-hybrid-app-3P0lPnPmKox
 
+https://niithanoi.edu.vn/front-end-framework-pho-bien-nhat.html
+
+https://vntalking.com/react-vs-angular-vs-vue-js-lua-chon-nao-tot-nhat.html
+
+https://www.codeinwp.com/blog/angular-vs-vue-vs-react/
+
 !export[/report/src/export/export.md]
