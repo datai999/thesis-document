@@ -28,6 +28,11 @@
     - 3.3.2 [TypeScript](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#332-typescript) [19]
     - 3.3.3 [Dart](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#333-dart) [20]
     - 3.3.4 [Kết luận lựa chọn ngôn ngữ front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#334-kết-luận-lựa-chọn-ngôn-ngữ-front-end) [20]
+  - 3.4 [Frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#34-frame-work-front-end) [21]
+    - 3.4.1 [React](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#341-react) [21]
+    - 3.4.2 [Angular](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#342-angular) [22]
+    - 3.4.3 [Vue](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#343-vue) [23]
+    - 3.4.4 [Lựa chọn frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#344-lựa-chọn-frame-work-front-end) [24]
 
 - 3. Thiết kế hệ thống:
 

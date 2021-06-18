@@ -108,7 +108,7 @@ nên app di động sẽ được viết bằng React Native. Với sự tương
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/react-native-web.png?raw=true">
-  <p>Hình 3.4.4.b Frame-work Angular vs Vue vs React</p>
+  <p>Hình 3.4.4.b Dùng React-native code web</p>
 </center>
 
 <p style='text-align: justify;'>
