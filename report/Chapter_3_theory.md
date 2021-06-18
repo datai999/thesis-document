@@ -316,6 +316,11 @@ Ngoài ra với sự mạnh mẽ đến từ famework Flutter kéo theo Dart cũ
 JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới được tạo ra vào năm 1995.
 </p>
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
+  <p>Hình 3.3.1 Logo JavaScript</p>
+</center>
+
 Ưu điểm:
 
 - Không cần một compiler vì web browser có thể biên dịch nó bằng HTML.
@@ -334,6 +339,8 @@ Nhược điểm:
 - Khó có sự kiểm soát về mặt design code.
 - Không hỗ trợ lập trình hướng đối tượng.
 
+<div style="page-break-after: always;"></div>
+
 ### **3.3.2 TypeScript**
 
 <p style='text-align: justify;'>
@@ -342,6 +349,11 @@ TypeScript là một dự án mã nguồn mở được phát triển bởi Micr
 nó có thể được coi là một phiên bản nâng cao của Javascript 
 bởi việc bổ sung tùy chọn kiểu tĩnh và lớp hướng đối tượng mà điều này không có ở Javascript
 </p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/ts.png?raw=true">
+  <p>Hình 3.3.2 Logo TypeScript</p>
+</center>
 
 Ưu điểm:
 
@@ -364,6 +376,11 @@ Nhược điểm:
 &emsp;
 Dart là một ngôn ngữ lập trình đa mục đích của Google có thể dùng để phát triển web ui, server và cả ứng dụng di động.
 </p>
+
+<center>
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dart.png?raw=true">
+  <p>Hình 3.3.3 Logo Dart</p>
+</center>
 
 Ưu điểm:
 
@@ -502,7 +519,7 @@ nên app di động sẽ được viết bằng React Native. Với sự tương
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/react-native-web.png?raw=true">
-  <p>Hình 3.4.4.b Frame-work Angular vs Vue vs React</p>
+  <p>Hình 3.4.4.b Dùng React-native code web</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -510,6 +527,73 @@ nên app di động sẽ được viết bằng React Native. Với sự tương
 Sau quá trình tìm hiểu nhóm tìm ra Expo, là frame-work React Native có thể render tốt trên web
 nên nhóm quyết định sẽ dùng React Native để dựng web.
 </p>
+
+<div style="page-break-after: always;"></div>
+
+## **3.5 Ngôn ngữ lập trình back-end**
+
+### **3.5.1 Java**
+
+<p style='text-align: justify;'>
+&emsp;
+Java là ngôn ngữ lập trình back-end phổ biến nhất.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Đây là ngôn ngữ lập trình đa năng, đa nền tảng, hướng đối tượng (object-oriented) và có tính đồng thời (concurrent) được phát triển bởi Oracle.
+Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã byte Java (Java bytecode) 
+để chạy trên Java Virtual Machine (JVM). Nhờ đó, bất kỳ thiết bị nào có thể cài đặt JVM thì có thể chạy được các ứng dụng viết bằng Java.
+</p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
+  <p>Hình 3.5.1 Logo Java</p>
+</center>
+
+<div style="page-break-after: always;"></div>
+
+### **3.5.2 C#**
+
+<p style='text-align: justify;'>
+&emsp;
+C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và được xây dựng trên nền tảng của hai ngôn ngữ mạnh nhất là C++ và Java.
+</p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/c#.png?raw=true">
+  <p>Hình 3.5.2 Logo C#</p>
+</center>
+
+<div style="page-break-after: always;"></div>
+
+### **3.5.3 Python**
+
+<p style='text-align: justify;'>
+&emsp;
+Python là một trong những ngôn ngữ backend phát triển nhanh và phổ biến hàng đầu thế giới. 
+Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng dẫn trực tuyến nên Python rất phổ biến cho các lập trình viên mới.
+</p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
+  <p>Hình 3.5.3 Logo Python</p>
+</center>
+
+<div style="page-break-after: always;"></div>
+
+### **3.5.4 JavaScript**
+
+<p style='text-align: justify;'>
+&emsp;
+Với NodeJS hỗ trợ để có thể lập trình ngôn ngữ Javascript để chạy trên server.
+Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh mẽ từ các framework thì NodeJS đang là xu thế dẫn đầu hiện nay.
+</p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
+  <p>Hình 3.5.4 Logo JavaScript</p>
+</center>
 
 <div style="page-break-after: always;"></div>
 

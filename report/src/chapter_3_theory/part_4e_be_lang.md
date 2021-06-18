@@ -14,6 +14,11 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 để chạy trên Java Virtual Machine (JVM). Nhờ đó, bất kỳ thiết bị nào có thể cài đặt JVM thì có thể chạy được các ứng dụng viết bằng Java.
 </p>
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
+  <p>Hình 3.5.1 Logo Java</p>
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ### **3.5.2 C#**
@@ -22,6 +27,11 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 &emsp;
 C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và được xây dựng trên nền tảng của hai ngôn ngữ mạnh nhất là C++ và Java.
 </p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/c#.png?raw=true">
+  <p>Hình 3.5.2 Logo C#</p>
+</center>
 
 <div style="page-break-after: always;"></div>
 
@@ -33,6 +43,11 @@ Python là một trong những ngôn ngữ backend phát triển nhanh và phổ
 Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng dẫn trực tuyến nên Python rất phổ biến cho các lập trình viên mới.
 </p>
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
+  <p>Hình 3.5.3 Logo Python</p>
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ### **3.5.4 JavaScript**
@@ -42,5 +57,10 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 Với NodeJS hỗ trợ để có thể lập trình ngôn ngữ Javascript để chạy trên server.
 Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh mẽ từ các framework thì NodeJS đang là xu thế dẫn đầu hiện nay.
 </p>
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
+  <p>Hình 3.5.4 Logo JavaScript</p>
+</center>
 
 <div style="page-break-after: always;"></div>

@@ -25,14 +25,14 @@
     - 3.2.3 [Kết luận lựa chọn kiểu ứng dụng](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#323-kết-luận-lựa-chọn-kiểu-ứng-dụng) [18]
   - 3.3 [Ngôn ngữ lập trình front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#33-ngôn-ngữ-lập-trình-front-end) [19]
     - 3.3.1 [JavaScript](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#331-javascript) [19]
-    - 3.3.2 [TypeScript](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#332-typescript) [19]
-    - 3.3.3 [Dart](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#333-dart) [20]
-    - 3.3.4 [Kết luận lựa chọn ngôn ngữ front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#334-kết-luận-lựa-chọn-ngôn-ngữ-front-end) [20]
-  - 3.4 [Frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#34-frame-work-front-end) [21]
-    - 3.4.1 [React](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#341-react) [21]
-    - 3.4.2 [Angular](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#342-angular) [22]
-    - 3.4.3 [Vue](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#343-vue) [23]
-    - 3.4.4 [Lựa chọn frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#344-lựa-chọn-frame-work-front-end) [24]
+    - 3.3.2 [TypeScript](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#332-typescript) [20]
+    - 3.3.3 [Dart](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#333-dart) [21]
+    - 3.3.4 [Kết luận lựa chọn ngôn ngữ front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#334-kết-luận-lựa-chọn-ngôn-ngữ-front-end) [21]
+  - 3.4 [Frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#34-frame-work-front-end) [22]
+    - 3.4.1 [React](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#341-react) [22]
+    - 3.4.2 [Angular](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#342-angular) [23]
+    - 3.4.3 [Vue](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#343-vue) [24]
+    - 3.4.4 [Lựa chọn frame-work front-end](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#344-lựa-chọn-frame-work-front-end) [25]
 
 - 3. Thiết kế hệ thống:
 
