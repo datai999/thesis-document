@@ -8,5 +8,6 @@
 !import[/report/src/Chapter_3_theory/part_3b_mpa_spa.md]
 !import[/report/src/Chapter_3_theory/part_3c_fe_lang.md]
 !import[/report/src/Chapter_3_theory/part_3d_fe_framework.md]
+!import[/report/src/Chapter_3_theory/part_4e_be_lang.md]
 
 !export[/report/Chapter_3_theory.md]
