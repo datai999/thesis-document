@@ -28,8 +28,8 @@ qua ba giai đoạn, cụ thể như sau :
 - **Chương 6:** Thử nghiệm công nghệ
 - **Chương 7:** Tổng kết và hướng phát triển
 
-&emsp;Phiên bản mới nhất của tài liệu này được cập nhật tại github wiki
+&emsp;Phiên bản mới nhất của tài liệu này được cập nhật tại github
 
-> https://github.com/datai999/thesis-document/wiki
+> https://github.com/datai999/thesis-document/tree/main/report
 
 <div style="page-break-after: always;"></div>
