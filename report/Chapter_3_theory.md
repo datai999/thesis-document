@@ -91,9 +91,10 @@ Nhắc đến lập trình ứng dụng di động hiện nay thì ba thuật ng
 Mỗi công nghệ có những ưu điểm và nhược điểm khác nhau cần cân nhắc để lựa chọn phù hợp với dự án.
 </p>
 
-![](../chapter_3_theory/img/na-h-cp.jpg)
-
-<center> Hình 3.2. Native App, Hybrid App và Cross Platform App</center>
+<center>
+  <img src="/report/src/chapter_3_theory/img/na-h-cp.jpg">
+  <p>Hình 3.2. Native App, Hybrid App và Cross Platform App</p>
+</center>
 
 <div style="page-break-after: always;"></div>
 
@@ -105,9 +106,10 @@ Native app thường được gọi là ứng dụng gốc.
 Là những ứng dụng được viết riêng cho một loại nền tảng như iOS, Android, Windows Phone bằng các ngôn ngữ tương ứng.
 </p>
 
-![](../chapter_3_theory/img/na.jpg)
-
-<center> Hình 3.2.1. Native App </center>
+<center>
+  <img src="/report/src/chapter_3_theory/img/na.jpg">
+  <p>Hình 3.2.1. Native App</p>
+</center>
 
 Ưu điểm:
 
@@ -137,9 +139,10 @@ Hybrid App là tên gọi cho các ứng dụng lai.
 Lập trình viên sẽ tạo một khung rỗng chứa web và được chạy ở thiết bị di động.
 </p>
 
-![](../chapter_3_theory/img/hebrid.jpg)
-
-<center> Hình 3.2.2. Hybrid App </center>
+<center>
+  <img src="/report/src/chapter_3_theory/img/hebrid.jpg">
+  <p>Hình 3.2.2. Hybrid App</p>
+</center>
 
 Ưu điểm:
 
@@ -175,9 +178,10 @@ Với Cross Platform, nhà phát triển chỉ cần sử dụng một ngôn ng�
 Chúng sẽ được biên dịch sang các phiên bản khác để phù hợp cho những nền tảng khác nhau
 </p>
 
-![](../chapter_3_theory/img/cp.jpg)
-
-<center> Hình 3.2.3. Cross Platform App </center>
+<center>
+  <img src="/report/src/chapter_3_theory/img/cp.jpg">
+  <p>Hình 3.2.3. Cross Platform App</p>
+</center>
 
 Ưu điểm:
 
