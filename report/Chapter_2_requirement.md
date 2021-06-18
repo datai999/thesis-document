@@ -1,6 +1,8 @@
-### **2. Phân tích yêu cầu đề tài**
+# **2. Phân tích yêu cầu đề tài**
 
-#### 2.1 Phân chia người dùng
+<div style="page-break-after: always;"></div>
+
+## **2.1 Phân chia người dùng**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -12,7 +14,7 @@ cá nhân có nhu cầu sử dụng. Nhóm đưa ra các vai trò, người dùn
 - Giáo vụ
 - Giảng viên
 
-#### 2.2 Tính năng của hệ thống
+## **2.2 Tính năng của hệ thống**
 
 - Hoạt động trên 3 nền tảng web, ios, android
 

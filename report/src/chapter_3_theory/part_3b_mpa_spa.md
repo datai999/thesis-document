@@ -1,4 +1,4 @@
-#### 3.3 Ứng dụng đa trang và Ứng dụng đơn trang
+## **3.2 Ứng dụng đa trang và Ứng dụng đơn trang**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -9,7 +9,7 @@ Vì vậy để có thể phát triển ứng dụng một cách hiệu quả, n
 nhắc lựa chọn cách thiết kế phù hợp nhất với nhu cầu ứng dụng của mình.
 </p>
 
-#### 3.3.1 Ứng dụng đa trang
+### **3.2.1 Ứng dụng đa trang**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -33,7 +33,7 @@ Nhược điểm:
 - Các ứng dụng đa trang có nội dung lớn tải chậm, ảnh hưởng đến trải nghiệm của người dùng.
 - Khó thích nghi tốt với thiết bị di động.
 
-#### 3.3.2 Ứng dụng đơn trang
+### **3.2.2 Ứng dụng đơn trang**
 
 <p style='text-align: justify;'>
 &emsp;

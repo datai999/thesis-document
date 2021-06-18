@@ -1,4 +1,6 @@
-### **1. Tổng quan giới thiệu đề tài**
+# **1. Tổng quan giới thiệu đề tài**
+
+<div style="page-break-after: always;"></div>
 
 !import[/report/src/chapter_1_intro/part_1a_intro_problem.md]
 !import[/report/src/chapter_1_intro/part_1b_target_scope_challenge.md]

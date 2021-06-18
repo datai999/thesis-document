@@ -1,4 +1,4 @@
-#### 1.1 Giới thiệu
+## **1.1 Giới thiệu**
 
 <p style='text-align: justify;'>
 &emsp;Năm 2020-2021 là những năm đầy biến động, khó khăn và những thách thức lớn, 
@@ -17,7 +17,7 @@ cần được phát triển để có thể đáp ứng với nhiều khó khă
 "Xây dựng hệ thống đánh giá luận văn tốt nghiệp".
 </p>
 
-#### 1.2 Các vấn đề hiện tại
+## **1.2 Các vấn đề hiện tại**
 
 <p style='text-align: justify;'>
 &emsp;Hệ thống đánh giá luận văn của trường Đại học Bách khoa - Đại học Quốc gia TP.HCM hiện tại

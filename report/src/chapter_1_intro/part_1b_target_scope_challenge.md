@@ -1,4 +1,4 @@
-#### 1.3 Mục tiêu của đề tài
+## **1.3 Mục tiêu của đề tài**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -14,14 +14,14 @@ với các tính năng cơ bản như sau:
 - Tạo các tiêu chí đánh giá cho sinh viên.
 - Chấm điểm cho từng sinh viên trong nhóm luận văn. (Phân biệt điểm GVHD, GVPB, và các thành viên hội đồng)
 
-#### 1.4 Phạm vi đề tài
+## **1.4 Phạm vi đề tài**
 
 &emsp;Phạm vi đối tượng mà đề tài hướng đến là:
 
 - Cán bộ giáo vụ trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM
 - Giảng viên trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM
 
-#### 1.5 Khó khăn thử thách
+## **1.5 Khó khăn thử thách**
 
 &emsp;Các khó khăn, thử thách mà đề tài gặp phải
 

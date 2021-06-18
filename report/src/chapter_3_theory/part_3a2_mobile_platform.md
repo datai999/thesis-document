@@ -1,4 +1,4 @@
-#### 3.2 Native App, Hybrid App và Cross Platform App
+##### 3.1.2 Native App, Hybrid App và Cross Platform App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -13,7 +13,7 @@ Mỗi công nghệ có những ưu điểm và nhược điểm khác nhau cần
 
 <div style="page-break-after: always;"></div>
 
-##### 3.2.1 Native App
+#### 3.1.2.a Native App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -45,7 +45,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-##### 3.2.2 Hybrid App
+#### 3.1.2.b Hybrid App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -78,7 +78,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-##### 3.2.3 Cross Platform App
+#### 3.1.2.c Cross Platform App
 
 <p style='text-align: justify;'>
 &emsp;

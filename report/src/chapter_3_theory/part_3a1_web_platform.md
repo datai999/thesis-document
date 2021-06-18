@@ -1,6 +1,8 @@
-#### 3.1 Web App và Web-base App
+## **3.1 Các loại ứng dụng**
 
-##### 3.1.1 Web App
+### **3.1.1 Web App và Web-base App**
+
+#### 3.1.1.a Web App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -42,7 +44,7 @@ thì nên dùng webstite thuần túy hoặc landing page.
 
 <div style="page-break-after: always;"></div>
 
-##### 3.1.2 Web-base App
+#### 3.1.1.b Web-base App
 
 <p style='text-align: justify;'>
 &emsp;

@@ -1,8 +1,10 @@
-### **3. Cơ sở lý thuyết**
+# **3. Cơ sở lý thuyết**
 
-#### 3.1 Web App và Web-base App
+<div style="page-break-after: always;"></div>
 
-##### 3.1.1 Web App
+### **3.1.1 Web App và Web-base App**
+
+#### 3.1.1.a Web App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -44,7 +46,7 @@ thì nên dùng webstite thuần túy hoặc landing page.
 
 <div style="page-break-after: always;"></div>
 
-##### 3.1.2 Web-base App
+#### 3.1.1.b Web-base App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -83,7 +85,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-#### 3.2 Native App, Hybrid App và Cross Platform App
+##### 3.1.2 Native App, Hybrid App và Cross Platform App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -98,7 +100,7 @@ Mỗi công nghệ có những ưu điểm và nhược điểm khác nhau cần
 
 <div style="page-break-after: always;"></div>
 
-##### 3.2.1 Native App
+#### 3.1.2.a Native App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -130,7 +132,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-##### 3.2.2 Hybrid App
+#### 3.1.2.b Hybrid App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -163,7 +165,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-##### 3.2.3 Cross Platform App
+#### 3.1.2.c Cross Platform App
 
 <p style='text-align: justify;'>
 &emsp;
@@ -200,7 +202,7 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
-#### 3.3 Ứng dụng đa trang và Ứng dụng đơn trang
+## **3.2 Ứng dụng đa trang và Ứng dụng đơn trang**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -211,7 +213,7 @@ Vì vậy để có thể phát triển ứng dụng một cách hiệu quả, n
 nhắc lựa chọn cách thiết kế phù hợp nhất với nhu cầu ứng dụng của mình.
 </p>
 
-#### 3.3.1 Ứng dụng đa trang
+### **3.2.1 Ứng dụng đa trang**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -235,7 +237,7 @@ Nhược điểm:
 - Các ứng dụng đa trang có nội dung lớn tải chậm, ảnh hưởng đến trải nghiệm của người dùng.
 - Khó thích nghi tốt với thiết bị di động.
 
-#### 3.3.2 Ứng dụng đơn trang
+### **3.2.2 Ứng dụng đơn trang**
 
 <p style='text-align: justify;'>
 &emsp;

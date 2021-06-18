@@ -1,6 +1,8 @@
-### **1. Tổng quan giới thiệu đề tài**
+# **1. Tổng quan giới thiệu đề tài**
 
-#### 1.1 Giới thiệu
+<div style="page-break-after: always;"></div>
+
+## **1.1 Giới thiệu**
 
 <p style='text-align: justify;'>
 &emsp;Năm 2020-2021 là những năm đầy biến động, khó khăn và những thách thức lớn, 
@@ -19,7 +21,7 @@ cần được phát triển để có thể đáp ứng với nhiều khó khă
 "Xây dựng hệ thống đánh giá luận văn tốt nghiệp".
 </p>
 
-#### 1.2 Các vấn đề hiện tại
+## **1.2 Các vấn đề hiện tại**
 
 <p style='text-align: justify;'>
 &emsp;Hệ thống đánh giá luận văn của trường Đại học Bách khoa - Đại học Quốc gia TP.HCM hiện tại
@@ -46,7 +48,7 @@ giãn cách xã hội không còn dễ dàng trao đổi trực tiếp với nha
 
 <div style="page-break-after: always;"></div>
 
-#### 1.3 Mục tiêu của đề tài
+## **1.3 Mục tiêu của đề tài**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -62,14 +64,14 @@ với các tính năng cơ bản như sau:
 - Tạo các tiêu chí đánh giá cho sinh viên.
 - Chấm điểm cho từng sinh viên trong nhóm luận văn. (Phân biệt điểm GVHD, GVPB, và các thành viên hội đồng)
 
-#### 1.4 Phạm vi đề tài
+## **1.4 Phạm vi đề tài**
 
 &emsp;Phạm vi đối tượng mà đề tài hướng đến là:
 
 - Cán bộ giáo vụ trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM
 - Giảng viên trường Đại học Bách Khoa - Đại học Quốc gia TP.HCM
 
-#### 1.5 Khó khăn thử thách
+## **1.5 Khó khăn thử thách**
 
 &emsp;Các khó khăn, thử thách mà đề tài gặp phải
 
@@ -84,4 +86,5 @@ với các tính năng cơ bản như sau:
   - Đội ngũ phát triển không có kinh nghiệm front-end
 
 <div style="page-break-after: always;"></div>
+
 
