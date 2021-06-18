@@ -4,6 +4,9 @@
       "path": "."
     },
     {
+      "path": ".."
+    },
+    {
       "path": "../../thesis"
     },
     {
@@ -11,7 +14,7 @@
     },
     {
       "path": "../../thesis-document.wiki"
-    }
+    },
   ],
   "settings": {
     "editor.formatOnSave": false,
