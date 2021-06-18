@@ -29,7 +29,7 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/c#.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/csharp.png?raw=true">
   <p>Hình 3.5.2 Logo C#</p>
 </center>
 
