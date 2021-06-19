@@ -21,4 +21,6 @@ https://vn.got-it.ai/blog/top-7-ngon-ngu-lap-trinh-backend-pho-bien-nhat
 
 https://niithanoi.edu.vn/web-framework-tot-nhat.html
 
+https://tel4vn.edu.vn/cac-loai-co-so-du-lieu/
+
 !export[/report/src/export/export.md]
