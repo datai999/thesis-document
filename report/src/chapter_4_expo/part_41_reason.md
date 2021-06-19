@@ -63,7 +63,7 @@ Sau đây là một số so sánh về các frame-work
 | ---------------------------------------------------- | -------------------------------- | ---------------------------------------- |
 | Android Studio and XCode để chạy code tốt            | Cần                              | Chỉ cần terminal                         |
 | Máy Mac                                              | Cần                              | Không cần                                |
-| Kết nối thiết bị test                                | Cáp USB                          | Cáp USB hoặc chia sẽ subnet(wifi)        |
+| Kết nối thiết bị test                                | Cáp USB                          | Cáp USB hoặc chia sẽ qua mạng LAN        |
 | Chia sẽ app                                          | Build file .apk .ipa             | Thêm phương thức share QR code hoặc link |
 | Cung cấp JS APIs (Push-Notifications, Asset Manager) | Cài thủ công với npm             | Dùng gói của Expo cung cấp               |
 | Thời gian cấu hình                                   | Phức tạp                         | Chỉ cần install và chạy bằng command     |
@@ -71,8 +71,9 @@ Sau đây là một số so sánh về các frame-work
 | Phân phối app đến store                              | Thủ công                         | Dùng command của Expo cung cấp           |
 | Viết code Native như Java/Objective-C/Swift          | Có thể                           | Không thể                                |
 | Kích thước ứng dụng ban đầu                          | Nhỏ và gắn từng phần vào nhờ npm | Lớn nhưng cung cấp đầy đủ                |
-| Debug                                                | Bình thường                      | Khó khăn hơn vì gom nhiều nền tảng chung |
 | Khả năng tương tác với các thư viện khác             | Tốt                              | Hạn chế vì ràng buộc với Expo            |
+| Debug                                                | Bình thường                      | Khó khăn hơn vì gom nhiều nền tảng chung |
+| Build file local                                     | Có thể                           | Phải đẩy lên cloud để Expo build         |
 
 <p style='text-align: justify;'>
 &emsp;
