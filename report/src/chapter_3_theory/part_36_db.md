@@ -77,6 +77,18 @@ Cơ sở dữ liệu dạng này có các cặp khoá – giá trị nhưng cũn
 giúp việc truy vấn (*query) dễ dàng hơn.
 </p>
 
+Các cơ sở dữ liệu tiêu biểu:
+
+<center>
+  <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/mongo.png?raw=true">
+  <p>Hình 3.6.2.a Logo Mongo</p>
+</center>
+
+<center>
+  <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/couchbase.png?raw=true">
+  <p>Hình 3.5.4.b Logo Couchbase</p>
+</center>
+
 Ưu điểm:
 
 - Cơ sở dữ liệu hướng tài liệu rất linh hoạt, có thể xử lí dữ liệu nửa cấu trúc và không cấu trúc rất tốt.
@@ -117,6 +129,13 @@ có thể lưu ảnh lớn hoặc dữ liệu văn bảng như những thuộc t
 Các gía trị này có thể được gán bất cứ loại giá trị nào: Số, Chuỗi giá trị, Bộ đếm, JSON, XML, HTML, PHP, Nhị phân, Hình ảnh, Video ngắn, Danh sách,...
 </p>
 
+Các cơ sở dữ liệu tiêu biểu:
+
+<center>
+  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/redis-memcached.png?raw=true">
+  <p>Hình 3.6.3 Logo Redis vs Logo Memcached</p>
+</center>
+
 Ưu điểm:
 
 - Rất linh hoạt và có thể xử lí nhiều loại dữ liệu một cách nhanh chóng.
@@ -156,6 +175,13 @@ Mỗi hàng không cần phải có số lượng hoặc loại cột.
 Một timestamp quyết định phiên bản gần nhất của data.
 </p>
 
+Các cơ sở dữ liệu tiêu biểu:
+
+<center>
+  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/cassandra-hbase.png?raw=true">
+  <p>Hình 3.6.4 Logo Cassandra vs Logo Hbase</p>
+</center>
+
 Ưu điểm:
 
 - Có thể xử lí dữ liệu cấu trúc và phi cấu trúc, đồng thời cũng dễ dàng nâng cấp.
@@ -187,6 +213,13 @@ nhưng ngày càng được các nhà phát triển tận dụng để giảm th
 Elasticsearch được xem như một cơ sở dữ liệu dạng phi quan hệ, dựa trên nền tảng lưu trữ dữ liệu dạng văn kiện, 
 thiết kế chuyên biệt để tối ưa hoá lưu trữ và trao đổi dữ liệu nhanh chóng.
 </p>
+
+Các cơ sở dữ liệu tiêu biểu:
+
+<center>
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/elasticsearch.png?raw=true">
+  <p>Hình 3.6.5 Logo Elasticsearch</p>
+</center>
 
 Ưu điểm:
 
