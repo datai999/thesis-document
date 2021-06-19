@@ -965,5 +965,53 @@ Nên dùng khi:
 
 <div style="page-break-after: always;"></div>
 
+### **3.6.6 Lựa chọn cơ sở dữ liệu**
+
+#### 3.6.6.a Lựa chọn loại cơ sở dữ liệu
+
+Dựa vào các đối tượng mà hệ thống hướng tới, hệ thống cần:
+
+- Đảm bảo tính toàn vẹn, tính nhất quán, giảm dư thừa dữ liệu
+- Cần đảm bảo mối liên hệ giữa điểm số, người chấm điểm và sinh viên được chặt chẽ
+- Đảm bảo tính minh bạch của các điểm số
+- Xuất báo cáo
+- Các tính năng và kiểu dự liệu có thể dự đoán trước
+- Ít có sự thay đổi lớn về nghiệp vụ khi hệ thống dần đi vào ổn định
+- Không cần dữ liệu phân tán
+
+<p style='text-align: justify;'>
+&emsp;
+Với những phân tích đánh giá như trên, nhóm quyết định lựa chọn sửa dụng hệ cơ sở dữ liệu quan hệ.
+</p>
+
+Chấp nhận nhược điểm tồn tại về cơ sở dữ liệu quan hệ:
+
+- Khó khăn trong việc thiết kế
+- Khó khăn khi gặp sự thay đổi về nghiệp vụ nhất định
+
+#### 3.6.6.b Lựa chọn loại cơ sở dữ liệu
+
+<p style='text-align: justify;'>
+&emsp;
+Nhóm sẽ chọn PostgreSQL để sử dụng trong dự án.
+</p>
+
+<center>
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/postgre.png?raw=true">
+  <p>Hình 3.6.6.b Logo PostgreSQL</p>
+</center>
+
+Ưu điểm của PostgreSQL so với các cơ sở dữ liệu quan hệ khác:
+
+- PostgreSQL được dự đoán sẽ chiếm vị trí SQL Database phổ biến nhất của MySQL trong vòng 3 năm
+- Hỗ trợ Analytic functions
+- Ngoài các Data types chuẩn sql thì còn có array, hstore, object (người dùng định nghĩa)
+- Full text search: không giới hạn
+- Thuật toán JOIN sử lí tối ưu hơn
+- DELETE nhanh hơn
+- Hỗ trợ JSON
+
+<div style="page-break-after: always;"></div>
+
 
 
