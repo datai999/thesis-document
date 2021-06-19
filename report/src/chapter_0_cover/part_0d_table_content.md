@@ -39,12 +39,19 @@
     - 3.5.3 [Python và Django](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_technology.md#353-python-và-django) [28]
     - 3.5.4 [JavaScript và ExpressJS](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_technology.md#354-javascript-và-expressjs) [29]
     - 3.5.5 [Lựa chọn ngôn ngữ lập trình và frame-work](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_technology.md#355-lựa-chọn-ngôn-ngữ-lập-trình-và-frame-work-back-end) [30]
+  - 3.6 [Cơ sở dữ liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#36-cơ-sở-dữ-liệu) [31]
+    - 3.6.1 [Cơ sở dữ liệu quan hệ](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#361-cơ-sở-dữ-liệu-quan-hệ) [32]
+    - 3.6.2 [Cơ sở dữ liệu hướng tài liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#362-cơ-sở-dữ-liệu-hướng-tài-liệu) [33]
+    - 3.6.3 [Cơ sở dữ liệu dạng khóa - giá trị](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#363-cơ-sở-dữ-liệu-dạng-khóa-giá-trị) [34]
+    - 3.6.4 [Cơ sở dữ liệu mô hình wide – colum](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#364-cơ-sở-dữ-liệu-mô-hình-wide–colum) [35]
+    - 3.6.5 [Cơ sở dữ liệu dạng bộ máy tìm kiếm](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#365-cơ-sở-dữ-liệu-dạng-bộ-máy-tìm-kiếm) [36]
+    - 3.6.6 [Lựa chọn cơ sở dữ liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_theory.md#366-lựa-chọn-cơ-sở-dữ-liệu) [37]
 
-- 3. Thiết kế hệ thống:
+<div style="page-break-after: always;"></div>
 
-- 4. So sánh lựa chọn công nghệ:
+- 4. Dùng React Native code web với Expo
 
-- 5. Thử nghiệm công nghệ:
+- 5. Thiết kế hệ thống
 
 - 6. Tổng kết và hướng phát triển:
 
