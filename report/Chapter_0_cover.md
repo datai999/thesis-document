@@ -77,7 +77,7 @@ qua ba giai đoạn, cụ thể như sau :
 - **Chương 1:** Tổng quan giới thiệu đề tài
 - **Chương 2:** Phân tích yêu cầu đề tài
 - **Chương 3:** Lựa chọn công nghệ
-- **Chương 4:** Dùng React Native code web với Expo
+- **Chương 4:** Lập trình UI web, android, ios với Expo
 - **Chương 5:** Thiết kế hệ thống
 - **Chương 6:** Thử nghiệm công nghệ
 - **Chương 7:** Tổng kết và hướng phát triển
@@ -135,7 +135,14 @@ qua ba giai đoạn, cụ thể như sau :
 
 <div style="page-break-after: always;"></div>
 
-- 4. Dùng React Native code web với Expo
+- 4 [Lập trình UI web, android, ios với Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md) [39]
+
+  - 4.1 [Hoàn cảnh và ý tưởng](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#41-hoàn-cảnh-và-ý-tưởng) [40]
+    4.1.1 [Từ web đến di động](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#411-từ-web-đến-di-động) [40]
+    4.1.2 [Từ di động đến web](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#412-từ-di-động-đến-web) [40]
+  - 4.2 [Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#42-expo) [41]
+  - 4.2.1 [Giới thiệu Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#421-giới-thiệu-expo) [41]
+  - 4.2.2 [Chạy thử ứng dụng từ Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#422-chạy-thử-ứng-dụng-từ-expo) [41]
 
 - 5. Thiết kế hệ thống
 

@@ -1,5 +1,7 @@
 ## **4 Lập trình UI web, android, ios với Expo**
 
+<div style="page-break-after: always;"></div>
+
 ### **4.1 Hoàn cảnh và ý tưởng**
 
 <p style='text-align: justify;'>

@@ -34,7 +34,7 @@ qua ba giai đoạn, cụ thể như sau :
 - **Chương 1:** Tổng quan giới thiệu đề tài
 - **Chương 2:** Phân tích yêu cầu đề tài
 - **Chương 3:** Lựa chọn công nghệ
-- **Chương 4:** Dùng React Native code web với Expo
+- **Chương 4:** Lập trình UI web, android, ios với Expo
 - **Chương 5:** Thiết kế hệ thống
 - **Chương 6:** Thử nghiệm công nghệ
 - **Chương 7:** Tổng kết và hướng phát triển
