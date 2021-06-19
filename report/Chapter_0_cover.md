@@ -41,6 +41,17 @@ Nhóm sinh viên thực hiện
 
 <div style="page-break-after: always;"></div>
 
+<center> <h2>Lưu trữ tài liệu</h1> </center>
+
+&emsp;Nhóm coi đây được coi là tài liệu kỹ thuật nên quyết định dùng file Markdown (README.md là một ví dụ của markdown)
+để soạn thảo thay cho các công cụ soạn thảo khác.
+
+&emsp;Phiên bản mới nhất của tài liệu này được cập nhật tại github.
+
+> https://github.com/datai999/thesis-document/tree/main/report
+
+</br>
+
 <center> <h2>Tóm tắt nội dung</h1> </center>
 
 &emsp;Đề tài luận văn mà nhóm chúng tôi thực hiện là "Xây dựng hệ thống đánh giá luận văn tốt nghiệp".
@@ -70,10 +81,6 @@ qua ba giai đoạn, cụ thể như sau :
 - **Chương 5:** Thiết kế hệ thống
 - **Chương 6:** Thử nghiệm công nghệ
 - **Chương 7:** Tổng kết và hướng phát triển
-
-&emsp;Phiên bản mới nhất của tài liệu này được cập nhật tại github
-
-> https://github.com/datai999/thesis-document/tree/main/report
 
 <div style="page-break-after: always;"></div>
 
