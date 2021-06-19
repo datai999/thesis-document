@@ -9,5 +9,6 @@
 !import[/report/src/Chapter_3_theory/part_3c_fe_lang.md]
 !import[/report/src/Chapter_3_theory/part_3d_fe_framework.md]
 !import[/report/src/Chapter_3_theory/part_35_be_framework.md]
+!import[/report/src/Chapter_3_theory/part_36_db.md]
 
 !export[/report/Chapter_3_theory.md]

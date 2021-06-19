@@ -19,6 +19,11 @@ sử dụng các kỹ thuật thiết kế và mô hình hóa chính thức
   - Cơ sở dữ liệu mô hình wide – column
   - Cơ sở dữ liệu dạng bộ máy tìm kiếm
 
+<center>
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/db-type.png?raw=true">
+  <p>Hình 3.6 Phân loại cơ sở dữ liệu</p>
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ### **3.6.1 Cơ sở dữ liệu quan hệ**
@@ -80,13 +85,13 @@ giúp việc truy vấn (*query) dễ dàng hơn.
 Các cơ sở dữ liệu tiêu biểu:
 
 <center>
-  <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/mongo.png?raw=true">
+  <img width="250" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/mongo.png?raw=true">
   <p>Hình 3.6.2.a Logo Mongo</p>
 </center>
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/couchbase.png?raw=true">
-  <p>Hình 3.5.4.b Logo Couchbase</p>
+  <p>Hình 3.6.2.b Logo Couchbase</p>
 </center>
 
 Ưu điểm:
@@ -119,14 +124,8 @@ Nên dùng khi:
 Key-value stores là kiểu lưu trữ đơn giản nhất trong các loại cơ sở dữ liệu NoSQL đồng thời nó cũng là kiểu lưu trữ cho tất cả các Hệ quản trị cơ sở dữ liệu NoSQL. 
 Thông thường, các hệ quản trị cơ sở dữ liệu Key-value lưu trữ dữ liệu dưới dạng key (là một chuỗi duy nhất) 
 liên kết với value có thể ở dạng chuỗi văn bản đơn giản hoặc các tập, danh sách dữ liệu phức tạp hơn. 
-Quá trình tìm kiếm dữ liệu thường sẽ được thực hiện thông qua key, điều này dẫn đến sự hạn chế về độ chính xác.
-CDSL chìa khoá – giá trị là một dạng cơ sở dữ liệu phi quan hệ nơi mà mỗi giá trị được gán cho một key (chìa khoá) nhất định, 
-còn được biết đến như associative array – mảng liên tưởng.
-Một “key” là một định danh độc nhất được gán cho một giá trị. 
-Keys có thể là bất cứ thứ gì cho phép bởi DBMS. Trong Redis, keys có thể là một hàm nhị phân lên tới 512MB
-“Giá trị” có thể được lưu trữ dưới dạng blob (Là kiểu dữ liệu của một cột trong bảng RDBMS, 
-có thể lưu ảnh lớn hoặc dữ liệu văn bảng như những thuộc tính.) và không cần schema định sẵn. 
 Các gía trị này có thể được gán bất cứ loại giá trị nào: Số, Chuỗi giá trị, Bộ đếm, JSON, XML, HTML, PHP, Nhị phân, Hình ảnh, Video ngắn, Danh sách,...
+Quá trình tìm kiếm dữ liệu thường sẽ được thực hiện thông qua key, điều này dẫn đến sự hạn chế về độ chính xác. 
 </p>
 
 Các cơ sở dữ liệu tiêu biểu:
@@ -178,7 +177,7 @@ Một timestamp quyết định phiên bản gần nhất của data.
 Các cơ sở dữ liệu tiêu biểu:
 
 <center>
-  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/cassandra-hbase.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/cassandra-hbase.png?raw=true">
   <p>Hình 3.6.4 Logo Cassandra vs Logo Hbase</p>
 </center>
 
