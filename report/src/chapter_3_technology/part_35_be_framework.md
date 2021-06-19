@@ -15,7 +15,7 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 </p>
 
 <center>
-  <img width="80" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/java.png?raw=true">
+  <img width="80" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/java.png?raw=true">
   <p>Hình 3.5.1.a Logo Java</p>
 </center>
 
@@ -33,7 +33,7 @@ Có thể nói, Spring boot là bản rút gọn của Spring
 </p>
 
 <center>
-  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/springboot.png?raw=true">
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/springboot.png?raw=true">
   <p>Hình 3.5.1.b Logo Spring-boot</p>
 </center>
 
@@ -55,7 +55,7 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/csharp.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/csharp.png?raw=true">
   <p>Hình 3.5.2.a Logo C#</p>
 </center>
 
@@ -67,7 +67,7 @@ Các ứng dụng ASP.Net cũng có thể được viết bằng nhiều ngôn n
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dotnet.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/dotnet.png?raw=true">
   <p>Hình 3.5.2.b Logo ASP .NET</p>
 </center>
 
@@ -89,7 +89,7 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 </p>
 
 <center>
-  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/python.png?raw=true">
+  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/python.png?raw=true">
   <p>Hình 3.5.3.a Logo Python</p>
 </center>
 
@@ -102,7 +102,7 @@ Vì vậy Django rất phù hợp với các ứng dụng lớn và không nền
 </p>
 
 <center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/django.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/django.png?raw=true">
   <p>Hình 3.5.3.b Logo Django</p>
 </center>
 
@@ -124,7 +124,7 @@ Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh 
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/js.png?raw=true">
   <p>Hình 3.5.4.a Logo JavaScript</p>
 </center>
 
@@ -142,7 +142,7 @@ Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ gi
 </p>
 
 <center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/express.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/express.png?raw=true">
   <p>Hình 3.5.4.b Logo JavaScript</p>
 </center>
 

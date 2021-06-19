@@ -20,7 +20,7 @@ sử dụng các kỹ thuật thiết kế và mô hình hóa chính thức
   - Cơ sở dữ liệu dạng bộ máy tìm kiếm
 
 <center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/db-type.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/db-type.png?raw=true">
   <p>Hình 3.6 Phân loại cơ sở dữ liệu</p>
 </center>
 
@@ -85,12 +85,12 @@ giúp việc truy vấn (*query) dễ dàng hơn.
 Các cơ sở dữ liệu tiêu biểu:
 
 <center>
-  <img width="250" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/mongo.png?raw=true">
+  <img width="250" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/mongo.png?raw=true">
   <p>Hình 3.6.2.a Logo Mongo</p>
 </center>
 
 <center>
-  <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/couchbase.png?raw=true">
+  <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/couchbase.png?raw=true">
   <p>Hình 3.6.2.b Logo Couchbase</p>
 </center>
 
@@ -131,7 +131,7 @@ Quá trình tìm kiếm dữ liệu thường sẽ được thực hiện thông
 Các cơ sở dữ liệu tiêu biểu:
 
 <center>
-  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/redis-memcached.png?raw=true">
+  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/redis-memcached.png?raw=true">
   <p>Hình 3.6.3 Logo Redis vs Logo Memcached</p>
 </center>
 
@@ -177,7 +177,7 @@ Một timestamp quyết định phiên bản gần nhất của data.
 Các cơ sở dữ liệu tiêu biểu:
 
 <center>
-  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/cassandra-hbase.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/cassandra-hbase.png?raw=true">
   <p>Hình 3.6.4 Logo Cassandra vs Logo Hbase</p>
 </center>
 
@@ -216,7 +216,7 @@ thiết kế chuyên biệt để tối ưa hoá lưu trữ và trao đổi dữ
 Các cơ sở dữ liệu tiêu biểu:
 
 <center>
-  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/elasticsearch.png?raw=true">
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/elasticsearch.png?raw=true">
   <p>Hình 3.6.5 Logo Elasticsearch</p>
 </center>
 

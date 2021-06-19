@@ -18,7 +18,7 @@ JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới �
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/js.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/js.png?raw=true">
   <p>Hình 3.3.1 Logo JavaScript</p>
 </center>
 
@@ -52,7 +52,7 @@ bởi việc bổ sung tùy chọn kiểu tĩnh và lớp hướng đối tượ
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/ts.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/ts.png?raw=true">
   <p>Hình 3.3.2 Logo TypeScript</p>
 </center>
 
@@ -79,7 +79,7 @@ Dart là một ngôn ngữ lập trình đa mục đích của Google có thể 
 </p>
 
 <center>
-  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/dart.png?raw=true">
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/dart.png?raw=true">
   <p>Hình 3.3.3 Logo Dart</p>
 </center>
 

@@ -8,7 +8,7 @@ React là một thư viện JavaScript, được Facebook ra mắt từ năm 201
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/react.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/react.png?raw=true">
   <p>Hình 3.4.1. Logo Frame-work React</p>
 </center>
 
@@ -39,7 +39,7 @@ Angular là một JavaScript MVVM frame-work, được ra mắt từ 2009. Đây
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/angular.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/angular.png?raw=true">
   <p>Hình 3.4.2. Logo Frame-work Angular</p>
 </center>
 
@@ -67,7 +67,7 @@ Vue.js là một frame-work JavaScript, được ra mắt vào năm 2013, hoàn 
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/vue.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/vue.png?raw=true">
   <p>Hình 3.4.3. Logo Frame-work Vue</p>
 </center>
 
@@ -96,7 +96,7 @@ Tuy nhiên việc chọn ra frame-work tốt nhất thực sự là một điề
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/rav.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/rav.png?raw=true">
   <p>Hình 3.4.4.a Frame-work Angular vs Vue vs React</p>
 </center>
 
@@ -107,7 +107,7 @@ nên app di động sẽ được viết bằng React Native. Với sự tương
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_theory/img/react-native-web.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/react-native-web.png?raw=true">
   <p>Hình 3.4.4.b Dùng React-native code web</p>
 </center>
 
