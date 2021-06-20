@@ -32,6 +32,7 @@ erDiagram
     }
     tp_topic_assign {
       bigint topic_id
+      integer semester
       bigint status_id
       array-string execute_student_code
       array-string guide_teacher_code
