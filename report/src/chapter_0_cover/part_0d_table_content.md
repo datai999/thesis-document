@@ -54,11 +54,18 @@
   - 4.1 [Hoàn cảnh và ý tưởng](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#41-hoàn-cảnh-và-ý-tưởng) [40]
     - 4.1.1 [Từ web đến di động](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#411-từ-web-đến-di-động) [40]
     - 4.1.2 [Từ di động đến web](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#412-từ-di-động-đến-web) [40]
-  - 4.2 [Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#42-expo) [41]
-    - 4.2.1 [Giới thiệu Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#421-giới-thiệu-expo) [41]
-    - 4.2.2 [Chạy thử ứng dụng từ Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#422-chạy-thử-ứng-dụng-từ-expo) [41]
+  - 4.2 [Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#42-expo) [42]
+    - 4.2.1 [Giới thiệu Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#421-giới-thiệu-expo) [42]
+    - 4.2.2 [Chạy thử ứng dụng từ Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#422-chạy-thử-ứng-dụng-từ-expo) [43]
 
-- 5. Thiết kế hệ thống
+- 5 [Thiết kế kiến trúc hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#5-thiết-kế-hệ-thống) [44]
+
+  - 5.1 [Thiết kế cơ sở dữ liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#51-thiết-kế-cơ-sở-dữ-liệu) [45]
+    - 5.1.1 [Nèn tảng thiết kế cơ sở dữ liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#511-nền-tảng-thiết-kế-cơ-sở-dữ-liệu) [45]
+    - 5.1.2 [Các bảng nhóm khác (br)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#512-các-bảng-nhóm-khác-br) [47]
+    - 5.1.3 [Các bảng nhóm nhân sự (ps)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#513-các-bảng-nhóm-nhân-sự-ps) [49]
+    - 5.1.4 [Các bảng nhóm đề tài (tp)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#514-các-bảng-nhóm-đề-tài-tp) [51]
+    - 5.1.5 [Các bảng nhóm điểm (sc)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#515-các-bảng-nhóm-điểm-sc) [54]
 
 - 6. Tổng kết và hướng phát triển:
 

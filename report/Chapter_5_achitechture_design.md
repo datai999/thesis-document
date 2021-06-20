@@ -2,9 +2,9 @@
 
 <div style="page-break-after: always;"></div>
 
-### **5.1 Thiết cơ sở dữ liệu**
+### **5.1 Thiết kế cơ sở dữ liệu**
 
-#### 5.1.1 Nền tảng thiết kết cơ sở dữ liệu
+#### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
 
 ##### 5.1.1.a Chia nhóm các bảng
 
@@ -72,6 +72,13 @@ Mọi table đều extends **BaseTable** chứa các thông tin sau
 | created_by | bigint                      | không     | không                     | Mã số người tạo record        |
 | updated_by | bigint                      | không     | không                     | Mã số người cập nhật record   |
 
+<p style='text-align: justify;'>
+&emsp;
+Với cách thiết kế này, nhóm sẽ sẽ dụng duy nhất id làm Primary key cho toàn bộ bảng 
+và không sử dụng khóa chính tổng hợp (composite-key).
+Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
+</p>
+
 ##### 5.1.1.d Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
@@ -111,7 +118,7 @@ Ví dụ
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.2 Các bảng nhóm br
+#### 5.1.2 Các bảng nhóm khác (br)
 
 ```mermaid
 erDiagram
@@ -187,7 +194,7 @@ Bảng br_setting
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.3 Các bảng nhóm ps
+#### 5.1.3 Các bảng nhóm nhân sự (ps)
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 
@@ -312,7 +319,7 @@ Bảng ps_teacher
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.4 Các bảng nhóm tp
+#### 5.1.4 Các bảng nhóm đề tài (tp)
 
 ```mermaid
 erDiagram
@@ -490,7 +497,7 @@ Bảng tp_topic_assign
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.5 Các bảng nhóm sc
+#### 5.1.5 Các bảng nhóm điểm (sc)
 
 ```mermaid
 erDiagram
