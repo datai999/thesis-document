@@ -68,6 +68,13 @@ Mọi table đều extends **BaseTable** chứa các thông tin sau
 | created_by | bigint                      | không     | không                     | Mã số người tạo record        |
 | updated_by | bigint                      | không     | không                     | Mã số người cập nhật record   |
 
+<p style='text-align: justify;'>
+&emsp;
+Với cách thiết kế này, nhóm sẽ sẽ dụng duy nhất id làm Primary key cho toàn bộ bảng 
+và không sử dụng khóa chính tổng hợp (composite-key).
+Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
+</p>
+
 ##### 5.1.1.d Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
