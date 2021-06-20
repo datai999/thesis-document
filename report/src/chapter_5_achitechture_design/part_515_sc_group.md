@@ -1,4 +1,4 @@
-#### 5.1.5 Các bảng nhóm sc
+#### 5.1.5 Các bảng nhóm điểm (sc)
 
 ```mermaid
 erDiagram

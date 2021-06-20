@@ -1,4 +1,4 @@
-#### 5.1.3 Các bảng nhóm ps
+#### 5.1.3 Các bảng nhóm nhân sự (ps)
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 

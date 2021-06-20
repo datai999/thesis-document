@@ -1,6 +1,6 @@
-### **5.1 Thiết cơ sở dữ liệu**
+### **5.1 Thiết kế cơ sở dữ liệu**
 
-#### 5.1.1 Nền tảng thiết kết cơ sở dữ liệu
+#### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
 
 ##### 5.1.1.a Chia nhóm các bảng
 

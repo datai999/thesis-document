@@ -1,4 +1,4 @@
-#### 5.1.4 Các bảng nhóm tp
+#### 5.1.4 Các bảng nhóm đề tài (tp)
 
 ```mermaid
 erDiagram

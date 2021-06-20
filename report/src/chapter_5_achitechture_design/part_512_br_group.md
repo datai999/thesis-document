@@ -1,4 +1,4 @@
-#### 5.1.2 Các bảng nhóm br
+#### 5.1.2 Các bảng nhóm khác (br)
 
 ```mermaid
 erDiagram
