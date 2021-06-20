@@ -2,6 +2,10 @@
 
 ```mermaid
 erDiagram
+    tp_council {
+      array-bigint role_id
+      array-string teacher_code
+    }
     br_const_data {
         string type
         json value
@@ -9,7 +13,8 @@ erDiagram
     }
     tp_topic_assign {
       bigint topic_id
-      boolean thesis_flag
+      integer semester
+      bigint status_id
       array-string execute_student_code
       array-string guide_teacher_code
       array-string review_teacher_code
@@ -30,16 +35,16 @@ erDiagram
       bigint criterion_template_id
       bigint teacher_code
       bigint student_code
-      array-bigint criterion_id
       array-int score
       text comment
     }
+    tp_council ||--o{ tp_topic_assign : has_council
+    br_const_data ||--|| tp_topic_assign : has_status
 
     br_const_data ||--o{ sc_criterion_template : has_score_method
-    tp_topic_assign ||--o{ sc_score : has_topic_assign
-    sc_criterion_template ||--o{ sc_score : has_template
-    ps_teacher ||--o{ sc_score : has_teacher
-    ps_student ||--o{ sc_score : has_student
+
+    tp_topic_assign ||--|| sc_score : for_topic_assign
+    sc_criterion_template ||--|| sc_score : has_template
 ```
 
 <div style="page-break-after: always;"></div>
