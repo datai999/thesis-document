@@ -3,6 +3,7 @@
 !import[/report/src/Chapter_2_requirement/combine_chapter_2.md]
 !import[/report/src/chapter_3_technology/combine_chapter_3.md]
 !import[/report/src/chapter_4_expo/combine_chapter_4.md]
+!import[/report/src/chapter_5_achitechture_design/combine_chapter_5.md]
 
 <div style="page-break-after: always;"></div>
 
