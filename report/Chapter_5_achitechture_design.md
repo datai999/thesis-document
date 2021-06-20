@@ -110,6 +110,7 @@ Ví dụ
 | 1   | {"en":"Computer Science","vi":"Khoa học máy tính"} |
 
 <div style="page-break-after: always;"></div>
+
 #### 5.1.2 Các bảng nhóm br
 
 ```mermaid
@@ -185,6 +186,7 @@ Bảng br_setting
 | 1   | 5       | br_const_data | [2,3]  |
 
 <div style="page-break-after: always;"></div>
+
 #### 5.1.3 Các bảng nhóm ps
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
@@ -355,6 +357,7 @@ erDiagram
 ```
 
 <div style="page-break-after: always;"></div>
+
 #### 5.1.5 Các bảng nhóm sc
 
 ```mermaid
@@ -398,5 +401,8 @@ erDiagram
     ps_teacher ||--o{ sc_score : has_teacher
     ps_student ||--o{ sc_score : has_student
 ```
+
+<div style="page-break-after: always;"></div>
+
 
 
