@@ -48,3 +48,11 @@ erDiagram
 ```
 
 <div style="page-break-after: always;"></div>
+
+##### 5.1.5.a Bảng sc_criterion
+
+##### 5.1.5.b Bảng sc_criterion_template
+
+##### 5.1.5.c Bảng sc_score
+
+<div style="page-break-after: always;"></div>
