@@ -66,6 +66,8 @@
     - 5.1.3 [Các bảng nhóm nhân sự (ps)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#513-các-bảng-nhóm-nhân-sự-ps) [49]
     - 5.1.4 [Các bảng nhóm đề tài (tp)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#514-các-bảng-nhóm-đề-tài-tp) [51]
     - 5.1.5 [Các bảng nhóm điểm (sc)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#515-các-bảng-nhóm-điểm-sc) [54]
+  - 5.2 [Thiết kế API]() [58]
+    - 5.2.1 [Các API cơ sở]() [58]
 
 - 6. Tổng kết và hướng phát triển:
 
