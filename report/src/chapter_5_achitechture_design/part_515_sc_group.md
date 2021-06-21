@@ -25,15 +25,17 @@ erDiagram
       array-string review_teacher_code
       bigint council_id
     }
-    sc_criterion {
-        json name
-        json description
-    }
     sc_criterion_template {
       json name
-      json description
-      bigint score_method_id
       array-bigint criterion_id
+      array-integer criterion_score
+      json description
+    }
+    sc_criterion {
+        json name
+        bigint score_method_id
+        array-integer score_item_percent
+        json description
     }
     sc_score {
       bigint topic_assign_id
@@ -46,10 +48,10 @@ erDiagram
     tp_council ||--o{ tp_topic_assign : has_council
     br_const_data ||--|| tp_topic_assign : has_status
 
-    br_setting ||--|| sc_criterion_template : has_score_method
-
     tp_topic_assign ||--|| sc_score : for_topic_assign
     sc_criterion_template ||--|| sc_score : has_template
+
+    br_setting ||--|| sc_criterion : has_score_method
 ```
 
 <div style="page-break-after: always;"></div>
@@ -60,10 +62,12 @@ erDiagram
 
 **Đặc tả chi tiết**
 
-| Trường      | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả          |
-| ----------- | ------------ | --------- | -------- | -------------- |
-| name        | json         | không     | không    | Tên tiêu chí   |
-| description | json         | có        | không    | Mô tả tiêu chí |
+| Trường             | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                                  |
+| ------------------ | ------------- | --------- | -------- | -------------------------------------- |
+| name               | json          | không     | không    | Tên tiêu chí                           |
+| score_method_id    | bigint        | không     | không    | Phương thức chấm điểm                  |
+| score_item_percent | array-integer | không     | không    | Phần trăm số điểm mỗi bậc của tiêu chí |
+| description        | json          | có        | không    | Mô tả tiêu chí                         |
 
 ##### 5.1.5.b Bảng sc_criterion_template
 
@@ -71,12 +75,12 @@ erDiagram
 
 **Đặc tả chi tiết**
 
-| Trường          | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                 |
-| --------------- | ------------ | --------- | -------- | --------------------- |
-| name            | json         | không     | không    | Tên tiêu chí          |
-| score_method_id | json         | có        | không    | Phương thức chấm điểm |
-| description     | json         | có        | không    | Mô tả về mẫu tiêu chí |
-| criterion_id    | array-bigint | có        | không    | Danh sách tiêu chí    |
+| Trường          | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                        |
+| --------------- | ------------- | --------- | -------- | ---------------------------- |
+| name            | json          | không     | không    | Tên tiêu chí                 |
+| criterion_id    | array-bigint  | không     | không    | Danh sách tiêu chí           |
+| criterion_score | array-integer | không     | không    | Điểm tối đa cho mỗi tiêu chí |
+| description     | json          | có        | không    | Mô tả về mẫu tiêu chí        |
 
 ##### 5.1.5.c Bảng sc_score
 
@@ -99,47 +103,50 @@ erDiagram
 
 <p style='text-align: justify;'>
 &emsp;
-Một mẫu tiêu chí chấm điểm số 45 gồm 2 tiêu chí là "Đạt 80% khối lượng công việc" và "Báo cáo chi tiết".
-2 tiêu chí này được chấm theo phương thức ABCD với A là điểm cao nhất và D là thấp nhất.
-</p>
-
-<p style='text-align: justify;'>
-&emsp;
-Mẫu tiêu chí số 46 khác mẫu 45 ở phương thức chấm điểm là "Đạt" và "Không đạt".
-</p>
+Một mẫu tiêu chí chấm điểm số 45 được dùng chấm đề cương và cả luận văn, 
+gồm 2 tiêu chí là "Đạt 80% khối lượng công việc" và "Báo cáo chi tiết".
+2 tiêu chí này được chấm theo phương thức ABC 
+với A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
+Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
+</br>
 
 Bảng br_const_data
 
-| id  | type        | value                                                    | no   |
-| --- | ----------- | -------------------------------------------------------- | ---- |
-| 1   | scoreMethod | {"en":"A","vi":"A"}                                      | 1    |
-| 2   | scoreMethod | {"en":"D","vi":"D"}                                      | 4    |
-| 3   | scoreMethod | {"en":"C","vi":"C"}                                      | 3    |
-| 4   | scoreMethod | {"en":"B","vi":"B"}                                      | 2    |
-| 5   | scoreMethod | {"en":null,"vi":"Đạt"}                                   | null |
-| 6   | scoreMethod | {"en":null,"vi":"Không đạt"}                             | null |
-| 7   | setting     | {"en":null,"vi":"Phương thức chấm điểm ABCD"}            | null |
-| 8   | setting     | {"en":null,"vi":"Phương thức chấm điểm Đạt & Không đạt"} | null |
+| id  | type            | value                                                  | no   |
+| --- | --------------- | ------------------------------------------------------ | ---- |
+| 1   | scoreMethodItem | {"en":"A","vi":"A"}                                    | 1    |
+| 2   | scoreMethodItem | {"en":"C","vi":"C"}                                    | 3    |
+| 3   | scoreMethodItem | {"en":"B","vi":"B"}                                    | 2    |
+| 4   | scoreMethodName | {"en":null,"vi":"Phương thức chấm điểm ABC"}           | null |
+| 5   | topicTemplate   | {"en":null,"vi":"Mẫu tiêu chí chấm đề cương hiện tại"} | null |
+| 6   | thesisTemplate  | {"en":null,"vi":"Mẫu tiêu chí chấm luận văn hiện tại"} | null |
 
 Bảng br_setting
 
-| id  | name_id | ref_table     | ref_id    |
-| --- | ------- | ------------- | --------- |
-| 9   | 7       | br_const_data | [1,4,3,2] |
-| 10  | 8       | br_const_data | [5,6]     |
+| id  | name_id | ref_table             | ref_id  |
+| --- | ------- | --------------------- | ------- |
+| 21  | 4       | br_const_data         | [1,3,2] |
+| 22  | 5       | sc_criterion_template | [41]    |
+| 23  | 6       | sc_criterion_template | [41]    |
 
 Bảng sc_criterion
 
-| id  | name                           | description                                      |
-| --- | ------------------------------ | ------------------------------------------------ |
-| 1   | {"en":null, "vi":"Tiêu chí 1"} | {"en":null, "vi":"Đạt 80% khối lượng công việc"} |
-| 2   | {"en":null, "vi":"Tiêu chí 2"} | {"en":null, "vi":"Báo cáo chi tiết"}             |
+| id  | name                                             | score_method_id | score_item_percent | description                                                                        |
+| --- | ------------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------------------------------- |
+| 31  | {"en":null, "vi":"Đạt 80% khối lượng công việc"} | 21              | [100,50,30]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
+| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,50,30]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
 
 Bảng sc_criterion_template
 
-| id  | name                          | score_method_id | description | criterion_id |
-| --- | ----------------------------- | --------------- | ----------- | ------------ |
-| 1   | {"en":null, "vi":"Mẫu số 45"} | 9               | null        | [1,2]        |
-| 1   | {"en":null, "vi":"Mẫu số 46"} | 10              | null        | [1,2]        |
+| id  | name                          | criterion_id | criterion_score | description |
+| --- | ----------------------------- | ------------ | --------------- | ----------- |
+| 41  | {"en":null, "vi":"Mẫu số 45"} | [31,32]      | [20,10]         | null        |
+
+<div style="page-break-after: always;"></div>
+
+<p style='text-align: justify;'>
+&emsp;
+
+</p>
 
 <div style="page-break-after: always;"></div>
