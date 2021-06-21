@@ -105,9 +105,10 @@ erDiagram
 &emsp;
 Một mẫu tiêu chí chấm điểm số 45 được dùng chấm đề cương và cả luận văn, 
 gồm 2 tiêu chí là "Đạt 80% khối lượng công việc" và "Báo cáo chi tiết".
-2 tiêu chí này được chấm theo phương thức ABC 
-với A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
+2 tiêu chí này được chấm theo phương thức ABC.
 Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
+Tiêu chí 1 thì A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
+Tiêu chí 2 thì A được toàn bộ số điểm, B được 80% số điểm, C được 60% số điểm.
 </br>
 
 Bảng br_const_data
@@ -134,7 +135,7 @@ Bảng sc_criterion
 | id  | name                                             | score_method_id | score_item_percent | description                                                                        |
 | --- | ------------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------------------------------- |
 | 31  | {"en":null, "vi":"Đạt 80% khối lượng công việc"} | 21              | [100,50,30]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
-| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,50,30]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
+| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,80,60]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
 
 Bảng sc_criterion_template
 
@@ -146,7 +147,58 @@ Bảng sc_criterion_template
 
 <p style='text-align: justify;'>
 &emsp;
-
+Sử dụng mẫu chấm điểm trong ví dụ trên.
 </p>
+
+<p style='text-align: justify;'>
+&emsp;
+Sinh viên có mã số 1713015 làm luận văn đề tài có id 123 ở học kỳ 201.
+Sinh viên này được giảng viên hướng dẫn mã số 0001 cho điểm A và B, 
+giảng viên phản biện mã số 0002 cho điểm B và C.
+Một hội đồng gồm chủ tịch mã số 1111, thư ký mã số 1113 đã chấm điểm cho sinh viên lần lượt điểm C và A, A và C.
+</p>
+
+Bảng br_const_data
+
+| id  | type        | value                              | no  |
+| --- | ----------- | ---------------------------------- | --- |
+| 7   | topicStatus | {"en":"Thesis","vi":"Luận văn"}    | 2   |
+| 8   | councilRole | {"en":"Chairman", "vi":"Chủ tịch"} | 1   |
+| 9   | councilRole | {"en":"Secretary", "vi":"Thư ký"}  | 2   |
+
+Bảng tp_council
+
+| id  | role_id | teacher_code |
+| --- | ------- | ------------ |
+| 51  | [8,9]   | [1111,1113]  |
+
+Bảng tp_topic_assign
+
+| id  | topic_id | semester | status_id | execute_student_code | guide_teacher_code | review_teacher_code | council_id |
+| --- | -------- | -------- | --------- | -------------------- | ------------------ | ------------------- | ---------- |
+| 61  | 123      | 201      | 7         | [1713015]            | [0001]             | [0002]              | 51         |
+
+Bảng sc_score
+
+| id  | topic_assign_id | criterion_template_id | teacher_code | student_code | score  | comment |
+| --- | --------------- | --------------------- | ------------ | ------------ | ------ | ------- |
+| 71  | 61              | 41                    | 0001         | 1713015      | [20,8] | null    |
+| 72  | 61              | 41                    | 0002         | 1713015      | [10,6] | null    |
+| 73  | 61              | 41                    | 1111         | 1713015      | [6,10] | null    |
+| 74  | 61              | 41                    | 1113         | 1713015      | [20,6] | null    |
+
+Công thức tính điểm tại tiêu chí i và lựa chọn j: criterion_score[i] \* sc_criterion[j] /100
+
+Ở mô tả ví dụ trên chúng ta có:
+
+> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
+> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
+
+Vậy số điểm được tính sẽ theo bảng sau
+
+| Tiêu chí   | A              | B             | C            |
+| ---------- | -------------- | ------------- | ------------ |
+| Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
+| Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
 <div style="page-break-after: always;"></div>
