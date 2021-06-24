@@ -157,7 +157,11 @@ qua ba giai đoạn, cụ thể như sau :
     - 5.2.2 [Các API khác](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#522-các-api-khác) [58]
   - 5.3 [Thiết kế luồng giao diện](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#53-thiết-kế-luồng-giao-diện) [60]
 
-- 6. Quy trình Deploy hệ thống
+- 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-hệ-thống) [6x]
+
+  - 6.1 [Các môi trường](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#61-các-môi-trường) [6x]
+  - 6.2 [Lưu trữ](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#62-lưu-trữ) [6x]
+  - 6.3 [Chia nhiệm vụ](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#63-chia-nhiệm-vụ) [6x]
 
 - 7. Triển khai
 
