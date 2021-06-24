@@ -152,8 +152,16 @@ qua ba giai đoạn, cụ thể như sau :
     - 5.1.3 [Các bảng nhóm nhân sự (ps)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#513-các-bảng-nhóm-nhân-sự-ps) [49]
     - 5.1.4 [Các bảng nhóm đề tài (tp)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#514-các-bảng-nhóm-đề-tài-tp) [51]
     - 5.1.5 [Các bảng nhóm điểm (sc)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#515-các-bảng-nhóm-điểm-sc) [54]
+  - 5.2 [Thiết kế API](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#52-thiết-kế-api) [58]
+    - 5.2.1 [Các API cơ sở](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#521-các-api-cơ-sở) [58]
+    - 5.2.2 [Các API khác](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#522-các-api-khác) [58]
+  - 5.3 [Thiết kế luồng giao diện](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#53-thiết-kế-luồng-giao-diện) [60]
 
-- 6. Tổng kết và hướng phát triển:
+- 6. Quy trình Deploy hệ thống
+
+- 7. Triển khai
+
+- 8. Tổng kết và hướng phát triển:
 
 <div style="page-break-after: always;"></div>
 

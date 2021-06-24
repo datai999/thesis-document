@@ -1,4 +1,4 @@
-### **5.2 Thiết kế luồng giao diện**
+### **5.3 Thiết kế luồng giao diện**
 
 ```mermaid
 graph LR
