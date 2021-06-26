@@ -1,7 +1,11 @@
 #### 5.1.5 Các bảng nhóm điểm (sc)
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc.png?raw=true">
+  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
+</center>
+
+<center>
+  <img width="530" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-template-score.png?raw=true">
 </center>
 
 <div style="page-break-after: always;"></div>
