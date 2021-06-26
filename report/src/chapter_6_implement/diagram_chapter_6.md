@@ -1,4 +1,4 @@
-<!-- Environment diagram -->
+# Environment diagram
 
 ```mermaid
 graph LR
@@ -30,4 +30,23 @@ graph LR
     devURL --> stagingURL --> productURL
     devDB --migration--> stagingDB --migration--> productDB
     devApk --expo--> stagingApk --expo--> productApk
+```
+
+# BE source code diagram
+
+```mermaid
+stateDiagram-v2
+  src-->common
+  src-->br
+  src-->ps
+  src-->tp
+  tp-->model
+  tp-->repository
+  tp-->service
+  tp-->controller
+  tp-->test
+  src-->sc
+  src-->other
+  note right of common : Service dùng chung
+  note right of other : Service còn lại
 ```
