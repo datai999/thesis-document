@@ -166,3 +166,29 @@ classDiagram
   TopicAssignController: +findBySemester(String) List~TpTopicAssignTable~
   TopicAssignController: +anotherApiFunction(param) returnType
 ```
+
+# Request sequence diagram
+
+```mermaid
+sequenceDiagram
+  participant UI
+  participant Filter
+  participant Interceptor
+  participant Service
+  participant Firebase
+
+  UI->>+Filter: Request
+  Filter->>Filter: Check header
+  Filter-->>-UI: Response when invalid header
+  Filter->>+Interceptor: Pass request
+
+  Interceptor->>+Firebase: Check token
+  Firebase-->>-Interceptor: User information
+  Interceptor-->>UI: Response when invalid token
+  Interceptor->>Interceptor: Check role
+  Interceptor-->>-UI: Response when not allow
+  Interceptor->>+Service: Pass request
+
+  Service->>Service: Feature execute
+  Service-->>-UI: Response
+```
