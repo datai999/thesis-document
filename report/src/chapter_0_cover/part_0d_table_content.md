@@ -80,6 +80,7 @@
   - 6.1 Lưu trữ [6x]
   - 6.2 Các môi trường [6x]
   - 6.3 Chia nhiệm vụ [6x]
+  - 6.4 Filter và Interception request [7x]
   - 6.5 Code back-end [7x]
     - 6.5.1 Phân chia source code [7x]
     - 6.5.2 Modal Class diagram [7x]
