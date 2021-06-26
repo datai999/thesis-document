@@ -50,3 +50,38 @@ stateDiagram-v2
   note right of common : Service dùng chung
   note right of other : Service còn lại
 ```
+
+# Service class diagram
+
+```mermaid
+classDiagram
+  class JpaRepository~E extends BaseTable, Long~
+  <<interface>> JpaRepository
+
+  JpaRepository <|.. BaseRepository~E extends BaseTable~: extends
+  <<interface>> BaseRepository
+
+  BaseRepository <|.. TpTopicRepository~TpTopicTable~: extends
+  <<interface>> TpTopicRepository
+
+  IService~E extends BaseTable~ <|-- ABaseService~E extends BaseTable, R extends BaseRepository<E>~: implements
+  <<interface>> IService
+
+  BaseRepository <|-- ABaseService: extends
+  <<abstract>> ABaseService
+
+  ABaseService <|.. TopicService: extends
+  TpTopicRepository <|-- TopicService: implements
+  <<service>> TopicService
+
+  JpaRepository: +jpaFunction(param) returnType
+  IService: +build(E) E
+  ABaseService: #R mainRepository
+  ABaseService: #BrConstDataRepository constDataRepository
+  ABaseService: +JpaFunction(param) returnType
+  ABaseService: #preBuild(E)* void
+  TpTopicRepository: +findByTeacherCode(Iterable~String~) List~TpTopicTable~
+  TopicService: -TeacherService teacherService
+  TopicService: #preBuild(E) void
+  TopicService: +findByTeacherCode(Iterable~String~) List~TpTopicTable~
+```
