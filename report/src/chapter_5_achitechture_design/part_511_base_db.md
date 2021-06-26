@@ -88,6 +88,8 @@ Sẽ được chuyển thành
 &emsp;Cách thiết kế này giúp giảm số lượng dữ liệu dư thừa, trách group by trong câu query.
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ##### 5.1.1.e Đa ngôn ngữ bằng json
 
 <p style='text-align: justify;'>
