@@ -156,6 +156,9 @@ qua ba giai đoạn, cụ thể như sau :
     - 5.2.1 Các API cơ sở [62]
     - 5.2.2 Các API khác [63]
   - 5.3 Thiết kế luồng giao diện [64]
+  - 5.4 Thiết kế một số chức năng [65]
+    - 5.4.1 Chức năng xác thực người dùng [65]
+    - 5.4.2 Chức năng xác thực các yêu cầu từ người dùng [66]
 
 - 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [6x]
 
