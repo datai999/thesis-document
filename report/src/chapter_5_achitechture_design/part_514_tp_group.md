@@ -28,6 +28,8 @@
 | thesis_task         | json         | có        | không    | Nhiệm vụ giai đoạn luận văn    |
 | note                | text         | có        | không    | Ghi chú thêm về đề tài         |
 
+<div style="page-break-after: always;"></div>
+
 ##### 5.1.4.b Bảng tp_council
 
 **Dữ liệu:** Thông tin về hội đồng
@@ -111,24 +113,40 @@ Bảng br_const_data
 | 13  | councilRole       | {"en":"Chairman", "vi":"Chủ tịch"}                      | 1    |
 | 14  | councilRole       | {"en":"Vice Chairman", "vi":"Phó chủ tịch"}             | 2    |
 
+<div style="page-break-after: always;"></div>
+
 Bảng tp_topic
 
-| id  | code | name                    | semester | major_id | education_method_id | min_student_take | max_student_take | description | topic_task                        | thesis_task                | note                 |
-| --- | ---- | ----------------------- | -------- | -------- | ------------------- | ---------------- | ---------------- | ----------- | --------------------------------- | -------------------------- | -------------------- |
-| 1   | 123  | {"en": "A", "vi": "ABC" | 201      | 1        | 4                   | 1                | 3                | null        | {"en": null, "vi": "thiết kế db"} | {"en": null, "vi": "code"} | "Thiếu mô tả đề tài" |
+| id  | code | name                    | semester | major_id | education_method_id | description |
+| --- | ---- | ----------------------- | -------- | -------- | ------------------- | ----------- |
+| 1   | 123  | {"en": "A", "vi": "ABC" | 201      | 1        | 4                   | null        |
+
+| id  | min_student_take | max_student_take | topic_task                        | thesis_task                | note                 |
+| --- | ---------------- | ---------------- | --------------------------------- | -------------------------- | -------------------- |
+| 1   | 1                | 3                | {"en": null, "vi": "thiết kế db"} | {"en": null, "vi": "code"} | "Thiếu mô tả đề tài" |
 
 Bảng tp_council
 
-| id  | subject_department_id | reserveRoom | reserveDate | startTime | endTime | role_id       | teacher_code          | note                                                 |
-| --- | --------------------- | ----------- | ----------- | --------- | ------- | ------------- | --------------------- | ---------------------------------------------------- |
-| 1   | 9                     | 404-H6      | null        | null      | null    | [13,14,11,12] | [1113,null,1111,null] | "Thiếu ngày và thời gian, thiếu thành phần hội đồng" |
+| id  | subject_department_id | reserveRoom | reserveDate | startTime | endTime |
+| --- | --------------------- | ----------- | ----------- | --------- | ------- |
+| 1   | 9                     | 404-H6      | null        | null      | null    |
+
+| id  | role_id       | teacher_code          | note                                                 |
+| --- | ------------- | --------------------- | ---------------------------------------------------- |
+| 1   | [13,14,11,12] | [1113,null,1111,null] | "Thiếu ngày và thời gian, thiếu thành phần hội đồng" |
 
 Bảng tp_topic_assign
 
-| id  | topic_id | semester | status_id | execute_student_code | guide_teacher_code | review_teacher_code | council_id | note                                                            |
-| --- | -------- | -------- | --------- | -------------------- | ------------------ | ------------------- | ---------- | --------------------------------------------------------------- |
-| 1   | 1        | 201      | 6         | [1713015, 1713016]   | [0001]             | [0002]              | null       | null                                                            |
-| 2   | 1        | 202      | 8         | [1713015, 1713016]   | [0001]             | null                | null       | "vì dịch covid nên nhóm sinh viên xin bảo lưu đề tài"           |
-| 3   | 1        | 203      | 7         | [1713015]            | [0001]             | [0002, 0003]        | 1          | "vì lý do cá nhân, sinh viên có mã số 1713016 rút khỏi đề tài." |
+| id  | topic_id | semester | status_id | execute_student_code | council_id |
+| --- | -------- | -------- | --------- | -------------------- | ---------- |
+| 1   | 1        | 201      | 6         | [1713015, 1713016]   | null       |
+| 2   | 1        | 202      | 8         | [1713015, 1713016]   | null       |
+| 3   | 1        | 203      | 7         | [1713015]            | 1          |
+
+| id  | guide_teacher_code | review_teacher_code | note                                                            |
+| --- | ------------------ | ------------------- | --------------------------------------------------------------- |
+| 1   | [0001]             | [0002]              | null                                                            |
+| 2   | [0001]             | null                | "vì dịch covid nên nhóm sinh viên xin bảo lưu đề tài"           |
+| 3   | [0001]             | [0002, 0003]        | "vì lý do cá nhân, sinh viên có mã số 1713016 rút khỏi đề tài." |
 
 <div style="page-break-after: always;"></div>
