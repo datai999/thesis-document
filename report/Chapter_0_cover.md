@@ -159,6 +159,7 @@ qua ba giai đoạn, cụ thể như sau :
   - 5.4 Thiết kế một số chức năng [65]
     - 5.4.1 Chức năng xác thực người dùng [65]
     - 5.4.2 Chức năng xác thực các yêu cầu từ người dùng [66]
+    - 5.4.3 Chức năng thêm dữ liệu [67]
 
 - 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [6x]
 
