@@ -33,7 +33,7 @@ erDiagram
     br_const_data ||-- o{ br_setting : name
 ```
 
-# ps group diagra
+# ps group diagram
 
 ```mermaid
 erDiagram
