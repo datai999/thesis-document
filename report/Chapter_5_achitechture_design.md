@@ -670,5 +670,13 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
+#### 5.4.3 Chức năng thêm dữ liệu
+
+<center>
+  <img height="950" src="./img/feature-insert.png">
+</center>
+
+<div style="page-break-after: always;"></div>
+
 
 

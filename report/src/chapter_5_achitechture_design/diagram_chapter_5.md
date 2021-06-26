@@ -280,3 +280,35 @@ sequenceDiagram
   Service-->>-Front_end: FeatureData
   Front_end-->>-User: UI
 ```
+
+# Feature insert data diagram
+
+```mermaid
+graph TD
+  data[Dữ liệu] --> dataDiv
+  dataDiv[Chia dữ liệu theo dòng] --> createThread
+  createThread[Tạo nhiều luồng xử lí] --> map0
+  map0[Chuyển dữ liệu thành Java-Objects] --> valid0
+  valid0{Dữ liệu hợp lệ?} --> |Đúng| commit0
+  valid0 --> |Sai| endSoon
+  commit0[+1 cam kết] --> checkCommit0
+  checkCommit0{Đếm cam kết} --> |Số cam kết bằng số Thread| insert0
+  checkCommit0 --> |Số cam kết khác số Thread| checkCommit0
+  insert0[Thêm dữ liệu vào database] --> join
+
+  createThread --> map1
+  map1[Chuyển dữ liệu thành Java-Objects] --> valid1
+  valid1{Dữ liệu hợp lệ?} --> |Đúng| commit1
+  valid1 --> |Sai| endSoon
+  commit1[+1 cam kết] --> checkCommit1
+  checkCommit1{Đếm cam kết} --> |Số cam kết bằng số Thread| insert1
+  checkCommit1 --> |Số cam kết khác số Thread| checkCommit1
+  insert1[Thêm dữ liệu vào database] --> join
+
+  join[Hợp nhất thread] --> checkInsert
+  checkInsert{Kiểm tra thread} --> |Các thread thêm thành công| true[Trả về success]
+  checkInsert --> |Có thread thêm dữ liệu không thành công| rollback
+  rollback[Rollback toàn bộ commit] --> fail[Quá trình thêm dữ liệu không thành công]
+
+  endSoon[Kết thúc mọi thread] --> invalid[Dữ liệu không hợp lệ]
+```
