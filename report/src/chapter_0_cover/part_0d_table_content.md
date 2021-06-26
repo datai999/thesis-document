@@ -62,14 +62,14 @@
 
   - 5.1 [Thiết kế cơ sở dữ liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#51-thiết-kế-cơ-sở-dữ-liệu) [45]
     - 5.1.1 [Nèn tảng thiết kế cơ sở dữ liệu](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#511-nền-tảng-thiết-kế-cơ-sở-dữ-liệu) [45]
-    - 5.1.2 [Các bảng nhóm khác (br)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#512-các-bảng-nhóm-khác-br) [47]
-    - 5.1.3 [Các bảng nhóm nhân sự (ps)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#513-các-bảng-nhóm-nhân-sự-ps) [49]
-    - 5.1.4 [Các bảng nhóm đề tài (tp)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#514-các-bảng-nhóm-đề-tài-tp) [51]
-    - 5.1.5 [Các bảng nhóm điểm (sc)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#515-các-bảng-nhóm-điểm-sc) [54]
-  - 5.2 [Thiết kế API](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#52-thiết-kế-api) [58]
-    - 5.2.1 [Các API cơ sở](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#521-các-api-cơ-sở) [58]
-    - 5.2.2 [Các API khác](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#522-các-api-khác) [58]
-  - 5.3 [Thiết kế luồng giao diện](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#53-thiết-kế-luồng-giao-diện) [60]
+    - 5.1.2 [Các bảng nhóm khác (br)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#512-các-bảng-nhóm-khác-br) [48]
+    - 5.1.3 [Các bảng nhóm nhân sự (ps)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#513-các-bảng-nhóm-nhân-sự-ps) [50]
+    - 5.1.4 [Các bảng nhóm đề tài (tp)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#514-các-bảng-nhóm-đề-tài-tp) [53]
+    - 5.1.5 [Các bảng nhóm điểm (sc)](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#515-các-bảng-nhóm-điểm-sc) [58]
+  - 5.2 [Thiết kế API](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#52-thiết-kế-api) [62]
+    - 5.2.1 [Các API cơ sở](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#521-các-api-cơ-sở) [62]
+    - 5.2.2 [Các API khác](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#522-các-api-khác) [63]
+  - 5.3 [Thiết kế luồng giao diện](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#53-thiết-kế-luồng-giao-diện) [64]
 
 - 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-hệ-thống) [6x]
 
