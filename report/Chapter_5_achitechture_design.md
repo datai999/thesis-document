@@ -1,3 +1,7 @@
+## **5 Thiết kế kiến trúc hệ thống**
+
+<div style="page-break-after: always;"></div>
+
 ### **5.1 Thiết kế cơ sở dữ liệu**
 
 #### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
