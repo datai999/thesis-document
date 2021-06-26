@@ -1,4 +1,4 @@
-### **6.2 Lưu trữ**
+### **6.1 Lưu trữ**
 
 &emsp;**Tài liệu:** Các tài liệu tìm kiếm được để hỗ trợ về mặt nghiệp vụ
 
@@ -12,7 +12,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/markdown.png?raw=true">
-  <p>Hình 6.2.a Logo Markdown</p>
+  <p>Hình 6.1.a Logo Markdown</p>
 </center>
 
 Ưu điểm:
@@ -42,7 +42,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/heroku.png?raw=true">
-  <p>Hình 6.2.b Logo Heroku</p>
+  <p>Hình 6.1.b Logo Heroku</p>
 </center>
 
 &emsp;**Gmail:** Thông tin dùng cho đăng nhập
@@ -51,7 +51,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/firebase.png?raw=true">
-  <p>Hình 6.2.c Logo Firebase</p>
+  <p>Hình 6.1.c Logo Firebase</p>
 </center>
 
 </br>
@@ -60,7 +60,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/expoWeb.png?raw=true">
-  <p>Hình 6.2.d Expo web Builds</p>
+  <p>Hình 6.1.d Expo web Builds</p>
 </center>
 
 > Thư mục Google Drive giữa sinh viên và giảng viên

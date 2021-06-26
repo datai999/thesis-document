@@ -77,8 +77,8 @@
 
 - 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [6x]
 
-  - 6.1 Các môi trường [6x]
-  - 6.2 Lưu trữ [6x]
+  - 6.1 Lưu trữ [6x]
+  - 6.2 Các môi trường [6x]
   - 6.3 Chia nhiệm vụ [6x]
   - 6.4 Code back-end [7x]
     - 6.4.1 Phân chia source code [7x]

@@ -44,3 +44,5 @@ Ví dụ với dịch vụ đề tài.
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
 </center>
+
+<div style="page-break-after: always;"></div>

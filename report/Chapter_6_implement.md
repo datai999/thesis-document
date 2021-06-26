@@ -2,29 +2,7 @@
 
 <div style="page-break-after: always;"></div>
 
-### **6.1 Các môi trường**
-
-<p style='text-align: justify;'>
-&emsp;
-Với dự án này nhóm sẽ sử dụng 3 môi trường để phát triển ứng dụng.
-</p
-
-<center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/env.png?raw=true">
-</center>
-
-Vì công cụ vẽ không cho phép kí tự @ nên nhóm đã để dấu # thay thế.
-
-> Staging Environment file apk: https://expo.io/@datai28599/thesis
-
-<center>
-  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/expoApp.png?raw=true">
-  <p>Hình 6.1 Trang web Expo app</p>
-</center>
-
-<div style="page-break-after: always;"></div>
-
-### **6.2 Lưu trữ**
+### **6.1 Lưu trữ**
 
 &emsp;**Tài liệu:** Các tài liệu tìm kiếm được để hỗ trợ về mặt nghiệp vụ
 
@@ -38,7 +16,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/markdown.png?raw=true">
-  <p>Hình 6.2.a Logo Markdown</p>
+  <p>Hình 6.1.a Logo Markdown</p>
 </center>
 
 Ưu điểm:
@@ -68,7 +46,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/heroku.png?raw=true">
-  <p>Hình 6.2.b Logo Heroku</p>
+  <p>Hình 6.1.b Logo Heroku</p>
 </center>
 
 &emsp;**Gmail:** Thông tin dùng cho đăng nhập
@@ -77,7 +55,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/firebase.png?raw=true">
-  <p>Hình 6.2.c Logo Firebase</p>
+  <p>Hình 6.1.c Logo Firebase</p>
 </center>
 
 </br>
@@ -86,10 +64,32 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/expoWeb.png?raw=true">
-  <p>Hình 6.2.d Expo web Builds</p>
+  <p>Hình 6.1.d Expo web Builds</p>
 </center>
 
 > Thư mục Google Drive giữa sinh viên và giảng viên
+
+<div style="page-break-after: always;"></div>
+
+### **6.2 Các môi trường**
+
+<p style='text-align: justify;'>
+&emsp;
+Với dự án này nhóm sẽ sử dụng 3 môi trường để phát triển ứng dụng.
+</p
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/env.png?raw=true">
+</center>
+
+Vì công cụ vẽ không cho phép kí tự @ nên nhóm đã để dấu # thay thế.
+
+> Staging Environment file apk: https://expo.io/@datai28599/thesis
+
+<center>
+  <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/expoApp.png?raw=true">
+  <p>Hình 6.2 Trang web Expo app</p>
+</center>
 
 <div style="page-break-after: always;"></div>
 
