@@ -1,4 +1,4 @@
-<!-- Group table diagram -->
+# Group table diagram
 
 ```mermaid
 graph LR
@@ -16,7 +16,7 @@ graph LR
     sc-->ps
 ```
 
-<!-- br group diagram -->
+# br group diagram
 
 ```mermaid
 erDiagram
@@ -33,7 +33,7 @@ erDiagram
     br_const_data ||-- o{ br_setting : name
 ```
 
-<!-- ps group diagram -->
+# ps group diagra
 
 ```mermaid
 erDiagram
@@ -66,7 +66,7 @@ erDiagram
     br_const_data ||--o{ ps_student : has_major
 ```
 
-<!-- tp group diagram -->
+# tp group diagram
 
 ```mermaid
 erDiagram
@@ -115,7 +115,7 @@ erDiagram
     tp_council ||--o{ tp_topic_assign : has_council
 ```
 
-<!-- sc group diagram -->
+# sc group diagram
 
 ```mermaid
 erDiagram
@@ -174,7 +174,7 @@ erDiagram
   sc_criterion_template ||--|| sc_score : has_template
 ```
 
-<!-- UI flow diagram -->
+# UI flow diagram
 
 ```mermaid
 graph LR
@@ -238,7 +238,7 @@ graph LR
   Avatar --> LogoutScreen[Màn hình đăng nhập]
 ```
 
-<!-- Login feature diagram -->
+# Login feature diagram
 
 ```mermaid
 sequenceDiagram
@@ -259,5 +259,24 @@ sequenceDiagram
   Firebase-->>-Service: User information
   Service->>Service: Check user information
   Service-->>-Front_end: Login information
+  Front_end-->>-User: UI
+```
+
+# Feature request diagram
+
+```mermaid
+sequenceDiagram
+  participant User
+  participant Front_end
+  participant Service
+  participant Firebase
+
+  User->>+Front_end: Request feature
+  Front_end->>+Service: Token + FeatureRequest
+  Service->>+Firebase: Token
+  Firebase-->>-Service: User information
+  Service->>Service: Check user information
+  Service->>Service: Feature execute
+  Service-->>-Front_end: FeatureData
   Front_end-->>-User: UI
 ```

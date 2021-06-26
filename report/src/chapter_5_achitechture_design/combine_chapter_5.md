@@ -9,5 +9,6 @@
 !import[/report/src/chapter_5_achitechture_design/part_515_sc_group.md]
 !import[/report/src/chapter_5_achitechture_design/part_520_api_design.md]
 !import[/report/src/chapter_5_achitechture_design/part_530_ui_flow.md]
+!import[/report/src/chapter_5_achitechture_design/part_540_feature.md]
 
 !export[/report/Chapter_5_achitechture_design.md]
