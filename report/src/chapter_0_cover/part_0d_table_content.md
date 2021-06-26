@@ -80,6 +80,11 @@
   - 6.1 Các môi trường [6x]
   - 6.2 Lưu trữ [6x]
   - 6.3 Chia nhiệm vụ [6x]
+  - 6.4 Code back-end [7x]
+    - 6.4.1 Phân chia source code [7x]
+    - 6.4.2 Modal Class diagram [7x]
+    - 6.4.3 Service Class diagram [7x]
+    - 6.4.4 Controller class diagram [7x]
 
 - 7. Triển khai
 
