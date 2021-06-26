@@ -617,12 +617,13 @@ Bảng sc_score
 
 | Mã API | Endpoint    | Phương thức | Tham số                                          | Kết quả                                                 |
 | ------ | ----------- | ----------- | ------------------------------------------------ | ------------------------------------------------------- |
-| 0001   | {x}/        | GET         |                                                  | Các record được build                                   |
-| 0002   | {x}/paging  | GET         | int:number, int:size, string: sort, bool:descend | Các record tại trang _number_, được sắp xếp theo _sort_ |
-| 0003   | {x}/        | POST        | {entity}                                         | Tạo mới hoặc cập nhật dữ liệu                           |
-| 0004   | {x}/all     | POST        | array-{entity}                                   | Tạo mới dữ liệu số lượng nhhieeuf                       |
-| 0005   | {x}/example | POST        | {entity}                                         | Dữ liệu khớp với _example_                              |
-| 0006   | {x}/        | DELETE      |                                                  | Xóa tất cả dữ liệu trong bảng                           |
+| BA01   | {x}/        | GET         |                                                  | Các record được build                                   |
+| BA02   | {x}/paging  | GET         | int:number, int:size, string: sort, bool:descend | Các record tại trang _number_, được sắp xếp theo _sort_ |
+| BA03   | {x}/        | POST        | {entity}                                         | Tạo mới hoặc cập nhật dữ liệu                           |
+| BA04   | {x}/all     | POST        | array-{entity}                                   | Tạo mới dữ liệu số lượng nhhieeuf                       |
+| BA05   | {x}/example | POST        | {entity}                                         | Dữ liệu khớp với _example_                              |
+| BA06   | {x}/        | DELETE      |                                                  | Xóa tất cả dữ liệu trong bảng                           |
+| BA...  | {x}/...     | ...         | ...                                              | ...                                                     |
 
 <div style="page-break-after: always;"></div>
 
@@ -630,17 +631,20 @@ Bảng sc_score
 
 &emsp;Các API phục vụ riêng một số nghiệp vụ nhất định
 
-| Mã API | Endpoint                     | Phương thức | Tham số                                     | Kết quả                                                                       |
-| ------ | ---------------------------- | ----------- | ------------------------------------------- | ----------------------------------------------------------------------------- |
-| 0101   | /const/types                 | GET         |                                             | Thông tin các dữ liệu trong bảng br_const_data được group by type order by no |
-| 0201   | /setting/template            | GET         | bool:thesis                                 | Thông tin mẫu đánh giá đề cương hoặc luận văn hiện tại setting                |
-| 0202   | /setting/template            | POST        | bool:thesis, {entity}                       | Setting thông tin mẫu đánh giá dùng cho đề cương hoặc luận văn                |
-| 0301   | /teacher/search              | GET         | string:value                                | Tìm kiếm giảng viên                                                           |
-| 0302   | /student/search              | GET         | string:value                                | Tìm kiếm sinh viên                                                            |
-| 0401   | /topic/assign/search/teacher | GET         | string:code, string:sort, bool:descend      | Tìm kiếm các topic assign theo mã số giảng viên                               |
-| 0402   | /topic/assign/search/topic   | GET         | string:topicName, string:sort, bool:descend | Tìm kiếm các topic assign theo tên đề tài                                     |
-| 0501   | /report                      |
-| 0601   | /import                      |
+| Mã API | Endpoint                     | Phương thức | Tham số                                                              | Kết quả                                                                       |
+| ------ | ---------------------------- | ----------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| CO01   | /const/types                 | GET         |                                                                      | Thông tin các dữ liệu trong bảng br_const_data được group by type order by no |
+| SE01   | /setting/template            | GET         | bool:thesis                                                          | Thông tin mẫu đánh giá đề cương hoặc luận văn hiện tại setting                |
+| SE02   | /setting/template            | POST        | bool:thesis, {entity}                                                | Setting thông tin mẫu đánh giá dùng cho đề cương hoặc luận văn                |
+| TC01   | /teacher/search              | GET         | string:value                                                         | Tìm kiếm giảng viên                                                           |
+| SD02   | /student/search              | GET         | string:value                                                         | Tìm kiếm sinh viên                                                            |
+| TP01   | /topic/assign/search/teacher | GET         | string:code, string:sort, bool:descend                               | Tìm kiếm các topic assign theo mã số giảng viên                               |
+| TP02   | /topic/assign/search/topic   | GET         | string:topicName, string:sort, bool:descend                          | Tìm kiếm các topic assign theo tên đề tài                                     |
+| RP01   | /report/topic                | GET         | localTime:startTime, localTime:endTime, bool:file, set:topicId       | Xuất báo cáo đề tài                                                           |
+| RP01   | /report/topicAssign          | GET         | localTime:startTime, localTime:endTime, bool:file, set:topicAssignId | Xuất báo cáo phân công đề tài                                                 |
+| RP01   | /report/council              | GET         | localTime:startTime, localTime:endTime, bool:file, set:councilId     | Xuất báo cáo hội đồng                                                         |
+| RP01   | /report/score                | GET         | localTime:startTime, localTime:endTime, bool:file, set:scoreId       | Xuất báo cáo điểm                                                             |
+| ...    | ...                          | ...         | ...                                                                  | ...                                                                           |
 
 <div style="page-break-after: always;"></div>
 
@@ -673,7 +677,7 @@ Bảng sc_score
 #### 5.4.3 Chức năng thêm dữ liệu
 
 <center>
-  <img height="950" src="./img/feature-insert.png">
+  <img height="950" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-insert.png?raw=true">
 </center>
 
 <div style="page-break-after: always;"></div>
