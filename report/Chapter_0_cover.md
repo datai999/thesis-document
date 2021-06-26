@@ -135,7 +135,7 @@ qua ba giai đoạn, cụ thể như sau :
 
 <div style="page-break-after: always;"></div>
 
-- 4 [Lập trình UI web, android, ios với Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md) [39]
+- 4 [Lập trình UI web, android, ios với Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#4-lập-trình-ui-web-android-ios-với-expo) [39]
 
   - 4.1 Hoàn cảnh và ý tưởng [40]
     - 4.1.1 Từ web đến di động [40]
@@ -144,7 +144,7 @@ qua ba giai đoạn, cụ thể như sau :
     - 4.2.1 Giới thiệu Expo [42]
     - 4.2.2 Chạy thử ứng dụng từ Expo [43]
 
-- 5 [Thiết kế kiến trúc hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#5-thiết-kế-hệ-thống) [44]
+- 5 [Thiết kế kiến trúc hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#5-thiết-kế-kiến-trúc-hệ-thống) [44]
 
   - 5.1 Thiết kế cơ sở dữ liệu [45]
     - 5.1.1 Nèn tảng thiết kế cơ sở dữ liệu [45]
@@ -157,7 +157,7 @@ qua ba giai đoạn, cụ thể như sau :
     - 5.2.2 Các API khác [63]
   - 5.3 Thiết kế luồng giao diện [64]
 
-- 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-hệ-thống) [6x]
+- 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [6x]
 
   - 6.1 Các môi trường [6x]
   - 6.2 Lưu trữ [6x]
