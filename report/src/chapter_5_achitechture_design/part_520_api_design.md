@@ -17,6 +17,8 @@
 | 0005   | {x}/example | POST        | {entity}                                         | Dữ liệu khớp với _example_                              |
 | 0006   | {x}/        | DELETE      |                                                  | Xóa tất cả dữ liệu trong bảng                           |
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.2 Các API khác
 
 &emsp;Các API phục vụ riêng một số nghiệp vụ nhất định
@@ -32,9 +34,5 @@
 | 0402   | /topic/assign/search/topic   | GET         | string:topicName, string:sort, bool:descend | Tìm kiếm các topic assign theo tên đề tài                                     |
 | 0501   | /report                      |
 | 0601   | /import                      |
-
-<div style="page-break-after: always;"></div>
-
-Dự trữ
 
 <div style="page-break-after: always;"></div>
