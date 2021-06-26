@@ -19,6 +19,14 @@ Mỗi module thì được phân chia dựa trên mô hình MVC (Model, View, Co
 
 #### 6.4.2 Class diagram service
 
+<p style='text-align: justify;'>
+&emsp;
+Thiết kế class diagram của service.
+</br>
+&emsp;
+Ví dụ với dịch vụ đề tài.
+</p>
+
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
 </center>
