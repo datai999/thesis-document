@@ -119,56 +119,59 @@ erDiagram
 
 ```mermaid
 erDiagram
-    tp_council {
-      array-bigint role_id
-      array-string teacher_code
-    }
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    br_setting {
-        string name_id
-        string refTable
-        array-bigint ref_id
-    }
-    tp_topic_assign {
-      bigint topic_id
-      integer semester
-      bigint status_id
-      array-string execute_student_code
-      array-string guide_teacher_code
-      array-string review_teacher_code
-      bigint council_id
-    }
-    sc_criterion_template {
-      json name
-      array-bigint criterion_id
-      array-integer criterion_score
-      json description
-    }
-    sc_criterion {
-        json name
-        bigint score_method_id
-        array-integer score_item_percent
-        json description
-    }
-    sc_score {
-      bigint topic_assign_id
-      bigint criterion_template_id
-      bigint teacher_code
-      bigint student_code
-      array-int score
-      text comment
-    }
-    tp_council ||--o{ tp_topic_assign : has_council
-    br_const_data ||--|| tp_topic_assign : has_status
+  br_setting {
+    string name_id
+    string refTable
+    array-bigint ref_id
+  }
+  sc_criterion {
+    json name
+    bigint score_method_id
+    array-integer score_item_percent
+    json description
+  }
+  br_setting ||--|| sc_criterion : has_score_method
+```
 
-    tp_topic_assign ||--|| sc_score : for_topic_assign
-    sc_criterion_template ||--|| sc_score : has_template
+```mermaid
+erDiagram
+  tp_council {
+    array-bigint role_id
+    array-string teacher_code
+  }
+  br_const_data {
+    string type
+    json value
+    integer no
+  }
+  tp_topic_assign {
+    bigint topic_id
+    integer semester
+    bigint status_id
+    array-string execute_student_code
+    array-string guide_teacher_code
+    array-string review_teacher_code
+    bigint council_id
+  }
+  sc_criterion_template {
+    json name
+    array-bigint criterion_id
+    array-integer criterion_score
+    json description
+  }
+  sc_score {
+    bigint topic_assign_id
+    bigint criterion_template_id
+    bigint teacher_code
+    bigint student_code
+    array-int score
+    text comment
+  }
+  tp_council ||--o{ tp_topic_assign : has_council
+  br_const_data ||--|| tp_topic_assign : has_status
 
-    br_setting ||--|| sc_criterion : has_score_method
+  tp_topic_assign ||--|| sc_score : for_topic_assign
+  sc_criterion_template ||--|| sc_score : has_template
 ```
 
 <!-- UI flow diagram -->
