@@ -85,3 +85,26 @@ classDiagram
   TopicService: #preBuild(E) void
   TopicService: +findByTeacherCode(Iterable~String~) List~TpTopicTable~
 ```
+
+# Controller class diagram
+
+```mermaid
+ classDiagram
+  class ABaseController~E extends BaseTable, S extends BaseRepository<E> & IService<E>~
+  <<interface>> ABaseController
+
+  ABaseController <|.. TopicAssignController~TpTopicAssignTable, TopicAssignService~: extends
+
+  ABaseController: #S service
+  ABaseController: #ConstDataService constService
+  ABaseController: +findAll() List~E~
+  ABaseController: +findAll(E) Object
+  ABaseController: +findPaging(Integer, Integer, String, boolean) Object
+  ABaseController: +save(~D extends E~E) Object
+  ABaseController: +saveAll(~D extends E~~E~) Object
+  ABaseController: +deleteAll() Object
+
+  TopicAssignController: +findByTeacherCode(String) List~TpTopicAssignTable~
+  TopicAssignController: +findBySemester(String) List~TpTopicAssignTable~
+  TopicAssignController: +anotherApiFunction(param) returnType
+```
