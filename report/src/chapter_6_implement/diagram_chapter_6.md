@@ -51,6 +51,64 @@ stateDiagram-v2
   note right of other : Service còn lại
 ```
 
+# Model class diagram
+
+```mermaid
+classDiagram
+  class BaseTable
+  <<abstract>> BaseTable
+
+  BaseTable <|.. BrConstDataTable: extends
+  BaseTable <|.. PersonBaseTable: extends
+  PersonBaseTable <|.. PsStudentTable: extends
+  BaseTable <|.. TpCouncilTable: extends
+  BaseTable <|.. ScCriterionTable: extends
+
+  BaseTable:-Long id
+  BaseTable:-Boolean deleted
+  BaseTable:-Instant createdAt
+  BaseTable:-Instant id
+  BaseTable:-Long updatedAt
+  BaseTable:+setter(Object) void
+  BaseTable:+getter() returnType
+
+  BrConstDataTable:-String type
+  BrConstDataTable:-MultiLangDto value
+  BrConstDataTable:-Integer no
+  BrConstDataTable:+setter(Object) void
+  BrConstDataTable:+getter() returnType
+
+  PersonBaseTable:-String code
+  PersonBaseTable:-String name
+  PersonBaseTable:-String email
+  PersonBaseTable:-String phone
+  PersonBaseTable:-BrConstDataTable gender
+  PersonBaseTable:+setter(Object) void
+  PersonBaseTable:+getter() returnType
+
+  PsStudentTable:-BrConstDataTable major
+  PsStudentTable:-BrConstDataTable educationMethod
+  PsStudentTable:+setter(Object) void
+  PsStudentTable:+getter() returnType
+
+  TpCouncilTable:-BrConstDataTable subjectDepartment
+  TpCouncilTable:-String reserveRoom
+  TpCouncilTable:-LocalDate reserveDate
+  TpCouncilTable:-LocalTime startTime
+  TpCouncilTable:-LocalTime endTime
+  TpCouncilTable:-Collection~Long~ roleId
+  TpCouncilTable:-Collection~String~ teacherCode
+  TpCouncilTable:-String note
+  TpCouncilTable:+setter(Object) void
+  TpCouncilTable:+getter() returnType
+
+  ScCriterionTable:-MultiLangDto name
+  ScCriterionTable:-BrConstDataTable scoreMethod
+  ScCriterionTable:-MultiLangDto description
+  ScCriterionTable:+setter(Object) void
+  ScCriterionTable:+getter() returnType
+```
+
 # Service class diagram
 
 ```mermaid
