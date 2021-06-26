@@ -17,7 +17,15 @@ Mỗi module thì được phân chia dựa trên mô hình MVC (Model, View, Co
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/be-source.png?raw=true">
 </center>
 
-#### 6.4.2 Class diagram service
+#### 6.4.2 Modal Class diagram
+
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-model.png?raw=true">
+</center>
+
+<div style="page-break-after: always;"></div>
+
+#### 6.4.3 Service Class diagram
 
 <p style='text-align: justify;'>
 &emsp;
@@ -31,10 +39,8 @@ Ví dụ với dịch vụ đề tài.
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
 </center>
 
-<div style="page-break-after: always;"></div>
-
-#### 6.4.3 Class diagram controller
+#### 6.4.4 Controller class diagram
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
 </center>
