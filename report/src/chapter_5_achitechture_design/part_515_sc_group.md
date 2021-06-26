@@ -124,9 +124,23 @@ Bảng tp_council
 
 Bảng tp_topic_assign
 
-| id  | topic_id | semester | status_id | execute_student_code | guide_teacher_code | review_teacher_code | council_id |
-| --- | -------- | -------- | --------- | -------------------- | ------------------ | ------------------- | ---------- |
-| 61  | 123      | 201      | 7         | [1713015]            | [0001]             | [0002]              | 51         |
+| id  | topic_id | semester | status_id | execute_student_code |
+| --- | -------- | -------- | --------- | -------------------- |
+| 61  | 123      | 201      | 7         | [1713015]            |
+
+| id  | guide_teacher_code | review_teacher_code | council_id |
+| --- | ------------------ | ------------------- | ---------- |
+| 61  | [0001]             | [0002]              | 51         |
+
+> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
+> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
+
+Với mô tả ví dụ trên, số điểm sẽ được theo bảng sau
+
+| Tiêu chí   | A              | B             | C            |
+| ---------- | -------------- | ------------- | ------------ |
+| Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
+| Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
 Bảng sc_score
 
@@ -136,19 +150,5 @@ Bảng sc_score
 | 72  | 61              | 41                    | 0002         | 1713015      | [10,6] | null    |
 | 73  | 61              | 41                    | 1111         | 1713015      | [6,10] | null    |
 | 74  | 61              | 41                    | 1113         | 1713015      | [20,6] | null    |
-
-Công thức tính điểm tại tiêu chí i và lựa chọn j: criterion_score[i] \* sc_criterion[j] /100
-
-Ở mô tả ví dụ trên chúng ta có:
-
-> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
-> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
-
-Vậy số điểm được tính sẽ theo bảng sau
-
-| Tiêu chí   | A              | B             | C            |
-| ---------- | -------------- | ------------- | ------------ |
-| Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
-| Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
 <div style="page-break-after: always;"></div>
