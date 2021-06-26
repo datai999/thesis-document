@@ -237,3 +237,27 @@ graph LR
 
   Avatar --> LogoutScreen[Màn hình đăng nhập]
 ```
+
+<!-- Login feature diagram -->
+
+```mermaid
+sequenceDiagram
+  participant User
+  participant Front_end
+  participant Service
+  participant Firebase
+
+  User->>+Front_end: Request login
+  Front_end-->>-User: Select email UI
+  User->>+Front_end: Select email
+  Front_end->>+Firebase: Email information
+  Firebase-->>-Front_end: Token
+  Front_end->>Front_end: Save token
+
+  Front_end->>+Service: Token
+  Service->>+Firebase: Token
+  Firebase-->>-Service: User information
+  Service->>Service: Check user information
+  Service-->>-Front_end: Login information
+  Front_end-->>-User: UI
+```
