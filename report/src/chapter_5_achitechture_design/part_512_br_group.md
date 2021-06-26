@@ -1,19 +1,8 @@
 #### 5.1.2 Các bảng nhóm khác (br)
 
-```mermaid
-erDiagram
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    br_setting {
-        string name_id
-        string refTable
-        array-bigint ref_id
-    }
-    br_const_data ||-- o{ br_setting : name
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
+</center>
 
 ##### 5.1.2.a Bảng br_const_data
 

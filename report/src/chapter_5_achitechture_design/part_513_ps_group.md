@@ -2,36 +2,9 @@
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 
-```mermaid
-erDiagram
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    PersonBaseTable {
-        string code
-        string name
-        bigint gender_id
-        string email
-        string phone
-    }
-    ps_academy_staff {
-    }
-    ps_teacher {
-      bigint subject_department_id
-      bigint degree_id
-    }
-    ps_student {
-      bigint education_method_id
-      bigint major_id
-    }
-    br_const_data ||--o{ PersonBaseTable : has_gender_type
-    br_const_data ||--o{ ps_teacher : has_subject_department
-    br_const_data ||--o{ ps_teacher : has_degree
-    br_const_data ||--o{ ps_student : has_edu_method
-    br_const_data ||--o{ ps_student : has_major
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-ps.png?raw=true">
+</center>
 
 ##### 5.1.3.a Bảng PersonBaseTable
 
@@ -62,9 +35,9 @@ Bảng br_const_data
 
 Bảng PersonBaseTable
 
-| id  | code    | name               | gender_id | email                             | phone      |
-| --- | ------- | ------------------ | --------- | --------------------------------- | ---------- |
-| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai.nguyen.cse.datai@hcmut.edu.vn | 0905345670 |
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
 <div style="page-break-after: always;"></div>
 

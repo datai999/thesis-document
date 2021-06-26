@@ -19,21 +19,9 @@ Ví dụ: Table ps_teacher thuộc nhóm liên quan đến nhân sự và chứa
 
 &emsp;Mối quan hệ giữa các khóa ngoại (Foreign key) của các table trong nhóm được thể hiện bằng lược đồ sau.
 
-```mermaid
-graph LR
-    br((Nhóm br))
-    ps((Nhóm ps))
-    tp((Nhóm tp))
-    sc((Nhóm sc))
-
-    ps-->br
-    tp-->br
-    sc-->br
-
-    tp-->ps
-    sc-->tp
-    sc-->ps
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-table.png?raw=true">
+</center>
 
 <center>Lược đồ 5.1.1 Mối quan hệ Foreign key giữa các nhóm table</center>
 

@@ -1,7 +1,3 @@
-## **5 Thiết kế kiến trúc ứng dụng**
-
-<div style="page-break-after: always;"></div>
-
 ### **5.1 Thiết kế cơ sở dữ liệu**
 
 #### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
@@ -23,21 +19,9 @@ Ví dụ: Table ps_teacher thuộc nhóm liên quan đến nhân sự và chứa
 
 &emsp;Mối quan hệ giữa các khóa ngoại (Foreign key) của các table trong nhóm được thể hiện bằng lược đồ sau.
 
-```mermaid
-graph LR
-    br((Nhóm br))
-    ps((Nhóm ps))
-    tp((Nhóm tp))
-    sc((Nhóm sc))
-
-    ps-->br
-    tp-->br
-    sc-->br
-
-    tp-->ps
-    sc-->tp
-    sc-->ps
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-table.png?raw=true">
+</center>
 
 <center>Lược đồ 5.1.1 Mối quan hệ Foreign key giữa các nhóm table</center>
 
@@ -120,20 +104,9 @@ Ví dụ
 
 #### 5.1.2 Các bảng nhóm khác (br)
 
-```mermaid
-erDiagram
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    br_setting {
-        string name_id
-        string refTable
-        array-bigint ref_id
-    }
-    br_const_data ||-- o{ br_setting : name
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
+</center>
 
 ##### 5.1.2.a Bảng br_const_data
 
@@ -198,36 +171,9 @@ Bảng br_setting
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 
-```mermaid
-erDiagram
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    PersonBaseTable {
-        string code
-        string name
-        bigint gender_id
-        string email
-        string phone
-    }
-    ps_academy_staff {
-    }
-    ps_teacher {
-      bigint subject_department_id
-      bigint degree_id
-    }
-    ps_student {
-      bigint education_method_id
-      bigint major_id
-    }
-    br_const_data ||--o{ PersonBaseTable : has_gender_type
-    br_const_data ||--o{ ps_teacher : has_subject_department
-    br_const_data ||--o{ ps_teacher : has_degree
-    br_const_data ||--o{ ps_student : has_edu_method
-    br_const_data ||--o{ ps_student : has_major
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-ps.png?raw=true">
+</center>
 
 ##### 5.1.3.a Bảng PersonBaseTable
 
@@ -321,52 +267,9 @@ Bảng ps_teacher
 
 #### 5.1.4 Các bảng nhóm đề tài (tp)
 
-```mermaid
-erDiagram
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    tp_topic {
-        string code
-        json name
-        integer semester
-        array-bigint major_id
-        bigint education_method_id
-        integer min_student_take
-        integer max_student_take
-        json description
-        json topic_task
-        json thesis_task
-        text note
-    }
-    tp_council {
-      bigint subject_department_id
-      string reserve_room
-      local-date reserve_date
-      local-time start_time
-      local-time end_time
-      array-bigint role_id
-      array-string teacher_code
-      text note
-    }
-    tp_topic_assign {
-      bigint topic_id
-      integer semester
-      bigint status_id
-      array-string execute_student_code
-      array-string guide_teacher_code
-      array-string review_teacher_code
-      bigint council_id
-      text note
-    }
-    br_const_data ||--o{ tp_topic : has_edu_method
-    br_const_data ||--o{ tp_council : has_subject_department
-    tp_topic ||--|| tp_topic_assign : has_topic
-    br_const_data ||--|| tp_topic_assign : has_status
-    tp_council ||--o{ tp_topic_assign : has_council
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">
+</center>
 
 <div style="page-break-after: always;"></div>
 
@@ -499,59 +402,9 @@ Bảng tp_topic_assign
 
 #### 5.1.5 Các bảng nhóm điểm (sc)
 
-```mermaid
-erDiagram
-    tp_council {
-      array-bigint role_id
-      array-string teacher_code
-    }
-    br_const_data {
-        string type
-        json value
-        integer no
-    }
-    br_setting {
-        string name_id
-        string refTable
-        array-bigint ref_id
-    }
-    tp_topic_assign {
-      bigint topic_id
-      integer semester
-      bigint status_id
-      array-string execute_student_code
-      array-string guide_teacher_code
-      array-string review_teacher_code
-      bigint council_id
-    }
-    sc_criterion_template {
-      json name
-      array-bigint criterion_id
-      array-integer criterion_score
-      json description
-    }
-    sc_criterion {
-        json name
-        bigint score_method_id
-        array-integer score_item_percent
-        json description
-    }
-    sc_score {
-      bigint topic_assign_id
-      bigint criterion_template_id
-      bigint teacher_code
-      bigint student_code
-      array-int score
-      text comment
-    }
-    tp_council ||--o{ tp_topic_assign : has_council
-    br_const_data ||--|| tp_topic_assign : has_status
-
-    tp_topic_assign ||--|| sc_score : for_topic_assign
-    sc_criterion_template ||--|| sc_score : has_template
-
-    br_setting ||--|| sc_criterion : has_score_method
-```
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc.png?raw=true">
+</center>
 
 <div style="page-break-after: always;"></div>
 
@@ -702,8 +555,6 @@ Vậy số điểm được tính sẽ theo bảng sau
 
 <div style="page-break-after: always;"></div>
 
-
-
 ### **5.2 Thiết kế API**
 
 #### 5.2.1 Các API cơ sở
@@ -742,8 +593,6 @@ Vậy số điểm được tính sẽ theo bảng sau
 <div style="page-break-after: always;"></div>
 
 <div style="page-break-after: always;"></div>
-
-
 
 ### **5.3 Thiết kế luồng giao diện**
 
