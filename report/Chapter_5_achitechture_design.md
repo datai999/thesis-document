@@ -88,6 +88,8 @@ Sẽ được chuyển thành
 &emsp;Cách thiết kế này giúp giảm số lượng dữ liệu dư thừa, trách group by trong câu query.
 </p>
 
+<div style="page-break-after: always;"></div>
+
 ##### 5.1.1.e Đa ngôn ngữ bằng json
 
 <p style='text-align: justify;'>
@@ -193,21 +195,6 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 | email     | string       | không     | không    | HCMUT mail                       |
 | phone     | string       | có        | không    | Số điện thoại                    |
 
-**Ví dụ:**
-
-Bảng br_const_data
-
-| id  | type   | value                        | no   |
-| --- | ------ | ---------------------------- | ---- |
-| 1   | gender | {"en": "Male", "vi": "Name"} | null |
-| 2   | gender | {"en": "Female", "vi": "Nữ"} | null |
-
-Bảng PersonBaseTable
-
-| id  | code    | name               | gender_id | email                             | phone      |
-| --- | ------- | ------------------ | --------- | --------------------------------- | ---------- |
-| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai.nguyen.cse.datai@hcmut.edu.vn | 0905345670 |
-
 <div style="page-break-after: always;"></div>
 
 ##### 5.1.3.b Bảng ps_academy_staff
@@ -227,7 +214,37 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 | subject_department_id | bigint       | có        | không    | Phòng ban giảng viên làm việc |
 | degree_id             | bigint       | có        | không    | Học vị của giảng viên         |
 
-**Ví dụ:**
+##### 5.1.3.c Bảng ps_student
+
+**Dữ liệu:** Thông tin sinh viên
+
+**Đặc tả chi tiết**
+
+| Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
+| ------------------- | ------------ | --------- | -------- | ----------------------------- |
+| education_method_id | bigint       | có        | không    | Phương thức đào tạo sinh viên |
+| major               | bigint       | có        | không    | Chuyên ngành của sinh viên    |
+
+##### 5.1.3.d Ví dụ về bảng PersonBaseTable, ps_academy_staff, ps_teacher, ps_student
+
+**Ví dụ về bảng PersonBaseTable:**
+
+Bảng br_const_data
+
+| id  | type   | value                        | no   |
+| --- | ------ | ---------------------------- | ---- |
+| 1   | gender | {"en": "Male", "vi": "Name"} | null |
+| 2   | gender | {"en": "Female", "vi": "Nữ"} | null |
+
+Bảng PersonBaseTable
+
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
+
+<div style="page-break-after: always;"></div>
+
+**Ví dụ về bảng ps_academy_staff, ps_teacher, ps_student:**
 
 Bảng br_const_data
 
@@ -243,27 +260,34 @@ Bảng br_const_data
 | 9   | subjectDepartment | {"en":"Systems and Networks", "vi":"Hệ thống và mạng"}  | null |
 | 10  | subjectDepartment | {"en":"Computer Science","vi":"Khoa học máy tính"}      | null |
 | 11  | subjectDepartment | {"en":"Computer Engineering","vi":"Kỹ thuật máy tính"}  | null |
+| 12  | educationMethod   | {"en":"Formal","vi":"Chính quy"}                        | null |
+| 13  | major             | {"en":"Computer Science","vi":"Khoa học máy tính"}      | null |
+
+Bảng ps_academy_staff
+
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
 Bảng ps_teacher
 
-| id  | code    | name               | gender_id | email                             | phone      | subject_department_id | degree_id |
-| --- | ------- | ------------------ | --------- | --------------------------------- | ---------- | --------------------- | --------- |
-| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai.nguyen.cse.datai@hcmut.edu.vn | 0905345670 | 7                     | 4         |
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
-##### 5.1.3.c Bảng ps_student
+| id  | subject_department_id | degree_id |
+| --- | --------------------- | --------- |
+| 1   | 7                     | 4         |
 
-**Dữ liệu:** Thông tin sinh viên
+Bảng ps_student
 
-**Đặc tả chi tiết**
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
-| Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
-| ------------------- | ------------ | --------- | -------- | ----------------------------- |
-| education_method_id | bigint       | có        | không    | Phương thức đào tạo sinh viên |
-| major               | bigint       | có        | không    | Chuyên ngành của sinh viên    |
-
-**Ví dụ:** Tương đồng ví dụ bảng ps_teacher
-
-<div style="page-break-after: always;"></div>
+| id  | education_method_id | major |
+| --- | ------------------- | ----- |
+| 1   | 12                  | 13    |
 
 #### 5.1.4 Các bảng nhóm đề tài (tp)
 
@@ -294,6 +318,8 @@ Bảng ps_teacher
 | topic_task          | json         | có        | không    | Nhiệm vụ giai đoạn đề cương    |
 | thesis_task         | json         | có        | không    | Nhiệm vụ giai đoạn luận văn    |
 | note                | text         | có        | không    | Ghi chú thêm về đề tài         |
+
+<div style="page-break-after: always;"></div>
 
 ##### 5.1.4.b Bảng tp_council
 
@@ -378,32 +404,52 @@ Bảng br_const_data
 | 13  | councilRole       | {"en":"Chairman", "vi":"Chủ tịch"}                      | 1    |
 | 14  | councilRole       | {"en":"Vice Chairman", "vi":"Phó chủ tịch"}             | 2    |
 
+<div style="page-break-after: always;"></div>
+
 Bảng tp_topic
 
-| id  | code | name                    | semester | major_id | education_method_id | min_student_take | max_student_take | description | topic_task                        | thesis_task                | note                 |
-| --- | ---- | ----------------------- | -------- | -------- | ------------------- | ---------------- | ---------------- | ----------- | --------------------------------- | -------------------------- | -------------------- |
-| 1   | 123  | {"en": "A", "vi": "ABC" | 201      | 1        | 4                   | 1                | 3                | null        | {"en": null, "vi": "thiết kế db"} | {"en": null, "vi": "code"} | "Thiếu mô tả đề tài" |
+| id  | code | name                    | semester | major_id | education_method_id | description |
+| --- | ---- | ----------------------- | -------- | -------- | ------------------- | ----------- |
+| 1   | 123  | {"en": "A", "vi": "ABC" | 201      | 1        | 4                   | null        |
+
+| id  | min_student_take | max_student_take | topic_task                        | thesis_task                | note                 |
+| --- | ---------------- | ---------------- | --------------------------------- | -------------------------- | -------------------- |
+| 1   | 1                | 3                | {"en": null, "vi": "thiết kế db"} | {"en": null, "vi": "code"} | "Thiếu mô tả đề tài" |
 
 Bảng tp_council
 
-| id  | subject_department_id | reserveRoom | reserveDate | startTime | endTime | role_id       | teacher_code          | note                                                 |
-| --- | --------------------- | ----------- | ----------- | --------- | ------- | ------------- | --------------------- | ---------------------------------------------------- |
-| 1   | 9                     | 404-H6      | null        | null      | null    | [13,14,11,12] | [1113,null,1111,null] | "Thiếu ngày và thời gian, thiếu thành phần hội đồng" |
+| id  | subject_department_id | reserveRoom | reserveDate | startTime | endTime |
+| --- | --------------------- | ----------- | ----------- | --------- | ------- |
+| 1   | 9                     | 404-H6      | null        | null      | null    |
+
+| id  | role_id       | teacher_code          | note                                                 |
+| --- | ------------- | --------------------- | ---------------------------------------------------- |
+| 1   | [13,14,11,12] | [1113,null,1111,null] | "Thiếu ngày và thời gian, thiếu thành phần hội đồng" |
 
 Bảng tp_topic_assign
 
-| id  | topic_id | semester | status_id | execute_student_code | guide_teacher_code | review_teacher_code | council_id | note                                                            |
-| --- | -------- | -------- | --------- | -------------------- | ------------------ | ------------------- | ---------- | --------------------------------------------------------------- |
-| 1   | 1        | 201      | 6         | [1713015, 1713016]   | [0001]             | [0002]              | null       | null                                                            |
-| 2   | 1        | 202      | 8         | [1713015, 1713016]   | [0001]             | null                | null       | "vì dịch covid nên nhóm sinh viên xin bảo lưu đề tài"           |
-| 3   | 1        | 203      | 7         | [1713015]            | [0001]             | [0002, 0003]        | 1          | "vì lý do cá nhân, sinh viên có mã số 1713016 rút khỏi đề tài." |
+| id  | topic_id | semester | status_id | execute_student_code | council_id |
+| --- | -------- | -------- | --------- | -------------------- | ---------- |
+| 1   | 1        | 201      | 6         | [1713015, 1713016]   | null       |
+| 2   | 1        | 202      | 8         | [1713015, 1713016]   | null       |
+| 3   | 1        | 203      | 7         | [1713015]            | 1          |
+
+| id  | guide_teacher_code | review_teacher_code | note                                                            |
+| --- | ------------------ | ------------------- | --------------------------------------------------------------- |
+| 1   | [0001]             | [0002]              | null                                                            |
+| 2   | [0001]             | null                | "vì dịch covid nên nhóm sinh viên xin bảo lưu đề tài"           |
+| 3   | [0001]             | [0002, 0003]        | "vì lý do cá nhân, sinh viên có mã số 1713016 rút khỏi đề tài." |
 
 <div style="page-break-after: always;"></div>
 
 #### 5.1.5 Các bảng nhóm điểm (sc)
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc.png?raw=true">
+  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
+</center>
+
+<center>
+  <img width="530" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-template-score.png?raw=true">
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -526,9 +572,23 @@ Bảng tp_council
 
 Bảng tp_topic_assign
 
-| id  | topic_id | semester | status_id | execute_student_code | guide_teacher_code | review_teacher_code | council_id |
-| --- | -------- | -------- | --------- | -------------------- | ------------------ | ------------------- | ---------- |
-| 61  | 123      | 201      | 7         | [1713015]            | [0001]             | [0002]              | 51         |
+| id  | topic_id | semester | status_id | execute_student_code |
+| --- | -------- | -------- | --------- | -------------------- |
+| 61  | 123      | 201      | 7         | [1713015]            |
+
+| id  | guide_teacher_code | review_teacher_code | council_id |
+| --- | ------------------ | ------------------- | ---------- |
+| 61  | [0001]             | [0002]              | 51         |
+
+> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
+> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
+
+Với mô tả ví dụ trên, số điểm sẽ được theo bảng sau
+
+| Tiêu chí   | A              | B             | C            |
+| ---------- | -------------- | ------------- | ------------ |
+| Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
+| Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
 Bảng sc_score
 
@@ -538,20 +598,6 @@ Bảng sc_score
 | 72  | 61              | 41                    | 0002         | 1713015      | [10,6] | null    |
 | 73  | 61              | 41                    | 1111         | 1713015      | [6,10] | null    |
 | 74  | 61              | 41                    | 1113         | 1713015      | [20,6] | null    |
-
-Công thức tính điểm tại tiêu chí i và lựa chọn j: criterion_score[i] \* sc_criterion[j] /100
-
-Ở mô tả ví dụ trên chúng ta có:
-
-> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
-> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
-
-Vậy số điểm được tính sẽ theo bảng sau
-
-| Tiêu chí   | A              | B             | C            |
-| ---------- | -------------- | ------------- | ------------ |
-| Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
-| Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
 <div style="page-break-after: always;"></div>
 
@@ -574,6 +620,8 @@ Vậy số điểm được tính sẽ theo bảng sau
 | 0005   | {x}/example | POST        | {entity}                                         | Dữ liệu khớp với _example_                              |
 | 0006   | {x}/        | DELETE      |                                                  | Xóa tất cả dữ liệu trong bảng                           |
 
+<div style="page-break-after: always;"></div>
+
 #### 5.2.2 Các API khác
 
 &emsp;Các API phục vụ riêng một số nghiệp vụ nhất định
@@ -592,71 +640,11 @@ Vậy số điểm được tính sẽ theo bảng sau
 
 <div style="page-break-after: always;"></div>
 
-<div style="page-break-after: always;"></div>
-
 ### **5.3 Thiết kế luồng giao diện**
 
-```mermaid
-graph LR
-  LoginScreen[Màn hình đăng nhập] --> HomeScreen[Màn hình chính]
-
-  subgraph LoginSuccess[Các giao diện trong hệ thống]
-    direction LR
-
-    subgraph TopNav[Menu điều hướng]
-      direction TB
-      Nav
-      Avatar
-    end
-
-    subgraph Body[Phần thao tác chính]
-      direction LR
-
-      Nav[Điều hướng] --> HomeScreen
-      Nav --> TopicScreen
-      TopicScreen[Màn hình đề tài] --> TopicPopup
-      TopicPopup[Form đề tài] --> CouncilPopup[Form hội đồng]
-
-      Nav --> EvaluateScreen
-      EvaluateScreen[Màn hình đánh giá] --> TopicPopup
-      EvaluateScreen --> EvaluatePopup
-      EvaluatePopup[Form đánh giá] --> CriterionTemplatePopup[Form mẫu đánh giá]
-      EvaluateScreen --> ScorePopup[Form chấm điểm]
-
-      Nav-->CouncilScreen
-      CouncilScreen[Màn hình hội đồng] --> CouncilPopup
-
-      subgraph PersonScreen[Màn hình nhân sự]
-        direction TB
-        Nav --> TeacherScreen
-        Nav --> StudentScreen
-      end
-      TeacherScreen[Màn hình giảng viên]-->TeacherPopup[Form thông tin giảng viên]
-      StudentScreen[Màn hình sinh viên]-->StudentPopup[Form thông tin sinh viên]
-
-      Nav --> CriterionScreen
-      CriterionScreen[Màn hình mẫu đánh giá]-->CriterionTemplatePopup
-
-      Nav --> ReportScreen
-      ReportScreen[Màn hình báo cáo] --> TopicReport[Báo cáo đề tài]
-      ReportScreen --> TopicAssignReport[Báo cáo phân công đề tài]
-      ReportScreen --> CouncilReport[Báo cáo hội đồng]
-      ReportScreen --> ScoreReport[Báo cáo điểm số]
-
-      Nav --> SettingScreen
-      SettingScreen[Màn hình cài đặt] --> SettingTemplatePopup
-      SettingTemplatePopup[Cài đặt mẫu đánh giá] --> CriterionTemplatePopup
-      SettingScreen --> ImportDataScreen[Màn hình thêm dữ liệu]
-      SettingScreen --> SettingScoreMethod[Cài đặt phương thức chấm điểm]
-    end
-
-    Avatar --> TeacherPopup
-    Avatar --> StudentPopup
-    Avatar --> SettingScreen
-  end
-
-  Avatar --> LogoutScreen[Màn hình đăng nhập]
-```
+<center>
+  <img width="590" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/ui-flow.png?raw=true">
+</center>
 
 <div style="page-break-after: always;"></div>
 
