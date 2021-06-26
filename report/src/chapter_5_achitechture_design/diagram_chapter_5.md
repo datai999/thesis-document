@@ -1,3 +1,5 @@
+<!-- Group table diagram -->
+
 ```mermaid
 graph LR
     br((Nhóm br))
@@ -14,6 +16,8 @@ graph LR
     sc-->ps
 ```
 
+<!-- br group diagram -->
+
 ```mermaid
 erDiagram
     br_const_data {
@@ -28,6 +32,8 @@ erDiagram
     }
     br_const_data ||-- o{ br_setting : name
 ```
+
+<!-- ps group diagram -->
 
 ```mermaid
 erDiagram
@@ -59,6 +65,8 @@ erDiagram
     br_const_data ||--o{ ps_student : has_edu_method
     br_const_data ||--o{ ps_student : has_major
 ```
+
+<!-- tp group diagram -->
 
 ```mermaid
 erDiagram
@@ -106,6 +114,8 @@ erDiagram
     br_const_data ||--|| tp_topic_assign : has_status
     tp_council ||--o{ tp_topic_assign : has_council
 ```
+
+<!-- sc group diagram -->
 
 ```mermaid
 erDiagram
@@ -160,6 +170,8 @@ erDiagram
 
     br_setting ||--|| sc_criterion : has_score_method
 ```
+
+<!-- UI flow diagram -->
 
 ```mermaid
 graph LR
