@@ -1,6 +1,6 @@
-### **6.4 Code back-end**
+### **6.5 Code back-end**
 
-#### 6.4.1 Phân chia source code
+#### 6.5.1 Phân chia source code
 
 <p style='text-align: justify;'>
 &emsp;
@@ -17,7 +17,7 @@ Mỗi module thì được phân chia dựa trên mô hình MVC (Model, View, Co
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/be-source.png?raw=true">
 </center>
 
-#### 6.4.2 Modal Class diagram
+#### 6.5.2 Modal Class diagram
 
 <p style='text-align: justify;'>
 &emsp;
@@ -32,7 +32,7 @@ lần lượt là các table <b>br_const_data</b>, <b>ps_student</b>, <b>tp_coun
 
 <div style="page-break-after: always;"></div>
 
-#### 6.4.3 Service Class diagram
+#### 6.5.3 Service Class diagram
 
 <p style='text-align: justify;'>
 &emsp;
@@ -47,7 +47,7 @@ Ví dụ với dịch vụ đề tài (TopicService).
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
 </center>
 
-#### 6.4.4 Controller class diagram
+#### 6.5.4 Controller class diagram
 
 <p style='text-align: justify;'>
 &emsp;
