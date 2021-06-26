@@ -24,21 +24,6 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 | email     | string       | không     | không    | HCMUT mail                       |
 | phone     | string       | có        | không    | Số điện thoại                    |
 
-**Ví dụ:**
-
-Bảng br_const_data
-
-| id  | type   | value                        | no   |
-| --- | ------ | ---------------------------- | ---- |
-| 1   | gender | {"en": "Male", "vi": "Name"} | null |
-| 2   | gender | {"en": "Female", "vi": "Nữ"} | null |
-
-Bảng PersonBaseTable
-
-| id  | code    | name               | gender_id | email            | phone      |
-| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
-| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
-
 <div style="page-break-after: always;"></div>
 
 ##### 5.1.3.b Bảng ps_academy_staff
@@ -58,7 +43,37 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 | subject_department_id | bigint       | có        | không    | Phòng ban giảng viên làm việc |
 | degree_id             | bigint       | có        | không    | Học vị của giảng viên         |
 
-**Ví dụ:**
+##### 5.1.3.c Bảng ps_student
+
+**Dữ liệu:** Thông tin sinh viên
+
+**Đặc tả chi tiết**
+
+| Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
+| ------------------- | ------------ | --------- | -------- | ----------------------------- |
+| education_method_id | bigint       | có        | không    | Phương thức đào tạo sinh viên |
+| major               | bigint       | có        | không    | Chuyên ngành của sinh viên    |
+
+##### 5.1.3.d Ví dụ về bảng PersonBaseTable, ps_academy_staff, ps_teacher, ps_student
+
+**Ví dụ về bảng PersonBaseTable:**
+
+Bảng br_const_data
+
+| id  | type   | value                        | no   |
+| --- | ------ | ---------------------------- | ---- |
+| 1   | gender | {"en": "Male", "vi": "Name"} | null |
+| 2   | gender | {"en": "Female", "vi": "Nữ"} | null |
+
+Bảng PersonBaseTable
+
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
+
+<div style="page-break-after: always;"></div>
+
+**Ví dụ về bảng ps_academy_staff, ps_teacher, ps_student:**
 
 Bảng br_const_data
 
@@ -74,24 +89,31 @@ Bảng br_const_data
 | 9   | subjectDepartment | {"en":"Systems and Networks", "vi":"Hệ thống và mạng"}  | null |
 | 10  | subjectDepartment | {"en":"Computer Science","vi":"Khoa học máy tính"}      | null |
 | 11  | subjectDepartment | {"en":"Computer Engineering","vi":"Kỹ thuật máy tính"}  | null |
+| 12  | educationMethod   | {"en":"Formal","vi":"Chính quy"}                        | null |
+| 13  | major             | {"en":"Computer Science","vi":"Khoa học máy tính"}      | null |
+
+Bảng ps_academy_staff
+
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
 Bảng ps_teacher
 
-| id  | code    | name               | gender_id | email                             | phone      | subject_department_id | degree_id |
-| --- | ------- | ------------------ | --------- | --------------------------------- | ---------- | --------------------- | --------- |
-| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai.nguyen.cse.datai@hcmut.edu.vn | 0905345670 | 7                     | 4         |
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
-##### 5.1.3.c Bảng ps_student
+| id  | subject_department_id | degree_id |
+| --- | --------------------- | --------- |
+| 1   | 7                     | 4         |
 
-**Dữ liệu:** Thông tin sinh viên
+Bảng ps_student
 
-**Đặc tả chi tiết**
+| id  | code    | name               | gender_id | email            | phone      |
+| --- | ------- | ------------------ | --------- | ---------------- | ---------- |
+| 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
-| Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
-| ------------------- | ------------ | --------- | -------- | ----------------------------- |
-| education_method_id | bigint       | có        | không    | Phương thức đào tạo sinh viên |
-| major               | bigint       | có        | không    | Chuyên ngành của sinh viên    |
-
-**Ví dụ:** Tương đồng ví dụ bảng ps_teacher
-
-<div style="page-break-after: always;"></div>
+| id  | education_method_id | major |
+| --- | ------------------- | ----- |
+| 1   | 12                  | 13    |
