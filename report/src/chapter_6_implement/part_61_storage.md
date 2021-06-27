@@ -1,4 +1,4 @@
-### **6.1 Lưu trữ**
+## **6.1 Lưu trữ**
 
 &emsp;**Tài liệu:** Các tài liệu tìm kiếm được để hỗ trợ về mặt nghiệp vụ
 

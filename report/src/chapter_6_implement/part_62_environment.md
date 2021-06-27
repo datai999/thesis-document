@@ -1,4 +1,4 @@
-### **6.2 Các môi trường**
+## **6.2 Các môi trường**
 
 <p style='text-align: justify;'>
 &emsp;

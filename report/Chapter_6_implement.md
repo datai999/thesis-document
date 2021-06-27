@@ -1,8 +1,8 @@
-## **6 Hiện thực hệ thống**
+# **6 Hiện thực hệ thống**
 
 <div style="page-break-after: always;"></div>
 
-### **6.1 Lưu trữ**
+## **6.1 Lưu trữ**
 
 &emsp;**Tài liệu:** Các tài liệu tìm kiếm được để hỗ trợ về mặt nghiệp vụ
 
@@ -71,7 +71,7 @@ Markdown là một ngôn ngữ đánh dấu đơn giản với cú pháp đượ
 
 <div style="page-break-after: always;"></div>
 
-### **6.2 Các môi trường**
+## **6.2 Các môi trường**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -93,7 +93,7 @@ Vì công cụ vẽ không cho phép kí tự @ nên nhóm đã để dấu # th
 
 <div style="page-break-after: always;"></div>
 
-### **6.3 Chia nhiệm vụ**
+## **6.3 Chia nhiệm vụ**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -126,7 +126,7 @@ Nhóm chia thành 20 nhiệm vụ chính được phân bổ theo bảng như sa
 
 <div style="page-break-after: always;"></div>
 
-### **6.4 Filter và Interception request**
+## **6.4 Filter và Interception request**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -152,9 +152,9 @@ có được phép sử dụng dịch vụ tương ứng hay không.
 
 <div style="page-break-after: always;"></div>
 
-### **6.5 Code back-end**
+## **6.5 Code back-end**
 
-#### 6.5.1 Phân chia source code
+### **6.5.1 Phân chia source code**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -171,7 +171,7 @@ Mỗi module thì được phân chia dựa trên mô hình MVC (Model, View, Co
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/be-source.png?raw=true">
 </center>
 
-#### 6.5.2 Modal Class diagram
+### **6.5.2 Modal Class diagram**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -186,7 +186,7 @@ lần lượt là các table <b>br_const_data</b>, <b>ps_student</b>, <b>tp_coun
 
 <div style="page-break-after: always;"></div>
 
-#### 6.5.3 Service Class diagram
+### **6.5.3 Service Class diagram**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -201,7 +201,7 @@ Ví dụ với dịch vụ đề tài (TopicService).
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
 </center>
 
-#### 6.5.4 Controller class diagram
+### **6.5.4 Controller class diagram**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -218,7 +218,7 @@ Ví dụ với các API gán các thành phần vào đề tài (TopicAssignCont
 
 <div style="page-break-after: always;"></div>
 
-### **6.6 CI-CD**
+## **6.6 CI-CD**
 
 <p style='text-align: justify;'>
 &emsp;

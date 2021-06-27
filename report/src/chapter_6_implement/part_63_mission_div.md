@@ -1,4 +1,4 @@
-### **6.3 Chia nhiệm vụ**
+## **6.3 Chia nhiệm vụ**
 
 <p style='text-align: justify;'>
 &emsp;

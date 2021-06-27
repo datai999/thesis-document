@@ -1,4 +1,4 @@
-### **6.6 CI-CD**
+## **6.6 CI-CD**
 
 <p style='text-align: justify;'>
 &emsp;
