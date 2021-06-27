@@ -1,5 +1,25 @@
 # **3. Lựa chọn công nghệ**
 
+<p style='text-align: justify;'>
+&emsp;
+Lựa chọn công nghệ cần dựa trên 3 yếu tố
+</p>
+
+- Dự án phù hợp với công nghệ nào
+- Công nghệ có phù hợp với hiện tại và tương lai
+- Tài nguyên hiện có: đội ngũ phát triển, vốn, ...
+
+<p style='text-align: justify;'>
+&emsp;
+Để lựa chọn được công nghệ đáp ứng được 3 yếu tố trên, 
+nhóm đã cố gắng đọc tài liệu cũng như trải nghiệm sơ qua 
+để có được sự lựa chọn ưng ý nhất.
+Sau khi tổng hợp lại, bỏ qua những framework nhỏ, 
+nhóm sẽ giới thiệu qua những công nghệ chính mà nhóm sẽ đưa lên bàn cân trong chương này.
+</p>
+
+</br>
+
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/find-technology.png?raw=true">
 </center>
