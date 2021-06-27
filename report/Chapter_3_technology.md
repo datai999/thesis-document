@@ -1,5 +1,9 @@
 # **3. Lựa chọn công nghệ**
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/find-technology.png?raw=true">
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ## **3.1 Các loại ứng dụng**

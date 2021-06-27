@@ -1,5 +1,9 @@
 # **2. Phân tích yêu cầu đề tài**
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_2_requirement/img/requirement.png?raw=true">
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ## **2.1 Phân chia người dùng**
@@ -50,4 +54,5 @@ cá nhân có nhu cầu sử dụng. Nhóm đưa ra các vai trò, người dùn
   - Xuất file Excel, Word
 
 <div style="page-break-after: always;"></div>
+
 

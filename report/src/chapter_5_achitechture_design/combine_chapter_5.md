@@ -1,5 +1,9 @@
 # **5 Thiết kế kiến trúc hệ thống**
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/system-design.png?raw=true">
+</center>
+
 <div style="page-break-after: always;"></div>
 
 !import[/report/src/chapter_5_achitechture_design/part_511_base_db.md]

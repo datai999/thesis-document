@@ -1,5 +1,9 @@
 # **1. Tổng quan giới thiệu đề tài**
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_1_intro/img/idea.png?raw=true">
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ## **1.1 Giới thiệu**

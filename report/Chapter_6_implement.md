@@ -1,5 +1,9 @@
 # **6 Hiện thực hệ thống**
 
+<center>
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/chapter_6_implement.png?raw=true">
+</center>
+
 <div style="page-break-after: always;"></div>
 
 ## **6.1 Lưu trữ**
