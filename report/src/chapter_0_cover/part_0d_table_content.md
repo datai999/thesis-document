@@ -89,5 +89,8 @@
   - 6.6 CI-CD [76]
 
 - 7 Tổng kết và hướng phát triển [77]
+  - 7.1 Kết quả đạt được [78]
+  - 7.2 Thuận lợi - Khó khăn [79]
+  - 7.3 Hướng phát triển [79]
 
 <div style="page-break-after: always;"></div>
