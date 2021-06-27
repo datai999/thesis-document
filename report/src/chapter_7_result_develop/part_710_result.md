@@ -1,4 +1,4 @@
-### **7.1 Kết quả đạt được**
+## **7.1 Kết quả đạt được**
 
 <p style='text-align: justify;'>
 &emsp;

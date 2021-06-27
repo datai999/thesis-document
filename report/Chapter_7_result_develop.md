@@ -1,8 +1,8 @@
-## **7 Tổng kết và hướng phát triển**
+# **7 Tổng kết và hướng phát triển**
 
 <div style="page-break-after: always;"></div>
 
-### **7.1 Kết quả đạt được**
+## **7.1 Kết quả đạt được**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -47,9 +47,9 @@ Trong thời gian thực hiện đề cương nhóm đã đạt được một s
 
 <div style="page-break-after: always;"></div>
 
-### **7.2 Thuận lợi - Khó khăn**
+## **7.2 Thuận lợi - Khó khăn**
 
-#### 7.2.1 Thuận lợi
+### **7.2.1 Thuận lợi**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -60,7 +60,7 @@ Sau thời gian nghiên cứu, tìm hiểu đề tài nhóm nhận thấy đề 
 - Kinh nghiệm từ đề tài có thể áp dụng vào công việc trong tương lai
 - Nhận được sự chia sẻ, hướng dẫn tận tình từ Th.S Nguyễn Thị Ái Thảo
 
-#### 7.2.2 Khó khăn
+### **7.2.2 Khó khăn**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -72,7 +72,7 @@ Bên cạnh những thuận lợi nêu trên thì đề tài cũng gặp rất n
 - Dùng chung framework Expo cho nhiều nên tảng nên thường xuyên bị cấn chức năng
 - Đội ngũ và phát triển một thành viên và không có kinh nghiệm front-end
 
-### **7.3 Hướng phát triển**
+## **7.3 Hướng phát triển**
 
 <p style='text-align: justify;'>
 &emsp;
