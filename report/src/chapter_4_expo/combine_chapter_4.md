@@ -1,5 +1,24 @@
 # **4 Lập trình UI web, android, ios với Expo**
 
+<p style='text-align: justify;'>
+&emsp;
+Ở chương 3, nhóm đã gặp khó khăn trong việc lựa chọn JavaScript UI framework
+để giảm bớt công việc front-end giữa các nền tảng.
+Giải quyết điều đó, nhóm đã có ý tưởng dùng React-native để dựng web 
+và nhóm đã tìm ra Expo.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Ở chương này, thông qua các mục nhóm sẽ trả lời các câu hỏi:
+Từ đâu mà nhóm tìm đến Expo?
+Expo là gì? 
+Expo làm được gì?
+Tại sao nên chọn Expo?
+</p>
+
+</br>
+
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_4_expo/img/rocket.png?raw=true">
 </center>
