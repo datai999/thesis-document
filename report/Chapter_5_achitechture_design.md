@@ -1,7 +1,18 @@
 # **5 Thiết kế kiến trúc hệ thống**
 
+<p style='text-align: justify;'>
+&emsp;
+Thiết kế kiến trúc hệ thống có vai trò rất quan trọng trong quy trình xây dựng phần mềm 
+vì có được cái nhìn đầy đủ, đúng đắn, chính xác về hệ thống sẽ xây dựng trong tương lai 
+nhằm thuận lợi cho việc sửa chữa, bổ sung và phát triển hệ thống khi có sự thay đổi. 
+Hơn thế nữa, thiết kế còn tránh được những sai lầm trong cài đặt 
+hay lạc lối trong trong quá trình thi công phần mềm.
+</p>
+
+</br>
+
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/system-rule.png?raw=true">
+ <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/system-rule.png?raw=true">
 </center>
 
 <div style="page-break-after: always;"></div>
