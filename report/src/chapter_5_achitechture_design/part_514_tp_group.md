@@ -1,4 +1,4 @@
-#### 5.1.4 Các bảng nhóm đề tài (tp)
+### 5.1.4 Các bảng nhóm đề tài (tp)
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">
@@ -6,7 +6,7 @@
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.4.a Bảng tp_topic
+#### 5.1.4.a Bảng tp_topic
 
 **Dữ liệu:** Thông tin về đề tài
 
@@ -30,7 +30,7 @@
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.4.b Bảng tp_council
+#### 5.1.4.b Bảng tp_council
 
 **Dữ liệu:** Thông tin về hội đồng
 
@@ -47,7 +47,7 @@
 | teacher_code          | array-string          | có        | không    | Mã giảng viên tương ứng với vai trò |
 | note                  | text                  | có        | không    | Ghi chú thêm về hội đồng            |
 
-##### 5.1.4.c Bảng tp_topic_assign
+#### 5.1.4.c Bảng tp_topic_assign
 
 **Dữ liệu:** Thông tin về việc gán các nghiệp vụ cho đề tài
 
@@ -66,7 +66,7 @@
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.4.d Ví dụ về bảng tp_topic, tp_council, tp_topic_assign
+#### 5.1.4.d Ví dụ về bảng tp_topic, tp_council, tp_topic_assign
 
 <p style='text-align: justify;'>
 &emsp;

@@ -1,8 +1,8 @@
-### **5.1 Thiết kế cơ sở dữ liệu**
+## **5.1 Thiết kế cơ sở dữ liệu**
 
-#### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
+### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
 
-##### 5.1.1.a Chia nhóm các bảng
+#### 5.1.1.a Chia nhóm các bảng
 
 &emsp;Dựa vào yêu cầu của đề tài thì nhóm sẽ phân loại các table của database ra làm 4 nhóm
 
@@ -15,7 +15,7 @@
 
 Ví dụ: Table ps_teacher thuộc nhóm liên quan đến nhân sự và chứa dữ liệu của giảng viên.
 
-##### 5.1.1.b Mối quan hệ giữa các nhóm bảng
+#### 5.1.1.b Mối quan hệ giữa các nhóm bảng
 
 &emsp;Mối quan hệ giữa các khóa ngoại (Foreign key) của các table trong nhóm được thể hiện bằng lược đồ sau.
 
@@ -39,7 +39,7 @@ Với lược đồ này, nhóm sẽ quy định rằng các bảng thuộc nhó
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.1.c Bảng cơ sở
+#### 5.1.1.c Bảng cơ sở
 
 Mọi table đều extends **BaseTable** chứa các thông tin sau
 
@@ -63,7 +63,7 @@ và không sử dụng khóa chính tổng hợp (composite-key).
 Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
 </p>
 
-##### 5.1.1.d Giảm dư thừa dữ liệu bằng array
+#### 5.1.1.d Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
 &emsp;Các thiết kế từng bảng sẽ tuân thủ thêm nguyên tắc giảm số dòng (record)
@@ -90,7 +90,7 @@ Sẽ được chuyển thành
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.1.e Đa ngôn ngữ bằng json
+#### 5.1.1.e Đa ngôn ngữ bằng json
 
 <p style='text-align: justify;'>
 &emsp;PostgreSQL có hỗ trợ kiểu dữ liệu JSON, nhóm sẽ tận dùng để lưu trữ đa ngôn ngữ.

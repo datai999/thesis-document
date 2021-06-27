@@ -1,4 +1,4 @@
-#### 5.1.3 Các bảng nhóm nhân sự (ps)
+### 5.1.3 Các bảng nhóm nhân sự (ps)
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 
@@ -6,7 +6,7 @@ Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBas
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-ps.png?raw=true">
 </center>
 
-##### 5.1.3.a Bảng PersonBaseTable
+#### 5.1.3.a Bảng PersonBaseTable
 
 Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực trong database. Các bảng thuộc nhóm **ps** đều có tất cả các field thuộc bảng này.
 
@@ -26,13 +26,13 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.3.b Bảng ps_academy_staff
+#### 5.1.3.b Bảng ps_academy_staff
 
 **Dữ liệu:** Thông tin giáo vụ
 
 Các field của bảng này bằng các field thuộc bảng BaseTable + field thuộc bảng PersonBaseTable
 
-##### 5.1.3.c Bảng ps_teacher
+#### 5.1.3.c Bảng ps_teacher
 
 **Dữ liệu:** Thông tin giảng viên
 
@@ -43,7 +43,7 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 | subject_department_id | bigint       | có        | không    | Phòng ban giảng viên làm việc |
 | degree_id             | bigint       | có        | không    | Học vị của giảng viên         |
 
-##### 5.1.3.c Bảng ps_student
+#### 5.1.3.c Bảng ps_student
 
 **Dữ liệu:** Thông tin sinh viên
 
@@ -54,7 +54,7 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 | education_method_id | bigint       | có        | không    | Phương thức đào tạo sinh viên |
 | major               | bigint       | có        | không    | Chuyên ngành của sinh viên    |
 
-##### 5.1.3.d Ví dụ về bảng PersonBaseTable, ps_academy_staff, ps_teacher, ps_student
+#### 5.1.3.d Ví dụ về bảng PersonBaseTable, ps_academy_staff, ps_teacher, ps_student
 
 **Ví dụ về bảng PersonBaseTable:**
 

@@ -1,10 +1,10 @@
-#### 5.1.2 Các bảng nhóm khác (br)
+### 5.1.2 Các bảng nhóm khác (br)
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
 </center>
 
-##### 5.1.2.a Bảng br_const_data
+#### 5.1.2.a Bảng br_const_data
 
 **Dữ liệu:** Các dữ liệu ít hoặc gần như không thay đổi
 
@@ -29,7 +29,7 @@
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.2.b Bảng br_setting
+#### 5.1.2.b Bảng br_setting
 
 **Dữ liệu:** Các dữ liệu cài đặt chung của hệ thống
 

@@ -1,12 +1,12 @@
-## **5 Thiết kế kiến trúc hệ thống**
+# **5 Thiết kế kiến trúc hệ thống**
 
 <div style="page-break-after: always;"></div>
 
-### **5.1 Thiết kế cơ sở dữ liệu**
+## **5.1 Thiết kế cơ sở dữ liệu**
 
-#### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
+### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
 
-##### 5.1.1.a Chia nhóm các bảng
+#### 5.1.1.a Chia nhóm các bảng
 
 &emsp;Dựa vào yêu cầu của đề tài thì nhóm sẽ phân loại các table của database ra làm 4 nhóm
 
@@ -19,7 +19,7 @@
 
 Ví dụ: Table ps_teacher thuộc nhóm liên quan đến nhân sự và chứa dữ liệu của giảng viên.
 
-##### 5.1.1.b Mối quan hệ giữa các nhóm bảng
+#### 5.1.1.b Mối quan hệ giữa các nhóm bảng
 
 &emsp;Mối quan hệ giữa các khóa ngoại (Foreign key) của các table trong nhóm được thể hiện bằng lược đồ sau.
 
@@ -43,7 +43,7 @@ Với lược đồ này, nhóm sẽ quy định rằng các bảng thuộc nhó
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.1.c Bảng cơ sở
+#### 5.1.1.c Bảng cơ sở
 
 Mọi table đều extends **BaseTable** chứa các thông tin sau
 
@@ -67,7 +67,7 @@ và không sử dụng khóa chính tổng hợp (composite-key).
 Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
 </p>
 
-##### 5.1.1.d Giảm dư thừa dữ liệu bằng array
+#### 5.1.1.d Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
 &emsp;Các thiết kế từng bảng sẽ tuân thủ thêm nguyên tắc giảm số dòng (record)
@@ -94,7 +94,7 @@ Sẽ được chuyển thành
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.1.e Đa ngôn ngữ bằng json
+#### 5.1.1.e Đa ngôn ngữ bằng json
 
 <p style='text-align: justify;'>
 &emsp;PostgreSQL có hỗ trợ kiểu dữ liệu JSON, nhóm sẽ tận dùng để lưu trữ đa ngôn ngữ.
@@ -108,13 +108,13 @@ Ví dụ
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.2 Các bảng nhóm khác (br)
+### 5.1.2 Các bảng nhóm khác (br)
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
 </center>
 
-##### 5.1.2.a Bảng br_const_data
+#### 5.1.2.a Bảng br_const_data
 
 **Dữ liệu:** Các dữ liệu ít hoặc gần như không thay đổi
 
@@ -139,7 +139,7 @@ Ví dụ
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.2.b Bảng br_setting
+#### 5.1.2.b Bảng br_setting
 
 **Dữ liệu:** Các dữ liệu cài đặt chung của hệ thống
 
@@ -173,7 +173,7 @@ Bảng br_setting
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.3 Các bảng nhóm nhân sự (ps)
+### 5.1.3 Các bảng nhóm nhân sự (ps)
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 
@@ -181,7 +181,7 @@ Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBas
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-ps.png?raw=true">
 </center>
 
-##### 5.1.3.a Bảng PersonBaseTable
+#### 5.1.3.a Bảng PersonBaseTable
 
 Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực trong database. Các bảng thuộc nhóm **ps** đều có tất cả các field thuộc bảng này.
 
@@ -201,13 +201,13 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.3.b Bảng ps_academy_staff
+#### 5.1.3.b Bảng ps_academy_staff
 
 **Dữ liệu:** Thông tin giáo vụ
 
 Các field của bảng này bằng các field thuộc bảng BaseTable + field thuộc bảng PersonBaseTable
 
-##### 5.1.3.c Bảng ps_teacher
+#### 5.1.3.c Bảng ps_teacher
 
 **Dữ liệu:** Thông tin giảng viên
 
@@ -218,7 +218,7 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 | subject_department_id | bigint       | có        | không    | Phòng ban giảng viên làm việc |
 | degree_id             | bigint       | có        | không    | Học vị của giảng viên         |
 
-##### 5.1.3.c Bảng ps_student
+#### 5.1.3.c Bảng ps_student
 
 **Dữ liệu:** Thông tin sinh viên
 
@@ -229,7 +229,7 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 | education_method_id | bigint       | có        | không    | Phương thức đào tạo sinh viên |
 | major               | bigint       | có        | không    | Chuyên ngành của sinh viên    |
 
-##### 5.1.3.d Ví dụ về bảng PersonBaseTable, ps_academy_staff, ps_teacher, ps_student
+#### 5.1.3.d Ví dụ về bảng PersonBaseTable, ps_academy_staff, ps_teacher, ps_student
 
 **Ví dụ về bảng PersonBaseTable:**
 
@@ -293,7 +293,7 @@ Bảng ps_student
 | --- | ------------------- | ----- |
 | 1   | 12                  | 13    |
 
-#### 5.1.4 Các bảng nhóm đề tài (tp)
+### 5.1.4 Các bảng nhóm đề tài (tp)
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">
@@ -301,7 +301,7 @@ Bảng ps_student
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.4.a Bảng tp_topic
+#### 5.1.4.a Bảng tp_topic
 
 **Dữ liệu:** Thông tin về đề tài
 
@@ -325,7 +325,7 @@ Bảng ps_student
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.4.b Bảng tp_council
+#### 5.1.4.b Bảng tp_council
 
 **Dữ liệu:** Thông tin về hội đồng
 
@@ -342,7 +342,7 @@ Bảng ps_student
 | teacher_code          | array-string          | có        | không    | Mã giảng viên tương ứng với vai trò |
 | note                  | text                  | có        | không    | Ghi chú thêm về hội đồng            |
 
-##### 5.1.4.c Bảng tp_topic_assign
+#### 5.1.4.c Bảng tp_topic_assign
 
 **Dữ liệu:** Thông tin về việc gán các nghiệp vụ cho đề tài
 
@@ -361,7 +361,7 @@ Bảng ps_student
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.4.d Ví dụ về bảng tp_topic, tp_council, tp_topic_assign
+#### 5.1.4.d Ví dụ về bảng tp_topic, tp_council, tp_topic_assign
 
 <p style='text-align: justify;'>
 &emsp;
@@ -446,7 +446,7 @@ Bảng tp_topic_assign
 
 <div style="page-break-after: always;"></div>
 
-#### 5.1.5 Các bảng nhóm điểm (sc)
+### 5.1.5 Các bảng nhóm điểm (sc)
 
 <center>
   <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
@@ -458,7 +458,7 @@ Bảng tp_topic_assign
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.5.a Bảng sc_criterion
+#### 5.1.5.a Bảng sc_criterion
 
 **Dữ liệu:** Thông tin tiêu chí
 
@@ -471,7 +471,7 @@ Bảng tp_topic_assign
 | score_item_percent | array-integer | không     | không    | Phần trăm số điểm mỗi bậc của tiêu chí |
 | description        | json          | có        | không    | Mô tả tiêu chí                         |
 
-##### 5.1.5.b Bảng sc_criterion_template
+#### 5.1.5.b Bảng sc_criterion_template
 
 **Dữ liệu:** Thông tin về mẫu tiêu chí
 
@@ -484,7 +484,7 @@ Bảng tp_topic_assign
 | criterion_score | array-integer | không     | không    | Điểm tối đa cho mỗi tiêu chí |
 | description     | json          | có        | không    | Mô tả về mẫu tiêu chí        |
 
-##### 5.1.5.c Bảng sc_score
+#### 5.1.5.c Bảng sc_score
 
 **Dữ liệu:** Thông tin về điểm số
 
@@ -501,7 +501,7 @@ Bảng tp_topic_assign
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.5.d Ví dụ về bảng sc_criterion, sc_criterion_template, sc_score
+#### 5.1.5.d Ví dụ về bảng sc_criterion, sc_criterion_template, sc_score
 
 <p style='text-align: justify;'>
 &emsp;
@@ -605,9 +605,9 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-### **5.2 Thiết kế API**
+## **5.2 Thiết kế API**
 
-#### 5.2.1 Các API cơ sở
+### 5.2.1 Các API cơ sở
 
 &emsp;Định nghĩa một số API cơ bản phục vụ thêm sửa xóa
 
@@ -627,7 +627,7 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-#### 5.2.2 Các API khác
+### 5.2.2 Các API khác
 
 &emsp;Các API phục vụ riêng một số nghiệp vụ nhất định
 
@@ -649,7 +649,7 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-### **5.3 Thiết kế luồng giao diện**
+## **5.3 Thiết kế luồng giao diện**
 
 <center>
   <img width="590" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/ui-flow.png?raw=true">
@@ -657,9 +657,9 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-### **5.4 Thiết kế một số chức năng**
+## **5.4 Thiết kế một số chức năng**
 
-#### 5.4.1 Chức năng xác thực người dùng
+### 5.4.1 Chức năng xác thực người dùng
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/login.png?raw=true">
@@ -667,7 +667,7 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-#### 5.4.2 Chức năng xác thực các yêu cầu từ người dùng
+### 5.4.2 Chức năng xác thực các yêu cầu từ người dùng
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-request.png?raw=true">
@@ -675,7 +675,7 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-#### 5.4.3 Chức năng thêm dữ liệu
+### 5.4.3 Chức năng thêm dữ liệu
 
 <center>
   <img height="950" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-insert.png?raw=true">

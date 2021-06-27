@@ -1,6 +1,6 @@
-### **5.2 Thiết kế API**
+## **5.2 Thiết kế API**
 
-#### 5.2.1 Các API cơ sở
+### 5.2.1 Các API cơ sở
 
 &emsp;Định nghĩa một số API cơ bản phục vụ thêm sửa xóa
 
@@ -20,7 +20,7 @@
 
 <div style="page-break-after: always;"></div>
 
-#### 5.2.2 Các API khác
+### 5.2.2 Các API khác
 
 &emsp;Các API phục vụ riêng một số nghiệp vụ nhất định
 

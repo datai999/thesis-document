@@ -1,4 +1,4 @@
-## **5 Thiết kế kiến trúc hệ thống**
+# **5 Thiết kế kiến trúc hệ thống**
 
 <div style="page-break-after: always;"></div>
 

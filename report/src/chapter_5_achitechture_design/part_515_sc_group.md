@@ -1,4 +1,4 @@
-#### 5.1.5 Các bảng nhóm điểm (sc)
+### 5.1.5 Các bảng nhóm điểm (sc)
 
 <center>
   <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
@@ -10,7 +10,7 @@
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.5.a Bảng sc_criterion
+#### 5.1.5.a Bảng sc_criterion
 
 **Dữ liệu:** Thông tin tiêu chí
 
@@ -23,7 +23,7 @@
 | score_item_percent | array-integer | không     | không    | Phần trăm số điểm mỗi bậc của tiêu chí |
 | description        | json          | có        | không    | Mô tả tiêu chí                         |
 
-##### 5.1.5.b Bảng sc_criterion_template
+#### 5.1.5.b Bảng sc_criterion_template
 
 **Dữ liệu:** Thông tin về mẫu tiêu chí
 
@@ -36,7 +36,7 @@
 | criterion_score | array-integer | không     | không    | Điểm tối đa cho mỗi tiêu chí |
 | description     | json          | có        | không    | Mô tả về mẫu tiêu chí        |
 
-##### 5.1.5.c Bảng sc_score
+#### 5.1.5.c Bảng sc_score
 
 **Dữ liệu:** Thông tin về điểm số
 
@@ -53,7 +53,7 @@
 
 <div style="page-break-after: always;"></div>
 
-##### 5.1.5.d Ví dụ về bảng sc_criterion, sc_criterion_template, sc_score
+#### 5.1.5.d Ví dụ về bảng sc_criterion, sc_criterion_template, sc_score
 
 <p style='text-align: justify;'>
 &emsp;
