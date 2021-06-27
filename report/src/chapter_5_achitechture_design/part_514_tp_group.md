@@ -1,4 +1,4 @@
-### 5.1.4 Các bảng nhóm đề tài (tp)
+### **5.1.4 Các bảng nhóm đề tài (tp)**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">

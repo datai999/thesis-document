@@ -1,6 +1,6 @@
 ## **5.2 Thiết kế API**
 
-### 5.2.1 Các API cơ sở
+### **5.2.1 Các API cơ sở**
 
 &emsp;Định nghĩa một số API cơ bản phục vụ thêm sửa xóa
 

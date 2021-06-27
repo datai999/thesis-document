@@ -1,4 +1,4 @@
-### 5.1.5 Các bảng nhóm điểm (sc)
+### **5.1.5 Các bảng nhóm điểm (sc)**
 
 <center>
   <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">

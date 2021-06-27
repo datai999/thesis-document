@@ -1,4 +1,4 @@
-### 5.1.2 Các bảng nhóm khác (br)
+### **5.1.2 Các bảng nhóm khác (br)**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
