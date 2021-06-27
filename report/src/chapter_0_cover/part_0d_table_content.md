@@ -88,7 +88,7 @@
     - 6.5.4 Controller class diagram [75]
   - 6.6 CI-CD [76]
 
-- 7 Tổng kết và hướng phát triển [77]
+- 7 [Tổng kết và hướng phát triển](https://github.com/datai999/thesis-document/blob/main/report/Chapter_7_result_develop.md#7-tổng-kết-và-hướng-phát-triển) [77]
   - 7.1 Kết quả đạt được [78]
   - 7.2 Thuận lợi - Khó khăn [79]
   - 7.3 Hướng phát triển [79]
