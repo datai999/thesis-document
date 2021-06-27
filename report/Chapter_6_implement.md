@@ -1,7 +1,20 @@
 # **6 Hiện thực hệ thống**
 
+<p style='text-align: justify;'>
+&emsp;
+Sau khi thiết kế, nhóm đã triển khai thi công phần mềm bám sát những gì đã vẽ ra.
+</p>
+
+<p style='text-align: justify;'>
+&emsp;
+Trong chương này, nhóm sẽ đưa ra bảng phân chia nhiệm vụ, 
+từ đó hiện thực một phần của hệ thống trong giai đoạn đề cương.
+</p>
+
+</br>
+
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/chapter_6_implement.png?raw=true">
+  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/software-impl.png?raw=true">
 </center>
 
 <div style="page-break-after: always;"></div>
