@@ -293,6 +293,8 @@ Bảng ps_student
 | --- | ------------------- | ----- |
 | 1   | 12                  | 13    |
 
+<div style="page-break-after: always;"></div>
+
 ### **5.1.4 Các bảng nhóm đề tài (tp)**
 
 <center>

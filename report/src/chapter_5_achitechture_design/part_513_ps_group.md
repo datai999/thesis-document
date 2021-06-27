@@ -117,3 +117,5 @@ Bảng ps_student
 | id  | education_method_id | major |
 | --- | ------------------- | ----- |
 | 1   | 12                  | 13    |
+
+<div style="page-break-after: always;"></div>
