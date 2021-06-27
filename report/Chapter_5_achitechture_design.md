@@ -644,6 +644,7 @@ Bảng sc_score
 | RP01   | /report/topicAssign          | GET         | localTime:startTime, localTime:endTime, bool:file, set:topicAssignId | Xuất báo cáo phân công đề tài                                                 |
 | RP01   | /report/council              | GET         | localTime:startTime, localTime:endTime, bool:file, set:councilId     | Xuất báo cáo hội đồng                                                         |
 | RP01   | /report/score                | GET         | localTime:startTime, localTime:endTime, bool:file, set:scoreId       | Xuất báo cáo điểm                                                             |
+| IP01   | /import/template             | GET         | string:type                                                          | Xuất mẫu file thêm dữ liệu                                                    |
 | ...    | ...                          | ...         | ...                                                                  | ...                                                                           |
 
 <div style="page-break-after: always;"></div>
