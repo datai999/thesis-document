@@ -26,4 +26,6 @@ https://niithanoi.edu.vn/web-framework-tot-nhat.html
 
 https://tel4vn.edu.vn/cac-loai-co-so-du-lieu/
 
+https://topdev.vn/blog/trien-khai-ci-cd-voi-gitlab/
+
 !export[/report/src/export/export.md]

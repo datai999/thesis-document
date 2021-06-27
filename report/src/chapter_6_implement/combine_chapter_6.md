@@ -7,6 +7,6 @@
 !import[/report/src/chapter_6_implement/part_63_mission_div.md]
 !import[/report/src/chapter_6_implement/part_64_check_request.md]
 !import[/report/src/chapter_6_implement/part_65_code_be.md]
-!import[/report/src/chapter_6_implement/part_65_ci_cd.md]
+!import[/report/src/chapter_6_implement/part_66_ci_cd.md]
 
 !export[/report/Chapter_6_implement.md]
