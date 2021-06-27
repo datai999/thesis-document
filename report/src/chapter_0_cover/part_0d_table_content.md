@@ -88,6 +88,6 @@
     - 6.5.4 Controller class diagram [75]
   - 6.6 CI-CD [76]
 
-- 7. Tổng kết và hướng phát triển [77]
+- 7 Tổng kết và hướng phát triển [77]
 
 <div style="page-break-after: always;"></div>

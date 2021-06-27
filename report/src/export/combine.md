@@ -5,6 +5,7 @@
 !import[/report/src/chapter_4_expo/combine_chapter_4.md]
 !import[/report/src/chapter_5_achitechture_design/combine_chapter_5.md]
 !import[/report/src/chapter_6_implement/combine_chapter_6.md]
+!import[/report/src/chapter_7_result_develop/combine_chapter_7.md]
 
 <div style="page-break-after: always;"></div>
 
