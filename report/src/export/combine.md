@@ -9,24 +9,18 @@
 
 <div style="page-break-after: always;"></div>
 
-tài liệu tham khảo
+## Tài liệu tham khảo
 
-http://itacenter.vn/cach-phan-biet-giua-native-app-cross-platform-va-hybrid-hieu-qua
-
-https://viblo.asia/p/tim-hieu-ve-native-app-va-hybrid-app-3P0lPnPmKox
-
-https://niithanoi.edu.vn/front-end-frame-work-pho-bien-nhat.html
-
-https://vntalking.com/react-vs-angular-vs-vue-js-lua-chon-nao-tot-nhat.html
-
-https://www.codeinwp.com/blog/angular-vs-vue-vs-react/
-
-https://vn.got-it.ai/blog/top-7-ngon-ngu-lap-trinh-backend-pho-bien-nhat
-
-https://niithanoi.edu.vn/web-framework-tot-nhat.html
-
-https://tel4vn.edu.vn/cac-loai-co-so-du-lieu/
-
-https://topdev.vn/blog/trien-khai-ci-cd-voi-gitlab/
+| STT | Ngày truy cập | Link                                                                                 |
+| --- | ------------- | ------------------------------------------------------------------------------------ |
+| 1   | 18/06/2021    | http://itacenter.vn/cach-phan-biet-giua-native-app-cross-platform-va-hybrid-hieu-qua |
+| 2   | 18/06/2021    | https://viblo.asia/p/tim-hieu-ve-native-app-va-hybrid-app-3P0lPnPmKox                |
+| 3   | 18/06/2021    | https://niithanoi.edu.vn/front-end-frame-work-pho-bien-nhat.html                     |
+| 4   | 18/06/2021    | https://vntalking.com/react-vs-angular-vs-vue-js-lua-chon-nao-tot-nhat.html          |
+| 5   | 18/06/2021    | https://www.codeinwp.com/blog/angular-vs-vue-vs-react/                               |
+| 6   | 19/06/2021    | https://vn.got-it.ai/blog/top-7-ngon-ngu-lap-trinh-backend-pho-bien-nhat             |
+| 7   | 19/06/2021    | https://niithanoi.edu.vn/web-framework-tot-nhat.html                                 |
+| 8   | 19/06/2021    | https://tel4vn.edu.vn/cac-loai-co-so-du-lieu/                                        |
+| 9   | 25/06/2021    | https://topdev.vn/blog/trien-khai-ci-cd-voi-gitlab/                                  |
 
 !export[/report/src/export/export.md]
