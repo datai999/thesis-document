@@ -75,21 +75,19 @@
     - 5.4.2 Chức năng xác thực các yêu cầu từ người dùng [66]
     - 5.4.3 Chức năng thêm dữ liệu [67]
 
-- 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [6x]
+- 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [68]
 
-  - 6.1 Lưu trữ [6x]
-  - 6.2 Các môi trường [6x]
-  - 6.3 Chia nhiệm vụ [6x]
-  - 6.4 Filter và Interception request [7x]
-  - 6.5 Code back-end [7x]
-    - 6.5.1 Phân chia source code [7x]
-    - 6.5.2 Modal Class diagram [7x]
-    - 6.5.3 Service Class diagram [7x]
-    - 6.5.4 Controller class diagram [7x]
-  - 6.6 CI-CD [7x]
+  - 6.1 Lưu trữ [69]
+  - 6.2 Các môi trường [71]
+  - 6.3 Chia nhiệm vụ [72]
+  - 6.4 Filter và Interception request [73]
+  - 6.5 Code back-end [74]
+    - 6.5.1 Phân chia source code [74]
+    - 6.5.2 Modal Class diagram [74]
+    - 6.5.3 Service Class diagram [75]
+    - 6.5.4 Controller class diagram [75]
+  - 6.6 CI-CD [76]
 
-- 7. Triển khai
-
-- 8. Tổng kết và hướng phát triển:
+- 7. Tổng kết và hướng phát triển [77]
 
 <div style="page-break-after: always;"></div>
