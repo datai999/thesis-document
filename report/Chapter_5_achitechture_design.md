@@ -4,7 +4,7 @@
 
 ## **5.1 Thiết kế cơ sở dữ liệu**
 
-### 5.1.1 Nền tảng thiết kế cơ sở dữ liệu
+### **5.1.1 Nền tảng thiết kế cơ sở dữ liệu**
 
 #### 5.1.1.a Chia nhóm các bảng
 
@@ -108,7 +108,7 @@ Ví dụ
 
 <div style="page-break-after: always;"></div>
 
-### 5.1.2 Các bảng nhóm khác (br)
+### **5.1.2 Các bảng nhóm khác (br)**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
@@ -173,7 +173,7 @@ Bảng br_setting
 
 <div style="page-break-after: always;"></div>
 
-### 5.1.3 Các bảng nhóm nhân sự (ps)
+### **5.1.3 Các bảng nhóm nhân sự (ps)**
 
 Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBaseTable** extend **BaseTable**
 
@@ -293,7 +293,7 @@ Bảng ps_student
 | --- | ------------------- | ----- |
 | 1   | 12                  | 13    |
 
-### 5.1.4 Các bảng nhóm đề tài (tp)
+### **5.1.4 Các bảng nhóm đề tài (tp)**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">
@@ -446,7 +446,7 @@ Bảng tp_topic_assign
 
 <div style="page-break-after: always;"></div>
 
-### 5.1.5 Các bảng nhóm điểm (sc)
+### **5.1.5 Các bảng nhóm điểm (sc)**
 
 <center>
   <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
@@ -607,7 +607,7 @@ Bảng sc_score
 
 ## **5.2 Thiết kế API**
 
-### 5.2.1 Các API cơ sở
+### **5.2.1 Các API cơ sở**
 
 &emsp;Định nghĩa một số API cơ bản phục vụ thêm sửa xóa
 
@@ -659,7 +659,7 @@ Bảng sc_score
 
 ## **5.4 Thiết kế một số chức năng**
 
-### 5.4.1 Chức năng xác thực người dùng
+### **5.4.1 Chức năng xác thực người dùng**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/login.png?raw=true">
@@ -667,7 +667,7 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-### 5.4.2 Chức năng xác thực các yêu cầu từ người dùng
+### **5.4.2 Chức năng xác thực các yêu cầu từ người dùng**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-request.png?raw=true">
@@ -675,7 +675,7 @@ Bảng sc_score
 
 <div style="page-break-after: always;"></div>
 
-### 5.4.3 Chức năng thêm dữ liệu
+### **5.4.3 Chức năng thêm dữ li**ệu
 
 <center>
   <img height="950" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-insert.png?raw=true">
