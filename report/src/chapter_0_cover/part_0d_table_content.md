@@ -86,6 +86,7 @@
     - 6.5.2 Modal Class diagram [7x]
     - 6.5.3 Service Class diagram [7x]
     - 6.5.4 Controller class diagram [7x]
+  - 6.6 CI-CD [7x]
 
 - 7. Triển khai
 
