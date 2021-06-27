@@ -61,7 +61,7 @@
 - 5 [Thiết kế kiến trúc hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#5-thiết-kế-kiến-trúc-hệ-thống) [44]
 
   - 5.1 Thiết kế cơ sở dữ liệu [45]
-    - 5.1.1 Nèn tảng thiết kế cơ sở dữ liệu [45]
+    - 5.1.1 Nền tảng thiết kế cơ sở dữ liệu [45]
     - 5.1.2 Các bảng nhóm khác (br) [48]
     - 5.1.3 Các bảng nhóm nhân sự (ps) [50]
     - 5.1.4 Các bảng nhóm đề tài (tp) [53]
@@ -83,8 +83,8 @@
   - 6.4 Filter và Interception request [73]
   - 6.5 Code back-end [74]
     - 6.5.1 Phân chia source code [74]
-    - 6.5.2 Modal Class diagram [74]
-    - 6.5.3 Service Class diagram [75]
+    - 6.5.2 Modal class diagram [74]
+    - 6.5.3 Service class diagram [75]
     - 6.5.4 Controller class diagram [75]
   - 6.6 CI-CD [76]
 
