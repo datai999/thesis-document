@@ -1,4 +1,4 @@
-### **4.1 Hoàn cảnh và ý tưởng**
+## **4.1 Hoàn cảnh và ý tưởng**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -9,7 +9,7 @@
 - Quá nhiều frame-work và library UI để lựa chọn.
 - Hiện thực trên nhiều nền tảng khiến khối lượng công việc front-end trở nên rất nhiều so với back-end.
 
-#### 4.1.1 Từ web đến di động
+### **4.1.1 Từ web đến di động**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -26,7 +26,7 @@ Tuy nhiên, giải pháp này vướng phải nhiều vấn đề như sau:
 
 > Đây chưa thực sự là một giải pháp tốt.
 
-#### 4.1.2 Từ di động đến web
+### **4.1.2 Từ di động đến web**
 
 <p style='text-align: justify;'>
 &emsp;

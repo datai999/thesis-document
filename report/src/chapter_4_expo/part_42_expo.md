@@ -1,6 +1,6 @@
-### **4.2 Expo**
+## **4.2 Expo**
 
-#### 4.2.1 Giới thiệu Expo
+### **4.2.1 Giới thiệu Expo**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -34,7 +34,7 @@ Expo không cần config, các bước chạy rất đơn giản
 
 <div style="page-break-after: always;"></div>
 
-#### 4.2.2 Chạy thử ứng dụng từ Expo
+### **4.2.2 Chạy thử ứng dụng từ Expo**
 
 Cài đặt Expo
 

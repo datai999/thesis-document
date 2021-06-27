@@ -1,8 +1,8 @@
-## **4 Lập trình UI web, android, ios với Expo**
+# **4 Lập trình UI web, android, ios với Expo**
 
 <div style="page-break-after: always;"></div>
 
-### **4.1 Hoàn cảnh và ý tưởng**
+## **4.1 Hoàn cảnh và ý tưởng**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -13,7 +13,7 @@
 - Quá nhiều frame-work và library UI để lựa chọn.
 - Hiện thực trên nhiều nền tảng khiến khối lượng công việc front-end trở nên rất nhiều so với back-end.
 
-#### 4.1.1 Từ web đến di động
+### **4.1.1 Từ web đến di động**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -30,7 +30,7 @@ Tuy nhiên, giải pháp này vướng phải nhiều vấn đề như sau:
 
 > Đây chưa thực sự là một giải pháp tốt.
 
-#### 4.1.2 Từ di động đến web
+### **4.1.2 Từ di động đến web**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -97,9 +97,9 @@ Với những phân tích trên nhóm sẽ dùng Expo để dựng toàn bộ UI
 
 <div style="page-break-after: always;"></div>
 
-### **4.2 Expo**
+## **4.2 Expo**
 
-#### 4.2.1 Giới thiệu Expo
+### **4.2.1 Giới thiệu Expo**
 
 <p style='text-align: justify;'>
 &emsp;
@@ -133,7 +133,7 @@ Expo không cần config, các bước chạy rất đơn giản
 
 <div style="page-break-after: always;"></div>
 
-#### 4.2.2 Chạy thử ứng dụng từ Expo
+### **4.2.2 Chạy thử ứng dụng từ Expo**
 
 Cài đặt Expo
 
