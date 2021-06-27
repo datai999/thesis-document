@@ -1,7 +1,3 @@
-## **7 Tổng kết và hướng phát triển**
-
-<div style="page-break-after: always;"></div>
-
 ### **7.1 Kết quả đạt được**
 
 <p style='text-align: justify;'>
@@ -46,6 +42,3 @@ Trong thời gian thực hiện đề cương nhóm đã đạt được một s
   - Các chức năng cơ bản của hệ thống
 
 <div style="page-break-after: always;"></div>
-
-
-
