@@ -41,9 +41,8 @@ Ví dụ: Table ps_teacher thuộc nhóm liên quan đến nhân sự và chứa
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-table.png?raw=true">
+  <p>Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table</p>
 </center>
-
-<center>Lược đồ 5.1.1 Mối quan hệ Foreign key giữa các nhóm table</center>
 
 <p style='text-align: justify;'>
 &emsp;
@@ -65,7 +64,7 @@ Mọi table đều extends **BaseTable** chứa các thông tin sau
 
 **Dữ liệu:** Các dữ liệu cơ bản mọi record đều có
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.1.c: Đặc tả chi tiết bảng BaseTable</h4></center>
 
 | Trường     | Kiểu dữ liệu                | Chứa null | Mặc định                  | Mô tả                         |
 | ---------- | --------------------------- | --------- | ------------------------- | ----------------------------- |
@@ -83,7 +82,25 @@ và không sử dụng khóa chính tổng hợp (composite-key).
 Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
 </p>
 
-#### 5.1.1.d Giảm dư thừa dữ liệu bằng array
+#### 5.1.1.d Đa ngôn ngữ bằng json
+
+<p style='text-align: justify;'>
+&emsp;PostgreSQL có hỗ trợ kiểu dữ liệu JSON, nhóm sẽ tận dùng để lưu trữ đa ngôn ngữ.
+</p>
+
+Ví dụ
+
+<h4>Bảng 5.1.1.d: Ví dụ về đa ngôn ngữ bằng json</h4>
+
+| id  | multi_lang_field                                   |
+| --- | -------------------------------------------------- |
+| 1   | {"en":"Computer Science","vi":"Khoa học máy tính"} |
+
+<div style="page-break-after: always;"></div>
+
+<div style="page-break-after: always;"></div>
+
+#### 5.1.1.e Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
 &emsp;Các thiết kế từng bảng sẽ tuân thủ thêm nguyên tắc giảm số dòng (record)
@@ -91,6 +108,8 @@ khi có thể bằng các tận dụng array của PosgreSQL
 </p>
 
 Ví dụ một bảng sau
+
+<h4>Bảng 5.1.1.e.1: Giảm dư thừa dữ liệu bằng array</h4>
 
 | id  | Loại sản phẩm | Tên sản phẩm |
 | --- | ------------- | ------------ |
@@ -100,6 +119,8 @@ Ví dụ một bảng sau
 
 Sẽ được chuyển thành
 
+<h4>Bảng 5.1.1.e.2: Kết quả giảm dư thừa dữ liệu bằng array</h4>
+
 | id  | Loại sản phẩm | Tên sản phẩm          |
 | --- | ------------- | --------------------- |
 | 1   | A             | [String, Pepsi, Coca] |
@@ -108,26 +129,11 @@ Sẽ được chuyển thành
 &emsp;Cách thiết kế này giúp giảm số lượng dữ liệu dư thừa, trách group by trong câu query.
 </p>
 
-<div style="page-break-after: always;"></div>
-
-#### 5.1.1.e Đa ngôn ngữ bằng json
-
-<p style='text-align: justify;'>
-&emsp;PostgreSQL có hỗ trợ kiểu dữ liệu JSON, nhóm sẽ tận dùng để lưu trữ đa ngôn ngữ.
-</p>
-
-Ví dụ
-
-| id  | multi_lang_field                                   |
-| --- | -------------------------------------------------- |
-| 1   | {"en":"Computer Science","vi":"Khoa học máy tính"} |
-
-<div style="page-break-after: always;"></div>
-
 ### **5.1.2 Các bảng nhóm khác (br)**
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
+  <p>Sơ đồ 5.1.2: ERD diagram của nhóm br</p>
 </center>
 
 #### 5.1.2.a Bảng br_const_data
@@ -136,7 +142,7 @@ Ví dụ
 
 **Ràng buộc:** type & value là unit
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.2.a.1: Đặc tả chi tiết bảng br_const_data</h4></center>
 
 | Trường | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                                       |
 | ------ | ------------ | --------- | -------- | ------------------------------------------- |
@@ -144,7 +150,7 @@ Ví dụ
 | value  | json         | không     | không    | Giá trị đa ngôn ngữ của dữ liệu ít thay đổi |
 | no     | integer      | có        | không    | Thứ tự hiển thị trên UI                     |
 
-**Ví dụ:**
+<h4>Bảng 5.1.2.a.2: Ví dụ về bảng br_const_data</h4>
 
 | id  | type   | value                                | no  |
 | --- | ------ | ------------------------------------ | --- |
@@ -161,7 +167,7 @@ Ví dụ
 
 **Ràng buộc:** name_id là unit
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.2.b.1: Đặc tả chi tiết bảng br_setting</h4>
 
 | Trường    | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                      |
 | --------- | ------------ | --------- | -------- | -------------------------- |
@@ -171,7 +177,7 @@ Ví dụ
 
 **Ví dụ:** Chỉ một số cấp bậc học vấn được hiển thị trên màn hình
 
-Bảng br_const_data
+<h4>Bảng 5.1.2.b.2: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type    | value                                                       | no   |
 | --- | ------- | ----------------------------------------------------------- | ---- |
@@ -181,7 +187,7 @@ Bảng br_const_data
 | 4   | degree  | {"en": "Professor", "vi": "Giáo sư"}                        | 4    |
 | 5   | setting | {"en": "Degree visible", "vi": "Trình độ học vấn hiển thị"} | null |
 
-Bảng br_setting
+<h4>Bảng 5.1.2.b.3: Ví dụ về bảng br_setting</h4>
 
 | id  | name_id | ref_table     | ref_id |
 | --- | ------- | ------------- | ------ |
@@ -195,6 +201,7 @@ Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBas
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-ps.png?raw=true">
+  <p>Sơ đồ 5.1.3: ERD diagram của nhóm ps</p>
 </center>
 
 #### 5.1.3.a Bảng PersonBaseTable
@@ -205,7 +212,7 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 
 **Ràng buộc:** code là unit
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.3.a: Đặc tả chi tiết bảng PersonBaseTable<h4>
 
 | Trường    | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                            |
 | --------- | ------------ | --------- | -------- | -------------------------------- |
@@ -223,11 +230,11 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 
 Các field của bảng này bằng các field thuộc bảng BaseTable + field thuộc bảng PersonBaseTable
 
-#### 5.1.3.c Bảng ps_teacher
+#### 5.1.3.b Bảng ps_teacher
 
 **Dữ liệu:** Thông tin giảng viên
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_teacher<h4>
 
 | Trường                | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
 | --------------------- | ------------ | --------- | -------- | ----------------------------- |
@@ -238,7 +245,7 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 
 **Dữ liệu:** Thông tin sinh viên
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_student<h4>
 
 | Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
 | ------------------- | ------------ | --------- | -------- | ----------------------------- |
@@ -249,14 +256,14 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 
 **Ví dụ về bảng PersonBaseTable:**
 
-Bảng br_const_data
+<h4>Bảng 5.1.3.d.1: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type   | value                        | no   |
 | --- | ------ | ---------------------------- | ---- |
 | 1   | gender | {"en": "Male", "vi": "Name"} | null |
 | 2   | gender | {"en": "Female", "vi": "Nữ"} | null |
 
-Bảng PersonBaseTable
+<h4>Bảng 5.1.3.d.2: Ví dụ về bảng PersonBaseTable</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
@@ -266,7 +273,7 @@ Bảng PersonBaseTable
 
 **Ví dụ về bảng ps_academy_staff, ps_teacher, ps_student:**
 
-Bảng br_const_data
+<h4>Bảng 5.1.3.d.3: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type              | value                                                   | no   |
 | --- | ----------------- | ------------------------------------------------------- | ---- |
@@ -283,13 +290,13 @@ Bảng br_const_data
 | 12  | educationMethod   | {"en":"Formal","vi":"Chính quy"}                        | null |
 | 13  | major             | {"en":"Computer Science","vi":"Khoa học máy tính"}      | null |
 
-Bảng ps_academy_staff
+<h4>Bảng 5.1.3.d.4: Ví dụ về bảng ps_academy_staff</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
 | 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
-Bảng ps_teacher
+<h4>Bảng 5.1.3.d.5: Ví dụ về bảng ps_teacher</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
@@ -299,7 +306,7 @@ Bảng ps_teacher
 | --- | --------------------- | --------- |
 | 1   | 7                     | 4         |
 
-Bảng ps_student
+<h4>Bảng 5.1.3.d.6: Ví dụ về bảng ps_student</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
@@ -315,6 +322,7 @@ Bảng ps_student
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">
+  <p>Sơ đồ 5.1.4: ERD diagram của nhóm tp</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -325,7 +333,7 @@ Bảng ps_student
 
 **Ràng buộc:** min_student_take, max_student_take >= 1
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.4.a: Đặc tả chi tiết bảng tp_topic</h4></center>
 
 | Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                          |
 | ------------------- | ------------ | --------- | -------- | ------------------------------ |
@@ -347,7 +355,7 @@ Bảng ps_student
 
 **Dữ liệu:** Thông tin về hội đồng
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.4.b: Đặc tả chi tiết bảng tp_council</h4></center>
 
 | Trường                | Kiểu dữ liệu          | Chứa null | Mặc định | Mô tả                               |
 | --------------------- | --------------------- | --------- | -------- | ----------------------------------- |
@@ -364,7 +372,7 @@ Bảng ps_student
 
 **Dữ liệu:** Thông tin về việc gán các nghiệp vụ cho đề tài
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.4.c: Đặc tả chi tiết bảng tp_topic_assign</h4></center>
 
 | Trường               | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                               |
 | -------------------- | ------------ | --------- | -------- | ----------------------------------- |
@@ -407,7 +415,7 @@ Sau đó sinh viên đã bảo vệ đề tài dưới hội đồng của phòn
 gồm chủ tịch mã số 1111, thư ký mã số 1113 tại phòng 404-H6.
 </p>
 
-Bảng br_const_data
+<h4>Bảng 5.1.4.d.1: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type              | value                                                   | no   |
 | --- | ----------------- | ------------------------------------------------------- | ---- |
@@ -428,7 +436,7 @@ Bảng br_const_data
 
 <div style="page-break-after: always;"></div>
 
-Bảng tp_topic
+<h4>Bảng 5.1.4.d.2: Ví dụ về bảng tp_topic</h4>
 
 | id  | code | name                    | semester | major_id | education_method_id | description |
 | --- | ---- | ----------------------- | -------- | -------- | ------------------- | ----------- |
@@ -438,7 +446,7 @@ Bảng tp_topic
 | --- | ---------------- | ---------------- | --------------------------------- | -------------------------- | -------------------- |
 | 1   | 1                | 3                | {"en": null, "vi": "thiết kế db"} | {"en": null, "vi": "code"} | "Thiếu mô tả đề tài" |
 
-Bảng tp_council
+<h4>Bảng 5.1.4.d.3: Ví dụ về bảng tp_council</h4>
 
 | id  | subject_department_id | reserveRoom | reserveDate | startTime | endTime |
 | --- | --------------------- | ----------- | ----------- | --------- | ------- |
@@ -448,7 +456,7 @@ Bảng tp_council
 | --- | ------------- | --------------------- | ---------------------------------------------------- |
 | 1   | [13,14,11,12] | [1113,null,1111,null] | "Thiếu ngày và thời gian, thiếu thành phần hội đồng" |
 
-Bảng tp_topic_assign
+<h4>Bảng 5.1.4.d.4: Ví dụ về bảng tp_topic_assign</h4>
 
 | id  | topic_id | semester | status_id | execute_student_code | council_id |
 | --- | -------- | -------- | --------- | -------------------- | ---------- |
@@ -467,11 +475,12 @@ Bảng tp_topic_assign
 ### **5.1.5 Các bảng nhóm điểm (sc)**
 
 <center>
-  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
+  <img width="180" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
 </center>
 
 <center>
-  <img width="530" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-template-score.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-template-score.png?raw=true">
+  <p>Sơ đồ 5.1.5: ERD diagram của nhóm sc</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -480,7 +489,7 @@ Bảng tp_topic_assign
 
 **Dữ liệu:** Thông tin tiêu chí
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.5.a: Đặc tả chi tiết bảng sc_criterion</h4>
 
 | Trường             | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                                  |
 | ------------------ | ------------- | --------- | -------- | -------------------------------------- |
@@ -493,7 +502,7 @@ Bảng tp_topic_assign
 
 **Dữ liệu:** Thông tin về mẫu tiêu chí
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.5.b: Đặc tả chi tiết bảng sc_criterion_template</h4>
 
 | Trường          | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                        |
 | --------------- | ------------- | --------- | -------- | ---------------------------- |
@@ -506,7 +515,7 @@ Bảng tp_topic_assign
 
 **Dữ liệu:** Thông tin về điểm số
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.5.c: Đặc tả chi tiết bảng sc_score</h4>
 
 | Trường                | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                                                     |
 | --------------------- | ------------- | --------- | -------- | --------------------------------------------------------- |
@@ -531,7 +540,7 @@ Tiêu chí 1 thì A được toàn bộ số điểm, B được một nửa đi
 Tiêu chí 2 thì A được toàn bộ số điểm, B được 80% số điểm, C được 60% số điểm.
 </br>
 
-Bảng br_const_data
+<h4>Bảng 5.1.5.d.1: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type            | value                                                  | no   |
 | --- | --------------- | ------------------------------------------------------ | ---- |
@@ -542,7 +551,7 @@ Bảng br_const_data
 | 5   | topicTemplate   | {"en":null,"vi":"Mẫu tiêu chí chấm đề cương hiện tại"} | null |
 | 6   | thesisTemplate  | {"en":null,"vi":"Mẫu tiêu chí chấm luận văn hiện tại"} | null |
 
-Bảng br_setting
+<h4>Bảng 5.1.5.d.2: Chuẩn bị bảng br_setting</h4>
 
 | id  | name_id | ref_table             | ref_id  |
 | --- | ------- | --------------------- | ------- |
@@ -550,14 +559,14 @@ Bảng br_setting
 | 22  | 5       | sc_criterion_template | [41]    |
 | 23  | 6       | sc_criterion_template | [41]    |
 
-Bảng sc_criterion
+<h4>Bảng 5.1.5.d.3: Ví dụ về bảng sc_criterion</h4>
 
-| id  | name                                             | score_method_id | score_item_percent | description                                                                        |
-| --- | ------------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------------------------------- |
-| 31  | {"en":null, "vi":"Đạt 80% khối lượng công việc"} | 21              | [100,50,30]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
-| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,80,60]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
+| id  | name                                             | score_method_id | score_item_percent | description                                                |
+| --- | ------------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------- |
+| 31  | {"en":null, "vi":"Đạt 80% khối lượng công việc"} | 21              | [100,50,30]        | {"en":null, "vi":"A: 100% điểm, B: 50% điểm, C: 30% điểm"} |
+| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,80,60]        | {"en":null, "vi":"A: 100% điểm, B: 80% điểm, C: 30% điểm"} |
 
-Bảng sc_criterion_template
+<h4>Bảng 5.1.5.d.4: Ví dụ về bảng sc_criterion_template</h4>
 
 | id  | name                          | criterion_id | criterion_score | description |
 | --- | ----------------------------- | ------------ | --------------- | ----------- |
@@ -575,10 +584,11 @@ Sử dụng mẫu chấm điểm trong ví dụ trên.
 Sinh viên có mã số 1713015 làm luận văn đề tài có id 123 ở học kỳ 201.
 Sinh viên này được giảng viên hướng dẫn mã số 0001 cho điểm A và B, 
 giảng viên phản biện mã số 0002 cho điểm B và C.
-Một hội đồng gồm chủ tịch mã số 1111, thư ký mã số 1113 đã chấm điểm cho sinh viên lần lượt điểm C và A, A và C.
+Một hội đồng gồm chủ tịch mã số 1111, thư ký mã số 1113.
+Thư ký đã chấm điểm cho sinh viên lần lượt điểm C và A.
 </p>
 
-Bảng br_const_data
+<h4>Bảng 5.1.5.d.5: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type        | value                              | no  |
 | --- | ----------- | ---------------------------------- | --- |
@@ -586,13 +596,13 @@ Bảng br_const_data
 | 8   | councilRole | {"en":"Chairman", "vi":"Chủ tịch"} | 1   |
 | 9   | councilRole | {"en":"Secretary", "vi":"Thư ký"}  | 2   |
 
-Bảng tp_council
+<h4>Bảng 5.1.5.d.6: Chuẩn bị bảng tp_council</h4>
 
 | id  | role_id | teacher_code |
 | --- | ------- | ------------ |
 | 51  | [8,9]   | [1111,1113]  |
 
-Bảng tp_topic_assign
+<h4>Bảng 5.1.5.d.7: Chuẩn bị bảng tp_topic_assign</h4>
 
 | id  | topic_id | semester | status_id | execute_student_code |
 | --- | -------- | -------- | --------- | -------------------- |
@@ -602,24 +612,21 @@ Bảng tp_topic_assign
 | --- | ------------------ | ------------------- | ---------- |
 | 61  | [0001]             | [0002]              | 51         |
 
-> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
-> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
-
-Với mô tả ví dụ trên, số điểm sẽ được theo bảng sau
+<h4>Bảng 5.1.5.d.8: Bảng tính toán điểm số</h4>
 
 | Tiêu chí   | A              | B             | C            |
 | ---------- | -------------- | ------------- | ------------ |
 | Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
 | Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
-Bảng sc_score
+<h4>Bảng 5.1.5.d.9: Ví dụ về bảng sc_score</h4>
 
 | id  | topic_assign_id | criterion_template_id | teacher_code | student_code | score  | comment |
 | --- | --------------- | --------------------- | ------------ | ------------ | ------ | ------- |
 | 71  | 61              | 41                    | 0001         | 1713015      | [20,8] | null    |
 | 72  | 61              | 41                    | 0002         | 1713015      | [10,6] | null    |
-| 73  | 61              | 41                    | 1111         | 1713015      | [6,10] | null    |
-| 74  | 61              | 41                    | 1113         | 1713015      | [20,6] | null    |
+| 73  | 61              | 41                    | 1111         | 1713015      | null   | null    |
+| 74  | 61              | 41                    | 1113         | 1713015      | [6,10] | null    |
 
 <div style="page-break-after: always;"></div>
 
@@ -632,6 +639,8 @@ Bảng sc_score
 &emsp;{x} = /api + [/const, /setting, /teacher, /student, /topic, /council, /topic/assign, /criterion, /criterion/template, /score]
 
 &emsp;{entity} là table tương ứng {x}
+
+<center><h4>Bảng 5.2.1: Các API cơ bản</h4></center>
 
 | Mã API | Endpoint    | Phương thức | Tham số                                          | Kết quả                                                 |
 | ------ | ----------- | ----------- | ------------------------------------------------ | ------------------------------------------------------- |
@@ -648,6 +657,8 @@ Bảng sc_score
 ### 5.2.2 Các API khác
 
 &emsp;Các API phục vụ riêng một số nghiệp vụ nhất định
+
+<center><h4>Bảng 5.2.2: Các API khác</h4></center>
 
 | Mã API | Endpoint                     | Phương thức | Tham số                                                              | Kết quả                                                                       |
 | ------ | ---------------------------- | ----------- | -------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -670,7 +681,8 @@ Bảng sc_score
 ## **5.3 Thiết kế luồng giao diện**
 
 <center>
-  <img width="590" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/ui-flow.png?raw=true">
+  <img width="570" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/ui-flow.png?raw=true">
+  <p>Sơ đồ 5.3: UI flow chart</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -681,6 +693,7 @@ Bảng sc_score
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/login.png?raw=true">
+  <p>Sơ đồ 5.4.1: Login sequence diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -689,14 +702,16 @@ Bảng sc_score
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-request.png?raw=true">
+  <p>Sơ đồ 5.4.2: Valid request sequence diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
 
-### **5.4.3 Chức năng thêm dữ li**ệu
+### **5.4.3 Chức năng thêm dữ liệu**
 
 <center>
-  <img height="950" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-insert.png?raw=true">
+  <img height="930" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/feature-insert.png?raw=true">
+  <p>Sơ đồ 5.4.3: Import data sequence diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
