@@ -97,7 +97,7 @@ Với dự án này nhóm sẽ sử dụng 3 môi trường để phát triển 
 </p
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/env.png?raw=true">
+  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/env.png?raw=true">
   <p>Sơ đồ 6.2: Environment diagram</p>
 </center>
 
@@ -222,7 +222,7 @@ Ví dụ với dịch vụ đề tài (TopicService).
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
+  <img width="620" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
   <p>Sơ đồ 6.5.3: Service class diagram</p>
 </center>
 
@@ -238,7 +238,7 @@ Ví dụ với các API gán các thành phần vào đề tài (TopicAssignCont
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
+  <img width="420" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
   <p>Sơ đồ 6.5.4: Controller class diagram</p>
 </center>
 
@@ -254,7 +254,7 @@ nhanh chóng hơn khi code cũng như thường xuyên cập nhật phiên bản
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/ci-cd.png?raw=true">
+  <img width="650" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/ci-cd.png?raw=true">
   <p>Hình 6.6: CI-CD</p>
 </center>
 

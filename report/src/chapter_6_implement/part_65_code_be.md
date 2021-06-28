@@ -46,7 +46,7 @@ Ví dụ với dịch vụ đề tài (TopicService).
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
+  <img width="620" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
   <p>Sơ đồ 6.5.3: Service class diagram</p>
 </center>
 
@@ -62,7 +62,7 @@ Ví dụ với các API gán các thành phần vào đề tài (TopicAssignCont
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
+  <img width="420" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
   <p>Sơ đồ 6.5.4: Controller class diagram</p>
 </center>
 

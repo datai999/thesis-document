@@ -78,8 +78,6 @@ Ví dụ
 
 <div style="page-break-after: always;"></div>
 
-<div style="page-break-after: always;"></div>
-
 #### 5.1.1.e Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
@@ -108,3 +106,5 @@ Sẽ được chuyển thành
 <p style='text-align: justify;'>
 &emsp;Cách thiết kế này giúp giảm số lượng dữ liệu dư thừa, trách group by trong câu query.
 </p>
+
+<div style="page-break-after: always;"></div>
