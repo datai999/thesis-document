@@ -96,6 +96,7 @@
 <div style="page-break-after: always;"></div>
 
 <center><h2>Danh sách sơ đồ</h2></center>
+
 - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
 - Sơ đồ 5.1.2: ERD diagram của nhóm br
 - Sơ đồ 5.1.3: ERD diagram của nhóm ps
@@ -106,50 +107,59 @@
 
 <center> <h2>Danh sách bảng</h2> </center>
 
-- Bảng 3.1.3: Lựa chọn loại ứng dụng
-- Bảng 4.1.2: So sánh React Native + React Native Web với Expo
+- Chương 3: Lựa chọn công nghệ
 
-- Bảng 5.1.1.c: Đặc tả chi tiết bảng BaseTable
-- Bảng 5.1.1.d: Ví dụ về đa ngôn ngữ bằng json
-- Bảng 5.1.1.e.1: Giảm dư thừa dữ liệu bằng array
-- Bảng 5.1.1.e.2: Kết quả giảm dư thừa dữ liệu bằng array
+  - Bảng 3.1.3: Lựa chọn loại ứng dụng
 
-- Bảng 5.1.2.a.1: Đặc tả chi tiết bảng br_const_data
-- Bảng 5.1.2.a.2: Ví dụ về bảng br_const_data
-- Bảng 5.1.2.b.1: Đặc tả chi tiết bảng br_setting
-- Bảng 5.1.2.b.2: Bảng br_const_data cho ví dụ về bảng br_setting
-- Bảng 5.1.2.b.3: Ví dụ về bảng br_setting
+- Chương 4: Lập trình UI web, android, ios với Expo
 
-- Bảng 5.1.3.a: Đặc tả chi tiết bảng PersonBaseTable
-- Bảng 5.1.3.b: Đặc tả chi tiết bảng ps_teacher
-- Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_student
-- Bảng 5.1.3.d.1: Chuẩn bị bảng br_const_data
-- Bảng 5.1.3.d.2: Ví dụ về bảng PersonBaseTable
-- Bảng 5.1.3.d.3: Chuẩn bị bảng br_const_data
-- Bảng 5.1.3.d.4: Ví dụ về bảng ps_academy_staff
-- Bảng 5.1.3.d.5: Ví dụ về bảng ps_teacher
-- Bảng 5.1.3.d.6: Ví dụ về bảng ps_student
+  - Bảng 4.1.2: So sánh React Native + React Native Web với Expo
 
-- Bảng 5.1.4.a: Đặc tả chi tiết bảng tp_topic
-- Bảng 5.1.4.b: Đặc tả chi tiết bảng tp_council
-- Bảng 5.1.4.c: Đặc tả chi tiết bảng tp_topic_assign
-- Bảng 5.1.4.d.1: Chuẩn bị bảng br_const_data
-- Bảng 5.1.4.d.2: Ví dụ về bảng tp_topic
-- Bảng 5.1.4.d.3: Ví dụ về bảng tp_council
-- Bảng 5.1.4.d.4: Ví dụ về bảng tp_topic_assign
+- Chương 5: Thiết kế kiến trúc hệ thống
 
-- Bảng 5.1.5.a: Đặc tả chi tiết bảng sc_criterion
-- Bảng 5.1.5.b: Đặc tả chi tiết bảng sc_criterion_template
-- Bảng 5.1.5.c: Đặc tả chi tiết bảng sc_score
-- Bảng 5.1.5.d.1: Chuẩn bị bảng br_const_data
-- Bảng 5.1.5.d.2: Chuẩn bị bảng br_setting
-- Bảng 5.1.5.d.3: Ví dụ về bảng sc_criterion
-- Bảng 5.1.5.d.4: Ví dụ về bảng sc_criterion_template
-- Bảng 5.1.5.d.5: Chuẩn bị bảng br_const_data
-- Bảng 5.1.5.d.6: Chuẩn bị bảng tp_council
-- Bảng 5.1.5.d.7: Chuẩn bị bảng tp_topic_assign
-- Bảng 5.1.5.d.8: Bảng tính toán điểm số
-- Bảng 5.1.5.d.9: Ví dụ về bảng sc_score
+  - 5.1: Thiết kế cơ sở dữ liệu
+    - 5.1.1: Nền tảng thiết kế cơ sở dữ liệu
+      - Bảng 5.1.1.c: Đặc tả chi tiết bảng BaseTable
+      - Bảng 5.1.1.d: Ví dụ về đa ngôn ngữ bằng json
+      - Bảng 5.1.1.e.1: Giảm dư thừa dữ liệu bằng array
+      - Bảng 5.1.1.e.2: Kết quả giảm dư thừa dữ liệu bằng array
+    - 5.1.2: Các bảng nhóm khác (br
+      - Bảng 5.1.2.a.1: Đặc tả chi tiết bảng br_const_data
+      - Bảng 5.1.2.a.2: Ví dụ về bảng br_const_data
+      - Bảng 5.1.2.b.1: Đặc tả chi tiết bảng br_setting
+      - Bảng 5.1.2.b.2: Chuẩn bị bảng br_const_data
+      - Bảng 5.1.2.b.3: Ví dụ về bảng br_setting
+    - 5.1.3: Các bảng nhóm nhân sự (ps)
+      - Bảng 5.1.3.a: Đặc tả chi tiết bảng PersonBaseTable
+      - Bảng 5.1.3.b: Đặc tả chi tiết bảng ps_teacher
+      - Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_student
+      - Bảng 5.1.3.d.1: Chuẩn bị bảng br_const_data
+      - Bảng 5.1.3.d.2: Ví dụ về bảng PersonBaseTable
+      - Bảng 5.1.3.d.3: Chuẩn bị bảng br_const_data
+      - Bảng 5.1.3.d.4: Ví dụ về bảng ps_academy_staff
+      - Bảng 5.1.3.d.5: Ví dụ về bảng ps_teacher
+      - Bảng 5.1.3.d.6: Ví dụ về bảng ps_student
+    - 5.1.4 Các bảng nhóm đề tài (tp)
+      - Bảng 5.1.4.a: Đặc tả chi tiết bảng tp_topic
+      - Bảng 5.1.4.b: Đặc tả chi tiết bảng tp_council
+      - Bảng 5.1.4.c: Đặc tả chi tiết bảng tp_topic_assign
+      - Bảng 5.1.4.d.1: Chuẩn bị bảng br_const_data
+      - Bảng 5.1.4.d.2: Ví dụ về bảng tp_topic
+      - Bảng 5.1.4.d.3: Ví dụ về bảng tp_council
+      - Bảng 5.1.4.d.4: Ví dụ về bảng tp_topic_assign
+    - 5.1.5 Các bảng nhóm điểm (sc)
+      - Bảng 5.1.5.a: Đặc tả chi tiết bảng sc_criterion
+      - Bảng 5.1.5.b: Đặc tả chi tiết bảng sc_criterion_template
+      - Bảng 5.1.5.c: Đặc tả chi tiết bảng sc_score
+      - Bảng 5.1.5.d.1: Chuẩn bị bảng br_const_data
+      - Bảng 5.1.5.d.2: Chuẩn bị bảng br_setting
+      - Bảng 5.1.5.d.3: Ví dụ về bảng sc_criterion
+      - Bảng 5.1.5.d.4: Ví dụ về bảng sc_criterion_template
+      - Bảng 5.1.5.d.5: Chuẩn bị bảng br_const_data
+      - Bảng 5.1.5.d.6: Chuẩn bị bảng tp_council
+      - Bảng 5.1.5.d.7: Chuẩn bị bảng tp_topic_assign
+      - Bảng 5.1.5.d.8: Bảng tính toán điểm số
+      - Bảng 5.1.5.d.9: Ví dụ về bảng sc_score
 
 <div style="page-break-after: always;"></div>
 

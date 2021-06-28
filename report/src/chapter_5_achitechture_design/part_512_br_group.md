@@ -46,7 +46,7 @@
 
 **Ví dụ:** Chỉ một số cấp bậc học vấn được hiển thị trên màn hình
 
-<h4>Bảng 5.1.2.b.2: Bảng br_const_data cho ví dụ về bảng br_setting</h4>
+<h4>Bảng 5.1.2.b.2: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type    | value                                                       | no   |
 | --- | ------- | ----------------------------------------------------------- | ---- |
