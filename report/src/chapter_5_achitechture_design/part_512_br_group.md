@@ -2,6 +2,7 @@
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-br.png?raw=true">
+  <p>Sơ đồ 5.1.2: ERD diagram của nhóm br</p>
 </center>
 
 #### 5.1.2.a Bảng br_const_data
@@ -10,7 +11,7 @@
 
 **Ràng buộc:** type & value là unit
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.2.a.1: Đặc tả chi tiết bảng br_const_data</h4></center>
 
 | Trường | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                                       |
 | ------ | ------------ | --------- | -------- | ------------------------------------------- |
@@ -18,7 +19,7 @@
 | value  | json         | không     | không    | Giá trị đa ngôn ngữ của dữ liệu ít thay đổi |
 | no     | integer      | có        | không    | Thứ tự hiển thị trên UI                     |
 
-**Ví dụ:**
+<h4>Bảng 5.1.2.a.2: Ví dụ về bảng br_const_data</h4>
 
 | id  | type   | value                                | no  |
 | --- | ------ | ------------------------------------ | --- |
@@ -35,7 +36,7 @@
 
 **Ràng buộc:** name_id là unit
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.2.b.1: Đặc tả chi tiết bảng br_setting</h4>
 
 | Trường    | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                      |
 | --------- | ------------ | --------- | -------- | -------------------------- |
@@ -45,7 +46,7 @@
 
 **Ví dụ:** Chỉ một số cấp bậc học vấn được hiển thị trên màn hình
 
-Bảng br_const_data
+<h4>Bảng 5.1.2.b.2: Bảng br_const_data cho ví dụ về bảng br_setting</h4>
 
 | id  | type    | value                                                       | no   |
 | --- | ------- | ----------------------------------------------------------- | ---- |
@@ -55,7 +56,7 @@ Bảng br_const_data
 | 4   | degree  | {"en": "Professor", "vi": "Giáo sư"}                        | 4    |
 | 5   | setting | {"en": "Degree visible", "vi": "Trình độ học vấn hiển thị"} | null |
 
-Bảng br_setting
+<h4>Bảng 5.1.2.b.3: Ví dụ về bảng br_setting</h4>
 
 | id  | name_id | ref_table     | ref_id |
 | --- | ------- | ------------- | ------ |

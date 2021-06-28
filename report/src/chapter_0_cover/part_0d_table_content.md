@@ -152,8 +152,14 @@
 - Bảng 5.1.1.d: Ví dụ về đa ngôn ngữ bằng json
 - Bảng 5.1.1.e.1: Giảm dư thừa dữ liệu bằng array
 - Bảng 5.1.1.e.2: Kết quả giảm dư thừa dữ liệu bằng array
+- Bảng 5.1.2.a.1: Đặc tả chi tiết bảng br_const_data
+- Bảng 5.1.2.a.2: Ví dụ về bảng br_const_data
+- Bảng 5.1.2.b.1: Đặc tả chi tiết bảng br_setting
+- Bảng 5.1.2.b.2: Bảng br_const_data cho ví dụ về bảng br_setting
+- Bảng 5.1.2.b.3: Ví dụ về bảng br_setting
 
 <center><h2>Danh sách sơ đồ</h2></center>
 - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
+- Sơ đồ 5.1.2: ERD diagram của nhóm br
 
 <div style="page-break-after: always;"></div>
