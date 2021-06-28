@@ -130,9 +130,9 @@
   - Hình 3.6.5: Logo Elasticsearch
   - Hình 3.6.6: Logo PostgreSQL
 - Hình 4: Lập trình UI web, android, ios với Expo
-  - Hình 4.1.2. React Native Web
-  - Hình 4.2.1. Logo hệ sinh thái Expo
-  - Hình 4.2.2.a Màn hình web(trái) và Màn hình terminal (phải) khi start Expo
+  - Hình 4.1.2: React Native Web
+  - Hình 4.2.1: Logo hệ sinh thái Expo
+  - Hình 4.2.2: Màn hình web(trái) và Màn hình terminal (phải) khi start Expo
 - Hình 5: Thiết kế kiến trúc hệ thống
 - Hình 6: Hiện thực hệ thống
   - Hình 6.1.a Logo Markdown
@@ -147,5 +147,6 @@
 <center> <h2>Danh sách bảng</h2> </center>
 
 - Bảng 3.1.3: Lựa chọn loại ứng dụng
+- Bảng 4.1.2: So sánh React Native + React Native Web với Expo
 
 <div style="page-break-after: always;"></div>

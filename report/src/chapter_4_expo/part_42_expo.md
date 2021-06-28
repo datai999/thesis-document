@@ -12,7 +12,7 @@ Expo cung cấp một lớp nằm trên cùng của React Native API để giúp
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_4_expo/img/expo.png?raw=true">
-  <p>Hình 4.2.1. Logo hệ sinh thái Expo</p>
+  <p>Hình 4.2.1: Logo hệ sinh thái Expo</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -57,7 +57,7 @@ expo start
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_4_expo/img/start.png?raw=true">
-  <p>Hình 4.2.2.a Màn hình web(trái) và Màn hình terminal (phải) khi start Expo</p>
+  <p>Hình 4.2.2: Màn hình web(trái) và Màn hình terminal (phải) khi start Expo</p>
 </center>
 
 <p style='text-align: justify;'>

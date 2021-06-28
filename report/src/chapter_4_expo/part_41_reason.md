@@ -43,7 +43,7 @@ Những điểm lợi thế so với dùng webview
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_4_expo/img/react-native-web.png?raw=true">
-  <p>Hình 4.1.2. React Native Web</p>
+  <p>Hình 4.1.2: React Native Web</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -58,6 +58,8 @@ Nhóm đã tìm được Expo, một frame-work JavaScript khác có nhiều đi
 &emsp;
 Sau đây là một số so sánh về các frame-work
 </p>
+
+<center><h4>Bảng 4.1.2: So sánh React Native + React Native Web với Expo<h4></center>
 
 |                                                      | React Native + React Native Web  | Expo                                     |
 | ---------------------------------------------------- | -------------------------------- | ---------------------------------------- |
