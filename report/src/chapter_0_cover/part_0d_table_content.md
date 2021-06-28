@@ -149,9 +149,9 @@
 - Bảng 3.1.3: Lựa chọn loại ứng dụng
 - Bảng 4.1.2: So sánh React Native + React Native Web với Expo
 - Bảng 5.1.1.c: Đặc tả chi tiết bảng BaseTable
-- Bảng 5.1.1.d: Giảm dư thừa dữ liệu bằng array
-- Bảng 5.1.1.d.2: Kết quả giảm dư thừa dữ liệu bằng array
-- Bảng 5.1.1.e: Ví dụ về đa ngôn ngữ bằng json
+- Bảng 5.1.1.d: Ví dụ về đa ngôn ngữ bằng json
+- Bảng 5.1.1.e.1: Giảm dư thừa dữ liệu bằng array
+- Bảng 5.1.1.e.2: Kết quả giảm dư thừa dữ liệu bằng array
 
 <center><h2>Danh sách sơ đồ</h2></center>
 - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table

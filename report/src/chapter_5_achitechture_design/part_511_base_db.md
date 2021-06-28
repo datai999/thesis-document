@@ -62,9 +62,25 @@ và không sử dụng khóa chính tổng hợp (composite-key).
 Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
 </p>
 
+#### 5.1.1.d Đa ngôn ngữ bằng json
+
+<p style='text-align: justify;'>
+&emsp;PostgreSQL có hỗ trợ kiểu dữ liệu JSON, nhóm sẽ tận dùng để lưu trữ đa ngôn ngữ.
+</p>
+
+Ví dụ
+
+<h4>Bảng 5.1.1.d: Ví dụ về đa ngôn ngữ bằng json</h4>
+
+| id  | multi_lang_field                                   |
+| --- | -------------------------------------------------- |
+| 1   | {"en":"Computer Science","vi":"Khoa học máy tính"} |
+
 <div style="page-break-after: always;"></div>
 
-#### 5.1.1.d Giảm dư thừa dữ liệu bằng array
+<div style="page-break-after: always;"></div>
+
+#### 5.1.1.e Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
 &emsp;Các thiết kế từng bảng sẽ tuân thủ thêm nguyên tắc giảm số dòng (record)
@@ -73,7 +89,7 @@ khi có thể bằng các tận dụng array của PosgreSQL
 
 Ví dụ một bảng sau
 
-<h4>Bảng 5.1.1.d.1: Giảm dư thừa dữ liệu bằng array</h4>
+<h4>Bảng 5.1.1.e.1: Giảm dư thừa dữ liệu bằng array</h4>
 
 | id  | Loại sản phẩm | Tên sản phẩm |
 | --- | ------------- | ------------ |
@@ -83,7 +99,7 @@ Ví dụ một bảng sau
 
 Sẽ được chuyển thành
 
-<h4>Bảng 5.1.1.d.2: Kết quả giảm dư thừa dữ liệu bằng array</h4>
+<h4>Bảng 5.1.1.e.2: Kết quả giảm dư thừa dữ liệu bằng array</h4>
 
 | id  | Loại sản phẩm | Tên sản phẩm          |
 | --- | ------------- | --------------------- |
@@ -92,19 +108,3 @@ Sẽ được chuyển thành
 <p style='text-align: justify;'>
 &emsp;Cách thiết kế này giúp giảm số lượng dữ liệu dư thừa, trách group by trong câu query.
 </p>
-
-#### 5.1.1.e Đa ngôn ngữ bằng json
-
-<p style='text-align: justify;'>
-&emsp;PostgreSQL có hỗ trợ kiểu dữ liệu JSON, nhóm sẽ tận dùng để lưu trữ đa ngôn ngữ.
-</p>
-
-Ví dụ
-
-<h4>Bảng 5.1.1.e: Ví dụ về đa ngôn ngữ bằng json</h4>
-
-| id  | multi_lang_field                                   |
-| --- | -------------------------------------------------- |
-| 1   | {"en":"Computer Science","vi":"Khoa học máy tính"} |
-
-<div style="page-break-after: always;"></div>
