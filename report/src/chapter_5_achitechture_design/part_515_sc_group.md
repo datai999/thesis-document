@@ -1,11 +1,12 @@
 ### **5.1.5 Các bảng nhóm điểm (sc)**
 
 <center>
-  <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
+  <img width="180" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-criterion.png?raw=true">
 </center>
 
 <center>
-  <img width="530" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-template-score.png?raw=true">
+  <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-sc-template-score.png?raw=true">
+  <p>Sơ đồ 5.1.5: ERD diagram của nhóm sc</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -14,7 +15,7 @@
 
 **Dữ liệu:** Thông tin tiêu chí
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.5.a: Đặc tả chi tiết bảng sc_criterion</h4>
 
 | Trường             | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                                  |
 | ------------------ | ------------- | --------- | -------- | -------------------------------------- |
@@ -27,7 +28,7 @@
 
 **Dữ liệu:** Thông tin về mẫu tiêu chí
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.5.b: Đặc tả chi tiết bảng sc_criterion_template</h4>
 
 | Trường          | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                        |
 | --------------- | ------------- | --------- | -------- | ---------------------------- |
@@ -40,7 +41,7 @@
 
 **Dữ liệu:** Thông tin về điểm số
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.5.c: Đặc tả chi tiết bảng sc_score</h4>
 
 | Trường                | Kiểu dữ liệu  | Chứa null | Mặc định | Mô tả                                                     |
 | --------------------- | ------------- | --------- | -------- | --------------------------------------------------------- |
@@ -65,7 +66,7 @@ Tiêu chí 1 thì A được toàn bộ số điểm, B được một nửa đi
 Tiêu chí 2 thì A được toàn bộ số điểm, B được 80% số điểm, C được 60% số điểm.
 </br>
 
-Bảng br_const_data
+<h4>Bảng 5.1.5.d.1: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type            | value                                                  | no   |
 | --- | --------------- | ------------------------------------------------------ | ---- |
@@ -76,7 +77,7 @@ Bảng br_const_data
 | 5   | topicTemplate   | {"en":null,"vi":"Mẫu tiêu chí chấm đề cương hiện tại"} | null |
 | 6   | thesisTemplate  | {"en":null,"vi":"Mẫu tiêu chí chấm luận văn hiện tại"} | null |
 
-Bảng br_setting
+<h4>Bảng 5.1.5.d.2: Chuẩn bị bảng br_setting</h4>
 
 | id  | name_id | ref_table             | ref_id  |
 | --- | ------- | --------------------- | ------- |
@@ -84,14 +85,14 @@ Bảng br_setting
 | 22  | 5       | sc_criterion_template | [41]    |
 | 23  | 6       | sc_criterion_template | [41]    |
 
-Bảng sc_criterion
+<h4>Bảng 5.1.5.d.3: Ví dụ về bảng sc_criterion</h4>
 
-| id  | name                                             | score_method_id | score_item_percent | description                                                                        |
-| --- | ------------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------------------------------- |
-| 31  | {"en":null, "vi":"Đạt 80% khối lượng công việc"} | 21              | [100,50,30]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
-| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,80,60]        | {"en":null, "vi":"A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm"} |
+| id  | name                                             | score_method_id | score_item_percent | description                                                |
+| --- | ------------------------------------------------ | --------------- | ------------------ | ---------------------------------------------------------- |
+| 31  | {"en":null, "vi":"Đạt 80% khối lượng công việc"} | 21              | [100,50,30]        | {"en":null, "vi":"A: 100% điểm, B: 50% điểm, C: 30% điểm"} |
+| 32  | {"en":null, "vi":"Báo cáo chi tiết"}             | 21              | [100,80,60]        | {"en":null, "vi":"A: 100% điểm, B: 80% điểm, C: 30% điểm"} |
 
-Bảng sc_criterion_template
+<h4>Bảng 5.1.5.d.4: Ví dụ về bảng sc_criterion_template</h4>
 
 | id  | name                          | criterion_id | criterion_score | description |
 | --- | ----------------------------- | ------------ | --------------- | ----------- |
@@ -109,10 +110,11 @@ Sử dụng mẫu chấm điểm trong ví dụ trên.
 Sinh viên có mã số 1713015 làm luận văn đề tài có id 123 ở học kỳ 201.
 Sinh viên này được giảng viên hướng dẫn mã số 0001 cho điểm A và B, 
 giảng viên phản biện mã số 0002 cho điểm B và C.
-Một hội đồng gồm chủ tịch mã số 1111, thư ký mã số 1113 đã chấm điểm cho sinh viên lần lượt điểm C và A, A và C.
+Một hội đồng gồm chủ tịch mã số 1111, thư ký mã số 1113.
+Thư ký đã chấm điểm cho sinh viên lần lượt điểm C và A.
 </p>
 
-Bảng br_const_data
+<h4>Bảng 5.1.5.d.5: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type        | value                              | no  |
 | --- | ----------- | ---------------------------------- | --- |
@@ -120,13 +122,13 @@ Bảng br_const_data
 | 8   | councilRole | {"en":"Chairman", "vi":"Chủ tịch"} | 1   |
 | 9   | councilRole | {"en":"Secretary", "vi":"Thư ký"}  | 2   |
 
-Bảng tp_council
+<h4>Bảng 5.1.5.d.6: Chuẩn bị bảng tp_council</h4>
 
 | id  | role_id | teacher_code |
 | --- | ------- | ------------ |
 | 51  | [8,9]   | [1111,1113]  |
 
-Bảng tp_topic_assign
+<h4>Bảng 5.1.5.d.7: Chuẩn bị bảng tp_topic_assign</h4>
 
 | id  | topic_id | semester | status_id | execute_student_code |
 | --- | -------- | -------- | --------- | -------------------- |
@@ -136,23 +138,20 @@ Bảng tp_topic_assign
 | --- | ------------------ | ------------------- | ---------- |
 | 61  | [0001]             | [0002]              | 51         |
 
-> Chúng ta có A được toàn bộ số điểm, B được một nửa điểm và C được 30% điểm.
-> Tiêu chí đầu tiên có số điểm tối đa là 20 điểm, tiêu chí thứ hai tối đa 10 điểm.
-
-Với mô tả ví dụ trên, số điểm sẽ được theo bảng sau
+<h4>Bảng 5.1.5.d.8: Bảng tính toán điểm số</h4>
 
 | Tiêu chí   | A              | B             | C            |
 | ---------- | -------------- | ------------- | ------------ |
 | Tiêu chí 1 | 20\*100/100=20 | 20\*50/100=10 | 20\*30/100=6 |
 | Tiêu chí 2 | 10\*100/100=10 | 10\*80/100=8  | 10\*60/100=6 |
 
-Bảng sc_score
+<h4>Bảng 5.1.5.d.9: Ví dụ về bảng sc_score</h4>
 
 | id  | topic_assign_id | criterion_template_id | teacher_code | student_code | score  | comment |
 | --- | --------------- | --------------------- | ------------ | ------------ | ------ | ------- |
 | 71  | 61              | 41                    | 0001         | 1713015      | [20,8] | null    |
 | 72  | 61              | 41                    | 0002         | 1713015      | [10,6] | null    |
-| 73  | 61              | 41                    | 1111         | 1713015      | [6,10] | null    |
-| 74  | 61              | 41                    | 1113         | 1713015      | [20,6] | null    |
+| 73  | 61              | 41                    | 1111         | 1713015      | null   | null    |
+| 74  | 61              | 41                    | 1113         | 1713015      | [6,10] | null    |
 
 <div style="page-break-after: always;"></div>
