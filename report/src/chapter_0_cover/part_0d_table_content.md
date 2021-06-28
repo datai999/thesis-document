@@ -114,21 +114,21 @@
   - Hình 3.4.3: Logo Frame-work Vue
   - Hình 3.4.4.a: Frame-work Angular vs Vue vs React
   - Hình 3.4.4.b: Dùng React-native code web
-  - Hình 3.5.1.a Logo Java
-  - Hình 3.5.1.b Logo Spring-boot
-  - Hình 3.5.2.a Logo C#
-  - Hình 3.5.2.b Logo ASP .NET
-  - Hình 3.5.3.a Logo Python
-  - Hình 3.5.3.b Logo Django
-  - Hình 3.5.4.a Logo JavaScript
-  - Hình 3.5.4.b Logo JavaScript
-  - Hình 3.6 Phân loại cơ sở dữ liệu
-  - Hình 3.6.2.a Logo Mongo
-  - Hình 3.6.2.b Logo Couchbase
-  - Hình 3.6.3 Logo Redis vs Logo Memcached
-  - Hình 3.6.4 Logo Cassandra vs Logo Hbase
-  - Hình 3.6.5 Logo Elasticsearch
-  - Hình 3.6.6.b Logo PostgreSQL
+  - Hình 3.5.1.a: Logo Java
+  - Hình 3.5.1.b: Logo Spring-boot
+  - Hình 3.5.2.a: Logo C#
+  - Hình 3.5.2.b: Logo ASP .NET
+  - Hình 3.5.3.a: Logo Python
+  - Hình 3.5.3.b: Logo Django
+  - Hình 3.5.4.a: Logo JavaScript
+  - Hình 3.5.4.b: Logo JavaScript
+  - Hình 3.6: Phân loại cơ sở dữ liệu
+  - Hình 3.6.2.a: Logo Mongo
+  - Hình 3.6.2.b: Logo Couchbase
+  - Hình 3.6.3: Logo Redis vs Logo Memcached
+  - Hình 3.6.4: Logo Cassandra vs Logo Hbase
+  - Hình 3.6.5: Logo Elasticsearch
+  - Hình 3.6.6: Logo PostgreSQL
 - Hình 4: Lập trình UI web, android, ios với Expo
   - Hình 4.1.2. React Native Web
   - Hình 4.2.1. Logo hệ sinh thái Expo

@@ -21,7 +21,7 @@ sử dụng các kỹ thuật thiết kế và mô hình hóa chính thức
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/db-type.png?raw=true">
-  <p>Hình 3.6 Phân loại cơ sở dữ liệu</p>
+  <p>Hình 3.6: Phân loại cơ sở dữ liệu</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -86,12 +86,12 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="250" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/mongo.png?raw=true">
-  <p>Hình 3.6.2.a Logo Mongo</p>
+  <p>Hình 3.6.2.a: Logo Mongo</p>
 </center>
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/couchbase.png?raw=true">
-  <p>Hình 3.6.2.b Logo Couchbase</p>
+  <p>Hình 3.6.2.b: Logo Couchbase</p>
 </center>
 
 Ưu điểm:
@@ -132,7 +132,7 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/redis-memcached.png?raw=true">
-  <p>Hình 3.6.3 Logo Redis vs Logo Memcached</p>
+  <p>Hình 3.6.3: Logo Redis vs Logo Memcached</p>
 </center>
 
 Ưu điểm:
@@ -178,7 +178,7 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/cassandra-hbase.png?raw=true">
-  <p>Hình 3.6.4 Logo Cassandra vs Logo Hbase</p>
+  <p>Hình 3.6.4: Logo Cassandra vs Logo Hbase</p>
 </center>
 
 Ưu điểm:
@@ -217,7 +217,7 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/elasticsearch.png?raw=true">
-  <p>Hình 3.6.5 Logo Elasticsearch</p>
+  <p>Hình 3.6.5: Logo Elasticsearch</p>
 </center>
 
 Ưu điểm:
@@ -272,7 +272,7 @@ Nhóm sẽ chọn PostgreSQL để sử dụng trong dự án.
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/postgre.png?raw=true">
-  <p>Hình 3.6.6.b Logo PostgreSQL</p>
+  <p>Hình 3.6.6: Logo PostgreSQL</p>
 </center>
 
 Ưu điểm của PostgreSQL so với các cơ sở dữ liệu quan hệ khác:

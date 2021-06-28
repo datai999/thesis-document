@@ -16,7 +16,7 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 
 <center>
   <img width="80" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/java.png?raw=true">
-  <p>Hình 3.5.1.a Logo Java</p>
+  <p>Hình 3.5.1.a: Logo Java</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -34,7 +34,7 @@ Có thể nói, Spring boot là bản rút gọn của Spring
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/springboot.png?raw=true">
-  <p>Hình 3.5.1.b Logo Spring-boot</p>
+  <p>Hình 3.5.1.b: Logo Spring-boot</p>
 </center>
 
 Ưu điểm:
@@ -56,7 +56,7 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/csharp.png?raw=true">
-  <p>Hình 3.5.2.a Logo C#</p>
+  <p>Hình 3.5.2.a: Logo C#</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -68,7 +68,7 @@ Các ứng dụng ASP.Net cũng có thể được viết bằng nhiều ngôn n
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/dotnet.png?raw=true">
-  <p>Hình 3.5.2.b Logo ASP .NET</p>
+  <p>Hình 3.5.2.b: Logo ASP .NET</p>
 </center>
 
 Ưu điểm:
@@ -90,7 +90,7 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 
 <center>
   <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/python.png?raw=true">
-  <p>Hình 3.5.3.a Logo Python</p>
+  <p>Hình 3.5.3.a: Logo Python</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -103,7 +103,7 @@ Vì vậy Django rất phù hợp với các ứng dụng lớn và không nền
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/django.png?raw=true">
-  <p>Hình 3.5.3.b Logo Django</p>
+  <p>Hình 3.5.3.b: Logo Django</p>
 </center>
 
 Ưu điểm:
@@ -125,7 +125,7 @@ Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/js.png?raw=true">
-  <p>Hình 3.5.4.a Logo JavaScript</p>
+  <p>Hình 3.5.4.a: Logo JavaScript</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -143,7 +143,7 @@ Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ gi
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/express.png?raw=true">
-  <p>Hình 3.5.4.b Logo JavaScript</p>
+  <p>Hình 3.5.4.b: Logo JavaScript</p>
 </center>
 
 Ưu điểm:

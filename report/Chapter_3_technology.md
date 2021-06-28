@@ -234,6 +234,8 @@ Nên dùng khi:
 Với nhiều sự lựa chọn, nhóm sẽ tạo bảng đánh giá thang điểm 5 dựa trên các tiêu chí như sau
 </p>
 
+<center><h4>Bảng 3.1.3: Lựa chọn loại ứng dụng<h4></center>
+
 | Tiêu chí                          | Web App | Web-base App | Native App | Hybrid App | Cross Platform App |
 | --------------------------------- | ------- | ------------ | ---------- | ---------- | ------------------ |
 | Hiệu năng                         | 5       | 3            | 5          | 3          | 4                  |
@@ -341,7 +343,7 @@ JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới �
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/js.png?raw=true">
-  <p>Hình 3.3.1 Logo JavaScript</p>
+  <p>Hình 3.3.1: Logo JavaScript</p>
 </center>
 
 Ưu điểm:
@@ -375,7 +377,7 @@ bởi việc bổ sung tùy chọn kiểu tĩnh và lớp hướng đối tượ
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/ts.png?raw=true">
-  <p>Hình 3.3.2 Logo TypeScript</p>
+  <p>Hình 3.3.2: Logo TypeScript</p>
 </center>
 
 Ưu điểm:
@@ -402,7 +404,7 @@ Dart là một ngôn ngữ lập trình đa mục đích của Google có thể 
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/dart.png?raw=true">
-  <p>Hình 3.3.3 Logo Dart</p>
+  <p>Hình 3.3.3: Logo Dart</p>
 </center>
 
 Ưu điểm:
@@ -443,7 +445,7 @@ React là một thư viện JavaScript, được Facebook ra mắt từ năm 201
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/react.png?raw=true">
-  <p>Hình 3.4.1. Logo Frame-work React</p>
+  <p>Hình 3.4.1: Logo Frame-work React</p>
 </center>
 
 Ưu điểm:
@@ -474,7 +476,7 @@ Angular là một JavaScript MVVM frame-work, được ra mắt từ 2009. Đây
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/angular.png?raw=true">
-  <p>Hình 3.4.2. Logo Frame-work Angular</p>
+  <p>Hình 3.4.2: Logo Frame-work Angular</p>
 </center>
 
 Ưu điểm:
@@ -502,7 +504,7 @@ Vue.js là một frame-work JavaScript, được ra mắt vào năm 2013, hoàn 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/vue.png?raw=true">
-  <p>Hình 3.4.3. Logo Frame-work Vue</p>
+  <p>Hình 3.4.3: Logo Frame-work Vue</p>
 </center>
 
 Ưu điểm:
@@ -531,7 +533,7 @@ Tuy nhiên việc chọn ra frame-work tốt nhất thực sự là một điề
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/rav.png?raw=true">
-  <p>Hình 3.4.4.a Frame-work Angular vs Vue vs React</p>
+  <p>Hình 3.4.4.a: Frame-work Angular vs Vue vs React</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -542,7 +544,7 @@ nên app di động sẽ được viết bằng React Native. Với sự tương
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/react-native-web.png?raw=true">
-  <p>Hình 3.4.4.b Dùng React-native code web</p>
+  <p>Hình 3.4.4.b: Dùng React-native code web</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -571,7 +573,7 @@ Ngôn ngữ này có thể biên dịch (compile) mã lệnh dưới dạng mã 
 
 <center>
   <img width="80" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/java.png?raw=true">
-  <p>Hình 3.5.1.a Logo Java</p>
+  <p>Hình 3.5.1.a: Logo Java</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -589,7 +591,7 @@ Có thể nói, Spring boot là bản rút gọn của Spring
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/springboot.png?raw=true">
-  <p>Hình 3.5.1.b Logo Spring-boot</p>
+  <p>Hình 3.5.1.b: Logo Spring-boot</p>
 </center>
 
 Ưu điểm:
@@ -611,7 +613,7 @@ C# là ngôn ngữ lập trình hiện đại, hướng đối tượng và đư
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/csharp.png?raw=true">
-  <p>Hình 3.5.2.a Logo C#</p>
+  <p>Hình 3.5.2.a: Logo C#</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -623,7 +625,7 @@ Các ứng dụng ASP.Net cũng có thể được viết bằng nhiều ngôn n
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/dotnet.png?raw=true">
-  <p>Hình 3.5.2.b Logo ASP .NET</p>
+  <p>Hình 3.5.2.b: Logo ASP .NET</p>
 </center>
 
 Ưu điểm:
@@ -645,7 +647,7 @@ Nhờ có cú pháp đơn giản, dễ hiểu cùng nhiều tài liệu hướng
 
 <center>
   <img width="200" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/python.png?raw=true">
-  <p>Hình 3.5.3.a Logo Python</p>
+  <p>Hình 3.5.3.a: Logo Python</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -658,7 +660,7 @@ Vì vậy Django rất phù hợp với các ứng dụng lớn và không nền
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/django.png?raw=true">
-  <p>Hình 3.5.3.b Logo Django</p>
+  <p>Hình 3.5.3.b: Logo Django</p>
 </center>
 
 Ưu điểm:
@@ -680,7 +682,7 @@ Với sự phổ biến của JavaScript, dễ học và sự hỗ trợ mạnh 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/js.png?raw=true">
-  <p>Hình 3.5.4.a Logo JavaScript</p>
+  <p>Hình 3.5.4.a: Logo JavaScript</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -698,7 +700,7 @@ Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ gi
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/express.png?raw=true">
-  <p>Hình 3.5.4.b Logo JavaScript</p>
+  <p>Hình 3.5.4.b: Logo JavaScript</p>
 </center>
 
 Ưu điểm:
@@ -770,7 +772,7 @@ sử dụng các kỹ thuật thiết kế và mô hình hóa chính thức
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/db-type.png?raw=true">
-  <p>Hình 3.6 Phân loại cơ sở dữ liệu</p>
+  <p>Hình 3.6: Phân loại cơ sở dữ liệu</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -835,12 +837,12 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="250" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/mongo.png?raw=true">
-  <p>Hình 3.6.2.a Logo Mongo</p>
+  <p>Hình 3.6.2.a: Logo Mongo</p>
 </center>
 
 <center>
   <img width="300" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/couchbase.png?raw=true">
-  <p>Hình 3.6.2.b Logo Couchbase</p>
+  <p>Hình 3.6.2.b: Logo Couchbase</p>
 </center>
 
 Ưu điểm:
@@ -881,7 +883,7 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/redis-memcached.png?raw=true">
-  <p>Hình 3.6.3 Logo Redis vs Logo Memcached</p>
+  <p>Hình 3.6.3: Logo Redis vs Logo Memcached</p>
 </center>
 
 Ưu điểm:
@@ -927,7 +929,7 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/cassandra-hbase.png?raw=true">
-  <p>Hình 3.6.4 Logo Cassandra vs Logo Hbase</p>
+  <p>Hình 3.6.4: Logo Cassandra vs Logo Hbase</p>
 </center>
 
 Ưu điểm:
@@ -966,7 +968,7 @@ Các cơ sở dữ liệu tiêu biểu:
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/elasticsearch.png?raw=true">
-  <p>Hình 3.6.5 Logo Elasticsearch</p>
+  <p>Hình 3.6.5: Logo Elasticsearch</p>
 </center>
 
 Ưu điểm:
@@ -1021,7 +1023,7 @@ Nhóm sẽ chọn PostgreSQL để sử dụng trong dự án.
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/postgre.png?raw=true">
-  <p>Hình 3.6.6.b Logo PostgreSQL</p>
+  <p>Hình 3.6.6: Logo PostgreSQL</p>
 </center>
 
 Ưu điểm của PostgreSQL so với các cơ sở dữ liệu quan hệ khác:
