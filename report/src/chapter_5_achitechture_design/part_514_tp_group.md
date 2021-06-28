@@ -2,6 +2,7 @@
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-tp.png?raw=true">
+  <p>Sơ đồ 5.1.4: ERD diagram của nhóm tp</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -12,7 +13,7 @@
 
 **Ràng buộc:** min_student_take, max_student_take >= 1
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.4.a: Đặc tả chi tiết bảng tp_topic</h4></center>
 
 | Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                          |
 | ------------------- | ------------ | --------- | -------- | ------------------------------ |
@@ -34,7 +35,7 @@
 
 **Dữ liệu:** Thông tin về hội đồng
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.4.b: Đặc tả chi tiết bảng tp_council</h4></center>
 
 | Trường                | Kiểu dữ liệu          | Chứa null | Mặc định | Mô tả                               |
 | --------------------- | --------------------- | --------- | -------- | ----------------------------------- |
@@ -51,7 +52,7 @@
 
 **Dữ liệu:** Thông tin về việc gán các nghiệp vụ cho đề tài
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.4.c: Đặc tả chi tiết bảng tp_topic_assign</h4></center>
 
 | Trường               | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                               |
 | -------------------- | ------------ | --------- | -------- | ----------------------------------- |
@@ -94,7 +95,7 @@ Sau đó sinh viên đã bảo vệ đề tài dưới hội đồng của phòn
 gồm chủ tịch mã số 1111, thư ký mã số 1113 tại phòng 404-H6.
 </p>
 
-Bảng br_const_data
+<h4>Bảng 5.1.4.d.1: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type              | value                                                   | no   |
 | --- | ----------------- | ------------------------------------------------------- | ---- |
@@ -115,7 +116,7 @@ Bảng br_const_data
 
 <div style="page-break-after: always;"></div>
 
-Bảng tp_topic
+<h4>Bảng 5.1.4.d.2: Ví dụ về bảng tp_topic</h4>
 
 | id  | code | name                    | semester | major_id | education_method_id | description |
 | --- | ---- | ----------------------- | -------- | -------- | ------------------- | ----------- |
@@ -125,7 +126,7 @@ Bảng tp_topic
 | --- | ---------------- | ---------------- | --------------------------------- | -------------------------- | -------------------- |
 | 1   | 1                | 3                | {"en": null, "vi": "thiết kế db"} | {"en": null, "vi": "code"} | "Thiếu mô tả đề tài" |
 
-Bảng tp_council
+<h4>Bảng 5.1.4.d.3: Ví dụ về bảng tp_council</h4>
 
 | id  | subject_department_id | reserveRoom | reserveDate | startTime | endTime |
 | --- | --------------------- | ----------- | ----------- | --------- | ------- |
@@ -135,7 +136,7 @@ Bảng tp_council
 | --- | ------------- | --------------------- | ---------------------------------------------------- |
 | 1   | [13,14,11,12] | [1113,null,1111,null] | "Thiếu ngày và thời gian, thiếu thành phần hội đồng" |
 
-Bảng tp_topic_assign
+<h4>Bảng 5.1.4.d.4: Ví dụ về bảng tp_topic_assign</h4>
 
 | id  | topic_id | semester | status_id | execute_student_code | council_id |
 | --- | -------- | -------- | --------- | -------------------- | ---------- |

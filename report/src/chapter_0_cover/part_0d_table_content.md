@@ -121,10 +121,19 @@
 - Bảng 5.1.3.d.5: Ví dụ về bảng ps_teacher
 - Bảng 5.1.3.d.6: Ví dụ về bảng ps_student
 
+- Bảng 5.1.4.a: Đặc tả chi tiết bảng tp_topic
+- Bảng 5.1.4.b: Đặc tả chi tiết bảng tp_council
+- Bảng 5.1.4.c: Đặc tả chi tiết bảng tp_topic_assign
+- Bảng 5.1.4.d.1: Chuẩn bị bảng br_const_data
+- Bảng 5.1.4.d.2: Ví dụ về bảng tp_topic
+- Bảng 5.1.4.d.3: Ví dụ về bảng tp_council
+- Bảng 5.1.4.d.4: Ví dụ về bảng tp_topic_assign
+
 <center><h2>Danh sách sơ đồ</h2></center>
 - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
 - Sơ đồ 5.1.2: ERD diagram của nhóm br
-- Sơ đồ 5.1.3: ERD diagram của nhóm p
+- Sơ đồ 5.1.3: ERD diagram của nhóm ps
+- Sơ đồ 5.1.4: ERD diagram của nhóm tp
 
 <div style="page-break-after: always;"></div>
 
