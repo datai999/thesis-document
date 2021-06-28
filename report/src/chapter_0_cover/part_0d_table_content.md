@@ -157,9 +157,19 @@
 - Bảng 5.1.2.b.1: Đặc tả chi tiết bảng br_setting
 - Bảng 5.1.2.b.2: Bảng br_const_data cho ví dụ về bảng br_setting
 - Bảng 5.1.2.b.3: Ví dụ về bảng br_setting
+- Bảng 5.1.3.a: Đặc tả chi tiết bảng PersonBaseTable
+- Bảng 5.1.3.b: Đặc tả chi tiết bảng ps_teacher
+- Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_student
+- Bảng 5.1.3.d.1: Chuẩn bị bảng br_const_data
+- Bảng 5.1.3.d.2: Ví dụ về bảng PersonBaseTable
+- Bảng 5.1.3.d.3: Chuẩn bị bảng br_const_data
+- Bảng 5.1.3.d.4: Ví dụ về bảng ps_academy_staff
+- Bảng 5.1.3.d.5: Ví dụ về bảng ps_teacher
+- Bảng 5.1.3.d.6: Ví dụ về bảng ps_student
 
 <center><h2>Danh sách sơ đồ</h2></center>
 - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
 - Sơ đồ 5.1.2: ERD diagram của nhóm br
+- Sơ đồ 5.1.3: ERD diagram của nhóm ps
 
 <div style="page-break-after: always;"></div>

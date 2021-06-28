@@ -4,6 +4,7 @@ Mọi table thuộc nhóm **ps** đều extends **PersonBaseTable**, **PersonBas
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-ps.png?raw=true">
+  <p>Sơ đồ 5.1.3: ERD diagram của nhóm ps</p>
 </center>
 
 #### 5.1.3.a Bảng PersonBaseTable
@@ -14,7 +15,7 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 
 **Ràng buộc:** code là unit
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.3.a: Đặc tả chi tiết bảng PersonBaseTable<h4>
 
 | Trường    | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                            |
 | --------- | ------------ | --------- | -------- | -------------------------------- |
@@ -32,11 +33,11 @@ Là bảng cơ sở của nhóm **ps**. Nó là bảng ảo không có thực tr
 
 Các field của bảng này bằng các field thuộc bảng BaseTable + field thuộc bảng PersonBaseTable
 
-#### 5.1.3.c Bảng ps_teacher
+#### 5.1.3.b Bảng ps_teacher
 
 **Dữ liệu:** Thông tin giảng viên
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_teacher<h4>
 
 | Trường                | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
 | --------------------- | ------------ | --------- | -------- | ----------------------------- |
@@ -47,7 +48,7 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 
 **Dữ liệu:** Thông tin sinh viên
 
-**Đặc tả chi tiết**
+<h4>Bảng 5.1.3.c: Đặc tả chi tiết bảng ps_student<h4>
 
 | Trường              | Kiểu dữ liệu | Chứa null | Mặc định | Mô tả                         |
 | ------------------- | ------------ | --------- | -------- | ----------------------------- |
@@ -58,14 +59,14 @@ Các field của bảng này bằng các field thuộc bảng BaseTable + field 
 
 **Ví dụ về bảng PersonBaseTable:**
 
-Bảng br_const_data
+<h4>Bảng 5.1.3.d.1: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type   | value                        | no   |
 | --- | ------ | ---------------------------- | ---- |
 | 1   | gender | {"en": "Male", "vi": "Name"} | null |
 | 2   | gender | {"en": "Female", "vi": "Nữ"} | null |
 
-Bảng PersonBaseTable
+<h4>Bảng 5.1.3.d.2: Ví dụ về bảng PersonBaseTable</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
@@ -75,7 +76,7 @@ Bảng PersonBaseTable
 
 **Ví dụ về bảng ps_academy_staff, ps_teacher, ps_student:**
 
-Bảng br_const_data
+<h4>Bảng 5.1.3.d.3: Chuẩn bị bảng br_const_data</h4>
 
 | id  | type              | value                                                   | no   |
 | --- | ----------------- | ------------------------------------------------------- | ---- |
@@ -92,13 +93,13 @@ Bảng br_const_data
 | 12  | educationMethod   | {"en":"Formal","vi":"Chính quy"}                        | null |
 | 13  | major             | {"en":"Computer Science","vi":"Khoa học máy tính"}      | null |
 
-Bảng ps_academy_staff
+<h4>Bảng 5.1.3.d.4: Ví dụ về bảng ps_academy_staff</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
 | 1   | 1713015 | Nguyễn Đức Anh Tài | 1         | tai@hcmut.edu.vn | 0905345670 |
 
-Bảng ps_teacher
+<h4>Bảng 5.1.3.d.5: Ví dụ về bảng ps_teacher</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
@@ -108,7 +109,7 @@ Bảng ps_teacher
 | --- | --------------------- | --------- |
 | 1   | 7                     | 4         |
 
-Bảng ps_student
+<h4>Bảng 5.1.3.d.6: Ví dụ về bảng ps_student</h4>
 
 | id  | code    | name               | gender_id | email            | phone      |
 | --- | ------- | ------------------ | --------- | ---------------- | ---------- |
