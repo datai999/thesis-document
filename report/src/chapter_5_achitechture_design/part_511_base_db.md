@@ -21,9 +21,8 @@ Ví dụ: Table ps_teacher thuộc nhóm liên quan đến nhân sự và chứa
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/group-table.png?raw=true">
+  <p>Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table</p>
 </center>
-
-<center>Lược đồ 5.1.1 Mối quan hệ Foreign key giữa các nhóm table</center>
 
 <p style='text-align: justify;'>
 &emsp;
@@ -45,7 +44,7 @@ Mọi table đều extends **BaseTable** chứa các thông tin sau
 
 **Dữ liệu:** Các dữ liệu cơ bản mọi record đều có
 
-**Đặc tả chi tiết**
+<center><h4>Bảng 5.1.1.c: Đặc tả chi tiết bảng BaseTable</h4></center>
 
 | Trường     | Kiểu dữ liệu                | Chứa null | Mặc định                  | Mô tả                         |
 | ---------- | --------------------------- | --------- | ------------------------- | ----------------------------- |
@@ -63,6 +62,8 @@ và không sử dụng khóa chính tổng hợp (composite-key).
 Nếu cần thêm field để xác định danh cho dòng, nhóm sẽ dùng ràng buộc (constraint) unit.
 </p>
 
+<div style="page-break-after: always;"></div>
+
 #### 5.1.1.d Giảm dư thừa dữ liệu bằng array
 
 <p style='text-align: justify;'>
@@ -72,6 +73,8 @@ khi có thể bằng các tận dụng array của PosgreSQL
 
 Ví dụ một bảng sau
 
+<h4>Bảng 5.1.1.d.1: Giảm dư thừa dữ liệu bằng array</h4>
+
 | id  | Loại sản phẩm | Tên sản phẩm |
 | --- | ------------- | ------------ |
 | 1   | A             | Sting        |
@@ -79,6 +82,8 @@ Ví dụ một bảng sau
 | 3   | A             | Coca         |
 
 Sẽ được chuyển thành
+
+<h4>Bảng 5.1.1.d.2: Kết quả giảm dư thừa dữ liệu bằng array</h4>
 
 | id  | Loại sản phẩm | Tên sản phẩm          |
 | --- | ------------- | --------------------- |
@@ -88,8 +93,6 @@ Sẽ được chuyển thành
 &emsp;Cách thiết kế này giúp giảm số lượng dữ liệu dư thừa, trách group by trong câu query.
 </p>
 
-<div style="page-break-after: always;"></div>
-
 #### 5.1.1.e Đa ngôn ngữ bằng json
 
 <p style='text-align: justify;'>
@@ -97,6 +100,8 @@ Sẽ được chuyển thành
 </p>
 
 Ví dụ
+
+<h4>Bảng 5.1.1.e: Ví dụ về đa ngôn ngữ bằng json</h4>
 
 | id  | multi_lang_field                                   |
 | --- | -------------------------------------------------- |
