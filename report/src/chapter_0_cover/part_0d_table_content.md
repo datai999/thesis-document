@@ -95,25 +95,6 @@
 
 <div style="page-break-after: always;"></div>
 
-<center><h2>Danh sách sơ đồ</h2></center>
-
-- Chương 5: Thiết kế kiến trúc hệ thống
-
-  - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
-  - Sơ đồ 5.1.2: ERD diagram của nhóm br
-  - Sơ đồ 5.1.3: ERD diagram của nhóm ps
-  - Sơ đồ 5.1.4: ERD diagram của nhóm tp
-  - Sơ đồ 5.1.5: ERD diagram của nhóm sc
-  - Sơ đồ 5.3: UI flow chart
-  - Sơ đồ 5.4.1: Login sequence diagra
-  - Sơ đồ 5.4.2: Valid request sequence diagram
-  - Sơ đồ 5.4.3: Import data sequence diagram
-
-- Chương 6: Hiện thực hệ thống
-  - Sơ đồ 6.2: Environment diagram
-
-<div style="page-break-after: always;"></div>
-
 <center> <h2>Danh sách bảng</h2> </center>
 
 - Chương 3: Lựa chọn công nghệ
@@ -174,6 +155,7 @@
     - Bảng 5.2.2: Các API khác
 
 - Chương 6: Hiện thực hệ thống
+
   - Bảng 6.3: Phân chia nhiệm vụ
   - Sơ đồ 6.4: Valid request implement sequence diagram
   - 6.5 Code back-end
@@ -182,6 +164,27 @@
     - Sơ đồ 6.5.3: Service class diagram
     - Sơ đồ 6.5.4: Controller class diagram
   - Sơ đồ 6.6: Triển khai CI-CD
+
+</br>
+</br>
+</br>
+
+  <center><h2>Danh sách sơ đồ</h2></center>
+
+- Chương 5: Thiết kế kiến trúc hệ thống
+
+  - Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
+  - Sơ đồ 5.1.2: ERD diagram của nhóm br
+  - Sơ đồ 5.1.3: ERD diagram của nhóm ps
+  - Sơ đồ 5.1.4: ERD diagram của nhóm tp
+  - Sơ đồ 5.1.5: ERD diagram của nhóm sc
+  - Sơ đồ 5.3: UI flow chart
+  - Sơ đồ 5.4.1: Login sequence diagra
+  - Sơ đồ 5.4.2: Valid request sequence diagram
+  - Sơ đồ 5.4.3: Import data sequence diagram
+
+- Chương 6: Hiện thực hệ thống
+  - Sơ đồ 6.2: Environment diagram
 
 <div style="page-break-after: always;"></div>
 
