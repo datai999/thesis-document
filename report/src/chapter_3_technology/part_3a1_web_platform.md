@@ -13,10 +13,9 @@ Web app có tính tương tác cao hơn website rất nhiều.
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/wa.png?raw=true">
+  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/wa.png?raw=true">
+  <p>Hình 3.1.1.a: Web Application</p>
 </center>
-
-<center> Hình 3.1.1. Web Application </center>
 
 Ưu điểm:
 
@@ -56,9 +55,8 @@ Về cơ bản là website với giao diện giống như app và nội dung đ�
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/mfb.png?raw=true">
+  <p>Hình 3.1.2.b: Web-base app: m.facebook.com</p>
 </center>
-
-<center> Hình 3.1.2. Web-base app: m.facebook.com </center>
 
 Ưu điểm:
 

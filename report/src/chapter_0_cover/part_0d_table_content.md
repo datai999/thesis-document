@@ -100,12 +100,12 @@
 - Hình 1: Tổng quan giới thiệu đề tài
 - Hình 2: Phân tích yêu cầu đề tài
 - Hình 3: Lựa chọn công nghệ
-  - Hình 3.1.1: Web Application
-  - Hình 3.1.1: Web Application
-  - Hình 3.2: Native App, Hybrid App và Cross Platform App
-  - Hình 3.2.1. Native App
-  - Hình 3.2.2. Hybrid App
-  - Hình 3.2.3. Cross Platform App
+  - Hình 3.1.1.a: Web Application
+  - Hình 3.1.2.b: Web-base app: m.facebook.com
+  - Hình 3.1.2: Native App, Hybrid App và Cross Platform App
+  - Hình 3.1.2.a: Native App
+  - Hình 3.1.2.b: Hybrid App
+  - Hình 3.1.2.c: Cross Platform App
   - Hình 3.3.1 Logo JavaScript
   - Hình 3.3.2 Logo TypeScript
   - Hình 3.3.3 Logo Dart

@@ -42,10 +42,9 @@ Web app có tính tương tác cao hơn website rất nhiều.
 </p>
 
 <center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/wa.png?raw=true">
+  <img width="600" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/wa.png?raw=true">
+  <p>Hình 3.1.1.a: Web Application</p>
 </center>
-
-<center> Hình 3.1.1. Web Application </center>
 
 Ưu điểm:
 
@@ -85,9 +84,8 @@ Về cơ bản là website với giao diện giống như app và nội dung đ�
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/mfb.png?raw=true">
+  <p>Hình 3.1.2.b: Web-base app: m.facebook.com</p>
 </center>
-
-<center> Hình 3.1.2. Web-base app: m.facebook.com </center>
 
 Ưu điểm:
 
@@ -122,7 +120,7 @@ Mỗi công nghệ có những ưu điểm và nhược điểm khác nhau cần
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/na-h-cp.png?raw=true">
-  <p>Hình 3.2. Native App, Hybrid App và Cross Platform App</p>
+  <p>Hình 3.1.2: Native App, Hybrid App và Cross Platform App</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -137,7 +135,7 @@ Là những ứng dụng được viết riêng cho một loại nền tảng nh
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/na.png?raw=true">
-  <p>Hình 3.2.1. Native App</p>
+  <p>Hình 3.1.2.a: Native App</p>
 </center>
 
 Ưu điểm:
@@ -170,7 +168,7 @@ Lập trình viên sẽ tạo một khung rỗng chứa web và được chạy 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/hebrid.png?raw=true">
-  <p>Hình 3.2.2. Hybrid App</p>
+  <p>Hình 3.1.2.b: Hybrid App</p>
 </center>
 
 Ưu điểm:
@@ -209,7 +207,7 @@ Chúng sẽ được biên dịch sang các phiên bản khác để phù hợp 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/cp.png?raw=true">
-  <p>Hình 3.2.3. Cross Platform App</p>
+  <p>Hình 3.1.2.c: Cross Platform App</p>
 </center>
 
 Ưu điểm:
