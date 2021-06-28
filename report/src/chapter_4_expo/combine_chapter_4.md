@@ -21,6 +21,7 @@ Tại sao nên chọn Expo?
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_4_expo/img/rocket.png?raw=true">
+  <p>Hình 4: Lập trình UI web, android, ios với Expo</p>
 </center>
 
 <div style="page-break-after: always;"></div>

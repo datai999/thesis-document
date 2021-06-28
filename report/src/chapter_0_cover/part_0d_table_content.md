@@ -94,3 +94,15 @@
   - 7.3 Hướng phát triển [79]
 
 <div style="page-break-after: always;"></div>
+
+<center> <h2>Danh sách hình ảnh</h2> </center>
+
+- Hình 1: Tổng quan giới thiệu đề tài
+- Hình 2: Phân tích yêu cầu đề tài
+- Hình 3: Lựa chọn công nghệ
+- Hình 4: Lập trình UI web, android, ios với Expo
+- Hình 5: Thiết kế kiến trúc hệ thống
+- Hình 6: Hiện thực hệ thống
+- Hình 7: Tổng kết và hướng phát triển
+
+<div style="page-break-after: always;"></div>

@@ -15,6 +15,7 @@ từ đó hiện thực một phần của hệ thống trong giai đoạn đề
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/software-impl.png?raw=true">
+  <p>Hình 6: Hiện thực hệ thống</p>
 </center>
 
 <div style="page-break-after: always;"></div>

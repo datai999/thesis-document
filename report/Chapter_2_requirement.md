@@ -25,6 +25,7 @@ từ đó đề ra một số tính năng cơ bản mà hệ thống cần đáp
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_2_requirement/img/requirement.png?raw=true">
+  <p>Hình 2: Phân tích yêu cầu đề tài</p>
 </center>
 
 <div style="page-break-after: always;"></div>

@@ -22,6 +22,7 @@ nhóm sẽ giới thiệu qua những công nghệ chính mà nhóm sẽ đưa l
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/find-technology.png?raw=true">
+  <p>Hình 3: Lựa chọn công nghệ</p>
 </center>
 
 <div style="page-break-after: always;"></div>

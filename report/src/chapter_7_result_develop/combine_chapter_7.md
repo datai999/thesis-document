@@ -11,6 +11,7 @@ từ đó đề ra phương hướng phát triển cho đề tài trong giai đo
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_7_result_develop/img/result-dev.png?raw=true">
+  <p>Hình 7: Tổng kết và hướng phát triển</p>
 </center>
 
 <div style="page-break-after: always;"></div>

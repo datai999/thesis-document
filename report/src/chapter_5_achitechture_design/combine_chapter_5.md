@@ -13,6 +13,7 @@ hay lạc lối trong trong quá trình thi công phần mềm.
 
 <center>
  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/system-rule.png?raw=true">
+  <p>Hình 5: Thiết kế kiến trúc hệ thống</p>
 </center>
 
 <div style="page-break-after: always;"></div>
