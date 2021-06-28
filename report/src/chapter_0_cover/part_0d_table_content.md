@@ -160,6 +160,9 @@
       - Bảng 5.1.5.d.7: Chuẩn bị bảng tp_topic_assign
       - Bảng 5.1.5.d.8: Bảng tính toán điểm số
       - Bảng 5.1.5.d.9: Ví dụ về bảng sc_score
+  - 5.2: Thiết kế API
+    - Bảng 5.2.1: Các API cơ bản
+    - Bảng 5.2.2: Các API khác
 
 <div style="page-break-after: always;"></div>
 
