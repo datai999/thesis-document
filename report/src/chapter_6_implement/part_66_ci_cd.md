@@ -9,6 +9,7 @@ nhanh chóng hơn khi code cũng như thường xuyên cập nhật phiên bản
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/ci-cd.png?raw=true">
+  <p>Hình 6.6: CI-CD</p>
 </center>
 
 </br>
@@ -18,6 +19,7 @@ Triển khai một quy trình CI-CD đơn giản.
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/ci-cd-flow.png?raw=true">
+  <p>Sơ đồ 6.6: Triển khai CI-CD</p>
 </center>
 
 - Plan: Yêu cầu về tính năng, kế hoạch sửa chữa,...

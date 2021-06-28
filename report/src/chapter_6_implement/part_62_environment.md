@@ -7,6 +7,7 @@ Với dự án này nhóm sẽ sử dụng 3 môi trường để phát triển 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/env.png?raw=true">
+  <p>Sơ đồ 6.2: Environment diagram</p>
 </center>
 
 Vì công cụ vẽ không cho phép kí tự @ nên nhóm đã để dấu # thay thế.

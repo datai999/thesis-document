@@ -98,6 +98,7 @@ Với dự án này nhóm sẽ sử dụng 3 môi trường để phát triển 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/env.png?raw=true">
+  <p>Sơ đồ 6.2: Environment diagram</p>
 </center>
 
 Vì công cụ vẽ không cho phép kí tự @ nên nhóm đã để dấu # thay thế.
@@ -118,6 +119,8 @@ Vì công cụ vẽ không cho phép kí tự @ nên nhóm đã để dấu # th
 Với những tính năng của hệ thống và cách thiết kế cũng như công nghệ đã chọn.
 Nhóm chia thành 20 nhiệm vụ chính được phân bổ theo bảng như sau
 </p>
+
+<center><h4>Bảng 6.3: Phân chia nhiệm vụ</h4></center>
 
 | STT | Thành phần                    | Web      | Android  | IOS      | Staging  | Production |
 | --- | ----------------------------- | -------- | -------- | -------- | -------- | ---------- |
@@ -166,6 +169,7 @@ có được phép sử dụng dịch vụ tương ứng hay không.
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/sequence-request.png?raw=true">
+  <p>Sơ đồ 6.4: Valid request implement sequence diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -187,6 +191,7 @@ Mỗi module thì được phân chia dựa trên mô hình MVC (Model, View, Co
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/be-source.png?raw=true">
+  <p>Sơ đồ 6.5.1: Phân chia source code</p>
 </center>
 
 ### **6.5.2 Modal Class diagram**
@@ -200,6 +205,7 @@ lần lượt là các table <b>br_const_data</b>, <b>ps_student</b>, <b>tp_coun
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-model.png?raw=true">
+  <p>Sơ đồ 6.5.2: Modal class diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -217,6 +223,7 @@ Ví dụ với dịch vụ đề tài (TopicService).
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
+  <p>Sơ đồ 6.5.3: Service class diagram</p>
 </center>
 
 ### **6.5.4 Controller class diagram**
@@ -232,6 +239,7 @@ Ví dụ với các API gán các thành phần vào đề tài (TopicAssignCont
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
+  <p>Sơ đồ 6.5.4: Controller class diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -247,6 +255,7 @@ nhanh chóng hơn khi code cũng như thường xuyên cập nhật phiên bản
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/ci-cd.png?raw=true">
+  <p>Hình 6.6: CI-CD</p>
 </center>
 
 </br>
@@ -256,6 +265,7 @@ Triển khai một quy trình CI-CD đơn giản.
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/ci-cd-flow.png?raw=true">
+  <p>Sơ đồ 6.6: Triển khai CI-CD</p>
 </center>
 
 - Plan: Yêu cầu về tính năng, kế hoạch sửa chữa,...

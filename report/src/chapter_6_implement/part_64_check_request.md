@@ -20,6 +20,7 @@ có được phép sử dụng dịch vụ tương ứng hay không.
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/sequence-request.png?raw=true">
+  <p>Sơ đồ 6.4: Valid request implement sequence diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>

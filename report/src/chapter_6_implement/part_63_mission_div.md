@@ -6,6 +6,8 @@ Với những tính năng của hệ thống và cách thiết kế cũng như c
 Nhóm chia thành 20 nhiệm vụ chính được phân bổ theo bảng như sau
 </p>
 
+<center><h4>Bảng 6.3: Phân chia nhiệm vụ</h4></center>
+
 | STT | Thành phần                    | Web      | Android  | IOS      | Staging  | Production |
 | --- | ----------------------------- | -------- | -------- | -------- | -------- | ---------- |
 | 1   | Menu điều hướng               | Đề cương | Đề cương | Luận văn | Đề cương | Luận văn   |

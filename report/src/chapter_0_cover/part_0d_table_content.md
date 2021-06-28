@@ -106,6 +106,7 @@
 - Sơ đồ 5.4.1: Login sequence diagra
 - Sơ đồ 5.4.2: Valid request sequence diagram
 - Sơ đồ 5.4.3: Import data sequence diagram
+- Sơ đồ 6.2: Environment diagram
 
 <div style="page-break-after: always;"></div>
 
@@ -167,6 +168,16 @@
   - 5.2: Thiết kế API
     - Bảng 5.2.1: Các API cơ bản
     - Bảng 5.2.2: Các API khác
+
+- Chương 6: Hiện thực hệ thống
+  - Bảng 6.3: Phân chia nhiệm vụ
+  - Sơ đồ 6.4: Valid request implement sequence diagram
+  - 6.5 Code back-end
+    - Sơ đồ 6.5.1: Phân chia source code
+    - Sơ đồ 6.5.2: Modal class diagram
+    - Sơ đồ 6.5.3: Service class diagram
+    - Sơ đồ 6.5.4: Controller class diagram
+  - Sơ đồ 6.6: Triển khai CI-CD
 
 <div style="page-break-after: always;"></div>
 

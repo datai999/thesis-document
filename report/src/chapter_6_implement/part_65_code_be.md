@@ -15,6 +15,7 @@ Mỗi module thì được phân chia dựa trên mô hình MVC (Model, View, Co
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/be-source.png?raw=true">
+  <p>Sơ đồ 6.5.1: Phân chia source code</p>
 </center>
 
 ### **6.5.2 Modal Class diagram**
@@ -28,6 +29,7 @@ lần lượt là các table <b>br_const_data</b>, <b>ps_student</b>, <b>tp_coun
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-model.png?raw=true">
+  <p>Sơ đồ 6.5.2: Modal class diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
@@ -45,6 +47,7 @@ Ví dụ với dịch vụ đề tài (TopicService).
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-service.png?raw=true">
+  <p>Sơ đồ 6.5.3: Service class diagram</p>
 </center>
 
 ### **6.5.4 Controller class diagram**
@@ -60,6 +63,7 @@ Ví dụ với các API gán các thành phần vào đề tài (TopicAssignCont
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_6_implement/img/class-controller.png?raw=true">
+  <p>Sơ đồ 6.5.4: Controller class diagram</p>
 </center>
 
 <div style="page-break-after: always;"></div>
