@@ -103,6 +103,9 @@
 - Sơ đồ 5.1.4: ERD diagram của nhóm tp
 - Sơ đồ 5.1.5: ERD diagram của nhóm sc
 - Sơ đồ 5.3: UI flow chart
+- Sơ đồ 5.4.1: Login sequence diagra
+- Sơ đồ 5.4.2: Valid request sequence diagram
+- Sơ đồ 5.4.3: Import data sequence diagram
 
 <div style="page-break-after: always;"></div>
 
