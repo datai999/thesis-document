@@ -19,7 +19,7 @@ JavaScript là ngôn ngữ lập trình phổ biến nhất trên thế giới �
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/js.png?raw=true">
-  <p>Hình 3.3.1 Logo JavaScript</p>
+  <p>Hình 3.3.1: Logo JavaScript</p>
 </center>
 
 Ưu điểm:
@@ -53,7 +53,7 @@ bởi việc bổ sung tùy chọn kiểu tĩnh và lớp hướng đối tượ
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/ts.png?raw=true">
-  <p>Hình 3.3.2 Logo TypeScript</p>
+  <p>Hình 3.3.2: Logo TypeScript</p>
 </center>
 
 Ưu điểm:
@@ -80,7 +80,7 @@ Dart là một ngôn ngữ lập trình đa mục đích của Google có thể 
 
 <center>
   <img width="400" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/dart.png?raw=true">
-  <p>Hình 3.3.3 Logo Dart</p>
+  <p>Hình 3.3.3: Logo Dart</p>
 </center>
 
 Ưu điểm:

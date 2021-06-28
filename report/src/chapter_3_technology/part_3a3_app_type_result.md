@@ -5,6 +5,8 @@
 Với nhiều sự lựa chọn, nhóm sẽ tạo bảng đánh giá thang điểm 5 dựa trên các tiêu chí như sau
 </p>
 
+<center><h4>Bảng 3.1.3: Lựa chọn loại ứng dụng<h4></center>
+
 | Tiêu chí                          | Web App | Web-base App | Native App | Hybrid App | Cross Platform App |
 | --------------------------------- | ------- | ------------ | ---------- | ---------- | ------------------ |
 | Hiệu năng                         | 5       | 3            | 5          | 3          | 4                  |

@@ -106,14 +106,14 @@
   - Hình 3.1.2.a: Native App
   - Hình 3.1.2.b: Hybrid App
   - Hình 3.1.2.c: Cross Platform App
-  - Hình 3.3.1 Logo JavaScript
-  - Hình 3.3.2 Logo TypeScript
-  - Hình 3.3.3 Logo Dart
-  - Hình 3.4.1. Logo Frame-work React
-  - Hình 3.4.2. Logo Frame-work Angular
-  - Hình 3.4.3. Logo Frame-work Vue
-  - Hình 3.4.4.a Frame-work Angular vs Vue vs React
-  - Hình 3.4.4.b Dùng React-native code web
+  - Hình 3.3.1: Logo JavaScript
+  - Hình 3.3.2: Logo TypeScript
+  - Hình 3.3.3: Logo Dart
+  - Hình 3.4.1: Logo Frame-work React
+  - Hình 3.4.2: Logo Frame-work Angular
+  - Hình 3.4.3: Logo Frame-work Vue
+  - Hình 3.4.4.a: Frame-work Angular vs Vue vs React
+  - Hình 3.4.4.b: Dùng React-native code web
   - Hình 3.5.1.a Logo Java
   - Hình 3.5.1.b Logo Spring-boot
   - Hình 3.5.2.a Logo C#
@@ -143,4 +143,9 @@
 - Hình 7: Tổng kết và hướng phát triển
 
 <div style="page-break-after: always;"></div>
+
+<center> <h2>Danh sách bảng</h2> </center>
+
+- Bảng 3.1.3: Lựa chọn loại ứng dụng
+
 <div style="page-break-after: always;"></div>

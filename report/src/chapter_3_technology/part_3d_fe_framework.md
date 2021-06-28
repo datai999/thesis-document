@@ -9,7 +9,7 @@ React là một thư viện JavaScript, được Facebook ra mắt từ năm 201
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/react.png?raw=true">
-  <p>Hình 3.4.1. Logo Frame-work React</p>
+  <p>Hình 3.4.1: Logo Frame-work React</p>
 </center>
 
 Ưu điểm:
@@ -40,7 +40,7 @@ Angular là một JavaScript MVVM frame-work, được ra mắt từ 2009. Đây
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/angular.png?raw=true">
-  <p>Hình 3.4.2. Logo Frame-work Angular</p>
+  <p>Hình 3.4.2: Logo Frame-work Angular</p>
 </center>
 
 Ưu điểm:
@@ -68,7 +68,7 @@ Vue.js là một frame-work JavaScript, được ra mắt vào năm 2013, hoàn 
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/vue.png?raw=true">
-  <p>Hình 3.4.3. Logo Frame-work Vue</p>
+  <p>Hình 3.4.3: Logo Frame-work Vue</p>
 </center>
 
 Ưu điểm:
@@ -97,7 +97,7 @@ Tuy nhiên việc chọn ra frame-work tốt nhất thực sự là một điề
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/rav.png?raw=true">
-  <p>Hình 3.4.4.a Frame-work Angular vs Vue vs React</p>
+  <p>Hình 3.4.4.a: Frame-work Angular vs Vue vs React</p>
 </center>
 
 <p style='text-align: justify;'>
@@ -108,7 +108,7 @@ nên app di động sẽ được viết bằng React Native. Với sự tương
 
 <center>
   <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/react-native-web.png?raw=true">
-  <p>Hình 3.4.4.b Dùng React-native code web</p>
+  <p>Hình 3.4.4.b: Dùng React-native code web</p>
 </center>
 
 <p style='text-align: justify;'>
