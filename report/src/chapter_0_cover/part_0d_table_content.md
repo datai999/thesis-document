@@ -95,6 +95,15 @@
 
 <div style="page-break-after: always;"></div>
 
+<center><h2>Danh sách sơ đồ</h2></center>
+- Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
+- Sơ đồ 5.1.2: ERD diagram của nhóm br
+- Sơ đồ 5.1.3: ERD diagram của nhóm ps
+- Sơ đồ 5.1.4: ERD diagram của nhóm tp
+- Sơ đồ 5.1.5: ERD diagram của nhóm sc
+
+<div style="page-break-after: always;"></div>
+
 <center> <h2>Danh sách bảng</h2> </center>
 
 - Bảng 3.1.3: Lựa chọn loại ứng dụng
@@ -141,13 +150,6 @@
 - Bảng 5.1.5.d.7: Chuẩn bị bảng tp_topic_assign
 - Bảng 5.1.5.d.8: Bảng tính toán điểm số
 - Bảng 5.1.5.d.9: Ví dụ về bảng sc_score
-
-<center><h2>Danh sách sơ đồ</h2></center>
-- Sơ đồ 5.1.1.b: Mối quan hệ Foreign key giữa các nhóm table
-- Sơ đồ 5.1.2: ERD diagram của nhóm br
-- Sơ đồ 5.1.3: ERD diagram của nhóm ps
-- Sơ đồ 5.1.4: ERD diagram của nhóm tp
-- Sơ đồ 5.1.5: ERD diagram của nhóm sc
 
 <div style="page-break-after: always;"></div>
 
