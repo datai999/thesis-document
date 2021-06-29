@@ -143,7 +143,7 @@ Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ gi
 
 <center>
   <img width="500" src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_3_technology/img/express.png?raw=true">
-  <p>Hình 3.5.4.b: Logo JavaScript</p>
+  <p>Hình 3.5.4.b: Logo Express</p>
 </center>
 
 Ưu điểm:
