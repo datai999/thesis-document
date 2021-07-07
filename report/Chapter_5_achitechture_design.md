@@ -642,15 +642,16 @@ Thư ký đã chấm điểm cho sinh viên lần lượt điểm C và A.
 
 <center><h4>Bảng 5.2.1: Các API cơ bản</h4></center>
 
-| Mã API | Endpoint    | Phương thức | Tham số                                          | Kết quả                                                 |
-| ------ | ----------- | ----------- | ------------------------------------------------ | ------------------------------------------------------- |
-| BA01   | {x}/        | GET         |                                                  | Các record được build                                   |
-| BA02   | {x}/paging  | GET         | int:number, int:size, string: sort, bool:descend | Các record tại trang _number_, được sắp xếp theo _sort_ |
-| BA03   | {x}/        | POST        | {entity}                                         | Tạo mới hoặc cập nhật dữ liệu                           |
-| BA04   | {x}/all     | POST        | array-{entity}                                   | Tạo mới dữ liệu số lượng nhhieeuf                       |
-| BA05   | {x}/example | POST        | {entity}                                         | Dữ liệu khớp với _example_                              |
-| BA06   | {x}/        | DELETE      |                                                  | Xóa tất cả dữ liệu trong bảng                           |
-| BA...  | {x}/...     | ...         | ...                                              | ...                                                     |
+| Mã API | Endpoint          | Phương thức | Tham số                                          | Kết quả                                                 |
+| ------ | ----------------- | ----------- | ------------------------------------------------ | ------------------------------------------------------- |
+| BA01   | {x}/              | GET         |                                                  | Các record được build                                   |
+| BA02   | {x}/paging        | GET         | int:number, int:size, string: sort, bool:descend | Các record tại trang _number_, được sắp xếp theo _sort_ |
+| BA03   | {x}/              | POST        | {entity}                                         | Tạo mới hoặc cập nhật dữ liệu                           |
+| BA04   | {x}/all           | POST        | array-{entity}                                   | Tạo mới dữ liệu số lượng nhhieeuf                       |
+| BA05   | {x}/example       | POST        | {entity}                                         | Dữ liệu khớp với _example_                              |
+| BA06   | {x}/              | DELETE      |                                                  | Xóa tất cả dữ liệu trong bảng                           |
+| BA07   | {x}/paging/search | POST        | SearchRequest{page, sort, filter}                | Các record được sort -> filter -> paging                |
+| BA...  | {x}/...           | ...         | ...                                              | ...                                                     |
 
 <div style="page-break-after: always;"></div>
 
