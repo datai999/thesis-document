@@ -53,7 +53,8 @@
       "multiline",
       "pantone",
       "predeploy",
-      "servlet"
+      "servlet",
+      "swiper"
     ]
   },
   "launch": {
