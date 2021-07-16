@@ -9,15 +9,6 @@ Hơn thế nữa, thiết kế còn tránh được những sai lầm trong cài
 hay lạc lối trong trong quá trình thi công phần mềm.
 </p>
 
-</br>
-
-<center>
- <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_5_achitechture_design/img/system-rule.png?raw=true">
-  <p>Hình 5: Thiết kế kiến trúc hệ thống</p>
-</center>
-
-<div style="page-break-after: always;"></div>
-
 !import[/report/src/chapter_5_achitechture_design/part_511_base_db.md]
 !import[/report/src/chapter_5_achitechture_design/part_512_br_group.md]
 !import[/report/src/chapter_5_achitechture_design/part_513_ps_group.md]

@@ -29,6 +29,8 @@ Nhóm chia thành 20 nhiệm vụ chính được phân bổ theo bảng như sa
 | 17  | Các cài đặt hệ thống          | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
 | 18  | Thông báo qua mail            | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
 | 19  | Kiểm tra trên IOS             | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
-| 20  | Đưa lên môi trường Production | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
+| 20  | Kiểm tra từng chắc năng       | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
+| 21  | Kiểm tra hiệu năng            | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
+| 22  | Đưa lên môi trường Production | Luận văn | Luận văn | Luận văn | Luận văn | Luận văn   |
 
 <div style="page-break-after: always;"></div>

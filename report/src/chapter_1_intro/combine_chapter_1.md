@@ -7,15 +7,6 @@ Theo đó nhóm sẽ mô tả mục tiêu, phạm vi của đề tài
 cũng như những khó khăn và thử thách nhóm thấy được trong những bước ban đầu nhận được đề tài này.
 </p>
 
-</br>
-
-<center>
-  <img src="https://github.com/datai999/thesis-document/blob/main/report/src/chapter_1_intro/img/idea.png?raw=true">
-  <p>Hình 1: Tổng quan giới thiệu đề tài</p>
-</center>
-
-<div style="page-break-after: always;"></div>
-
 !import[/report/src/chapter_1_intro/part_1a_intro_problem.md]
 !import[/report/src/chapter_1_intro/part_1b_target_scope_challenge.md]
 
