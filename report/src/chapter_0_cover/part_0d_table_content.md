@@ -1,6 +1,6 @@
 <center> <h2>Mục lục</h2> </center>
 
-- 1 [Tổng quan giới thiệu đề tài](https://github.com/datai999/thesis-document/blob/main/report/Chapter_1_intro.md#1-tổng-quan-giới-thiệu-đề-tài) [9]
+- 1 Tổng quan giới thiệu đề tài [9]
 
   - 1.1 Giới thiệu [10]
   - 1.2 Các vấn đề hiện tại [10]
@@ -8,90 +8,69 @@
   - 1.4 Phạm vi của đề tài [11]
   - 1.5 Khó khăn và thử thách [11]
 
-- 2 [Phân tích yêu cầu đề tài](https://github.com/datai999/thesis-document/blob/main/report/Chapter_2_requirement.md#2-phân-tích-yêu-cầu-đề-tài) [12]
+- 2 Cơ sở lý thuyết vào công nghệ [14]
 
-  - 2.1 Phân chia người dùng [13]
-  - 2.2 Tính năng của hệ thống [13]
+  - 2.1 Các công nghệ phía Client Side (Front-end)
 
-- 3 [Lựa chọn công nghệ](https://github.com/datai999/thesis-document/blob/main/report/Chapter_3_technology.md#3-lựa-chọn-công-nghệ) [14]
+    - 2.1.1 Cross Platform App
+    - 2.1.2 Ứng dụng đơn trang
+    - 2.1.3 Frame-work React-native
+    - 2.1.4 Frame-work Expo
 
-  - 3.1 Các loại ứng dụng [15]
-    - 3.1.1 Web App và Web-base App [15]
-    - 3.1.2 Native App, Hybrid App và Cross Platform App [17]
-    - 3.1.3 Kết luận và lựa chọn loại ứng dụng [21]
-  - 3.2 Ứng dụng đa trang và Ứng dụng đơn trang [22]
-    - 3.2.1 Ứng dụng đa trang [22]
-    - 3.2.2 Ứng dụng đơn trang [22]
-    - 3.2.3 Kết luận lựa chọn kiểu ứng dụng [22]
-  - 3.3 Ngôn ngữ lập trình front-end [23]
-    - 3.3.1 JavaScript [23]
-    - 3.3.2 TypeScript [24]
-    - 3.3.3 Dart [25]
-    - 3.3.4 Kết luận lựa chọn ngôn ngữ front-end [25]
-  - 3.4 Frame-work front-end [26]
-    - 3.4.1 React [26]
-    - 3.4.2 Angular [27]
-    - 3.4.3 Vue [28]
-    - 3.4.4 Lựa chọn frame-work front-end [29]
-  - 3.5 Ngôn ngữ lập trình và frame-work back-end [30]
-    - 3.5.1 Java và Spring-boot [30]
-    - 3.5.2 C# và ASP .NET [31]
-    - 3.5.3 Python và Django [32]
-    - 3.5.4 JavaScript và ExpressJS [33]
-    - 3.5.5 Lựa chọn ngôn ngữ lập trình và frame-work [34]
-  - 3.6 Cơ sở dữ liệu [35]
-    - 3.6.1 Cơ sở dữ liệu quan hệ [36]
-    - 3.6.2 Cơ sở dữ liệu hướng tài liệu [37]
-    - 3.6.3 Cơ sở dữ liệu dạng khóa - giá trị [38]
-    - 3.6.4 Cơ sở dữ liệu mô hình wide – colum [39]
-    - 3.6.5 Cơ sở dữ liệu dạng bộ máy tìm kiếm [40]
-    - 3.6.6 Lựa chọn cơ sở dữ liệu [41]
+  - 2.2 Các công nghệ phía Server Side (Back-end)
 
-<div style="page-break-after: always;"></div>
+    - 2.2.1 Kiến trúc Restful API
+    - 2.2.2 Kiến trúc MVC (Model-View-Controller)
+    - 2.2.3 Ngôn ngữ Java và frame-work Spring-boot
+    - 2.2.4 Kết nối cơ sở dữ liệu với Hibernate
+    - 2.2.5 Hibernate search
+    - 2.2.6 Unit test với Junit
+    - 2.2.7 Cơ sở dữ liệu PostgreSQL
+    - 2.2.8 Xác thực người bằng Firebase
 
-- 4 [Lập trình UI web, android, ios với Expo](https://github.com/datai999/thesis-document/blob/main/report/Chapter_4_expo_all_ui.md#4-lập-trình-ui-web-android-ios-với-expo) [42]
+  - 2.3 Công nghệ triển khai hệ thống
 
-  - 4.1 Hoàn cảnh và ý tưởng [43]
-    - 4.1.1 Từ web đến di động [43]
-    - 4.1.2 Từ di động đến web [43]
-  - 4.2 Expo [45]
-    - 4.2.1 Giới thiệu Expo [45]
-    - 4.2.2 Chạy thử ứng dụng từ Expo [46]
+    - 2.3.1 Triển khai giao diện web với Github-page và gh-pages
+    - 2.3.2 Build ứng dụng di động với Expo
+    - 2.3.3 Triển khai server Heroku
 
-- 5 [Thiết kế kiến trúc hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_5_achitechture_design.md#5-thiết-kế-kiến-trúc-hệ-thống) [47]
+- 3 Phân tích và thiết kế hệ thống
 
-  - 5.1 Thiết kế cơ sở dữ liệu [48]
-    - 5.1.1 Nền tảng thiết kế cơ sở dữ liệu [48]
-    - 5.1.2 Các bảng nhóm khác (br) [51]
-    - 5.1.3 Các bảng nhóm nhân sự (ps) [53]
-    - 5.1.4 Các bảng nhóm đề tài (tp) [56]
-    - 5.1.5 Các bảng nhóm điểm (sc) [61]
-  - 5.2 Thiết kế API [65]
-    - 5.2.1 Các API cơ sở [65]
-    - 5.2.2 Các API khác [66]
-  - 5.3 Thiết kế luồng giao diện [67]
-  - 5.4 Thiết kế một số chức năng [68]
-    - 5.4.1 Chức năng xác thực người dùng [68]
-    - 5.4.2 Chức năng xác thực các yêu cầu từ người dùng [69]
-    - 5.4.3 Chức năng thêm dữ liệu [70]
+  - 3.1 Phân tích yêu cầu
+    - 3.1.1 Yêu cầu người dùng
+    - 3.1.2 Yêu cầu hệ thống
+  - 3.2 Thiết kế hệ thống
+    - 3.2.1 Kiến trúc chung
+    - 3.2.2 Thiết kế use-case
+  - 3.3 Thiết kế cơ sở dữ liệu
+    - 3.3.1 Nền tảng thiết kế cơ sở dữ liệu
+    - 3.3.2 Các bảng nhóm khác (br)
+    - 3.3.3 Các bảng nhóm nhân sự (ps)
+    - 3.3.4 Các bảng nhóm đề tài (tp)
+    - 3.3.5 Các bảng nhóm điểm (sc)
+  - 3.4 Các môi trường phát triển
+  - 3.5 Thiết kế luồng giao diện
+  - 3.6 Thiết kế một số chức năng
+    - 3.6.1 Chức năng xác thực người dùng
+    - 3.6.2 Chức năng xác thực các yêu cầu từ người dùng
+    - 3.6.3 Chức năng thêm dữ liệu cũ
 
-- 6 [Hiện thực hệ thống](https://github.com/datai999/thesis-document/blob/main/report/Chapter_6_implement.md#6-hiện-thực-hệ-thống) [71]
+- 4 Hiện thực hệ thống
 
-  - 6.1 Lưu trữ [72]
-  - 6.2 Các môi trường [74]
-  - 6.3 Chia nhiệm vụ [75]
-  - 6.4 Filter và Interception request [76]
-  - 6.5 Code back-end [77]
-    - 6.5.1 Phân chia source code [77]
-    - 6.5.2 Modal class diagram [77]
-    - 6.5.3 Service class diagram [78]
-    - 6.5.4 Controller class diagram [78]
-  - 6.6 CI-CD [79]
+  - 4.1 Lưu trữ mã nguồn
+  - 4.3 Chia nhiệm vụ
+  - 4.4 Filter và Interception request
+  - 4.5 Code back-end
+    - 4.5.1 Phân chia source code
+    - 4.5.2 Modal class diagram
+    - 4.5.3 Service class diagram
+    - 4.5.4 Controller class diagram
+  - 4.6 CI-CD
 
-- 7 [Tổng kết và hướng phát triển](https://github.com/datai999/thesis-document/blob/main/report/Chapter_7_result_develop.md#7-tổng-kết-và-hướng-phát-triển) [80]
-  - 7.1 Kết quả đạt được [81]
-  - 7.2 Thuận lợi - Khó khăn [82]
-  - 7.3 Hướng phát triển [82]
+- 5 Tổng kết và hướng phát triển
+  - 5.1 Kết quả đạt được
+  - 5.2 Thuận lợi - Khó khăn
+  - 5.3 Hướng phát triển
 
 <div style="page-break-after: always;"></div>
 
