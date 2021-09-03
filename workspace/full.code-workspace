@@ -4,10 +4,10 @@
       "path": "."
     },
     {
-      "path": "../../thesis"
+      "path": "../../thesis-service"
     },
     {
-      "path": "../../thesis-service"
+      "path": "../../thesis-web"
     }
   ],
   "settings": {
@@ -40,6 +40,7 @@
       "autowired",
       "checkmark",
       "configurer",
+      "coreui",
       "datai",
       "datepicker",
       "esbenp",
