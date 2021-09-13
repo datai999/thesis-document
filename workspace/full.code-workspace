@@ -11,11 +11,11 @@
     }
   ],
   "settings": {
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": false
     },
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onWindowChange",
     "editor.tabSize": 2,
     "editor.detectIndentation": false,
     "terminal.integrated.cwd": "${workspaceFolder}/../../thesis",
@@ -27,7 +27,8 @@
         "host": "localhost",
         "http": "http://",
         "base-url": "/api",
-        "port": ":8080"
+        "port": ":8080",
+        "backDoorToken": "tai.nguyen.cse.datai@hcmut.edu.vn"
       },
       "heroku": {
         "host": "datai-thesis.herokuapp.com/",
@@ -47,6 +48,7 @@
       "hcmut",
       "herokuapp",
       "ilike",
+      "Jwts",
       "minh",
       "multiline",
       "pantone",
