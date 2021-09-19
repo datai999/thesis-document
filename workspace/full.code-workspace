@@ -13,7 +13,7 @@
   "settings": {
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": false
+      "source.organizeImports": true
     },
     "files.autoSave": "onWindowChange",
     "editor.tabSize": 2,
@@ -38,6 +38,7 @@
       }
     },
     "cSpell.words": [
+      "autohide",
       "autowired",
       "checkmark",
       "configurer",
