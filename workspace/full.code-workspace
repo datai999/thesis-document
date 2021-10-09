@@ -55,7 +55,8 @@
       "pantone",
       "predeploy",
       "servlet",
-      "swiper"
+      "swiper",
+      "unfollow"
     ]
   },
   "launch": {
