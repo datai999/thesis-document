@@ -31,16 +31,18 @@
         "backDoorToken": "tai.nguyen.cse.datai@hcmut.edu.vn"
       },
       "heroku": {
-        "host": "datai-thesis.herokuapp.com/",
+        "host": "datai-thesis.herokuapp.com",
         "http": "http://",
         "base-url": "/api",
-        "port": ""
+        "port": "",
+        "backDoorToken": "tai.nguyen.cse.datai@hcmut.edu.vn"
       }
     },
     "cSpell.words": [
       "autohide",
       "autowired",
       "checkmark",
+      "Chrono",
       "configurer",
       "coreui",
       "datai",
