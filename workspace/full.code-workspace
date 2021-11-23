@@ -28,14 +28,14 @@
         "http": "http://",
         "base-url": "/api",
         "port": ":8080",
-        "backDoorToken": "tai.nguyen.cse.datai@hcmut.edu.vn"
+        "backDoorToken": "admin@hcmut.edu.vn"
       },
       "heroku": {
         "host": "datai-thesis.herokuapp.com",
         "http": "http://",
         "base-url": "/api",
         "port": "",
-        "backDoorToken": "tai.nguyen.cse.datai@hcmut.edu.vn"
+        "backDoorToken": "admin@hcmut.edu.vn"
       }
     },
     "cSpell.words": [

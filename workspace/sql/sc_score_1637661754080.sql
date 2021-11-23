@@ -1,0 +1,3 @@
+insert into sc_score(id,created_at,deleted,updated_at,comment,score,criterion_id,student_id,teacher_id,template_id,topic_id) values('1','2021-11-23 16:56:14.851376','false','2021-11-23 16:56:14.851376',null,'A','3','41','6','1','1');
+insert into sc_score(id,created_at,deleted,updated_at,comment,score,criterion_id,student_id,teacher_id,template_id,topic_id) values('2','2021-11-23 16:57:10.674332','false','2021-11-23 16:57:10.674332',null,'B','3','41','11','1','1');
+insert into sc_score(id,created_at,deleted,updated_at,comment,score,criterion_id,student_id,teacher_id,template_id,topic_id) values('3','2021-11-23 17:01:40.018786','false','2021-11-23 17:01:40.018786',null,'D','3','41','15','1','1');
