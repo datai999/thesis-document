@@ -1,0 +1,11 @@
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('1','2021-11-24 18:58:47.35919','false','2021-11-24 18:58:47.35919','1','6','1');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('2','2021-11-24 18:58:47.363179','false','2021-11-24 18:58:47.363179','1','14','2');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('3','2021-11-24 18:58:47.366172','false','2021-11-24 18:58:47.366172','1','13','3');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('4','2021-11-24 18:58:47.368167','false','2021-11-24 18:58:47.368167','1','12','3');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('5','2021-11-24 18:58:47.371158','false','2021-11-24 18:58:47.371158','1','11','3');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('6','2021-11-24 18:59:05.897555','false','2021-11-24 18:59:05.897555','2','11','1');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('7','2021-11-24 18:59:05.901576','false','2021-11-24 18:59:05.901576','2','14','2');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('8','2021-11-24 18:59:05.905535','false','2021-11-24 18:59:05.905535','2','13','3');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('9','2021-11-24 18:59:17.134261','false','2021-11-24 18:59:17.134261','3','14','1');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('10','2021-11-24 18:59:17.136256','false','2021-11-24 18:59:17.136256','3','11','2');
+insert into tp_council_member(id,created_at,deleted,updated_at,council_id,member_id,role_id) values('11','2021-11-24 18:59:17.139248','false','2021-11-24 18:59:17.139248','3','12','3');
