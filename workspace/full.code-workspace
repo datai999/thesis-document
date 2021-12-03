@@ -28,7 +28,7 @@
         "http": "http://",
         "base-url": "/api",
         "port": ":8080",
-        "backDoorToken": "admin@hcmut.edu.vn"
+        "backDoorToken": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBoY211dC5lZHUudm4iLCJpYXQiOjE2Mzg0NjA0NDMsImV4cCI6MTYzOTA2NTI0M30.quj7u_ki0EQ_hMttJkbTL6mqMUuyHEl5-V7wvq5A1O9YPkpRkq2Z-oWtd7CSc1RdtErRM5_1DVLQGW1iEJChwg"
       },
       "heroku": {
         "host": "datai-thesis.herokuapp.com",
